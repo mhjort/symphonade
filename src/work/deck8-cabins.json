@@ -1,0 +1,82 @@
+[
+  {
+    "id": "8401",
+    "template": "promenade",
+    "z": -9
+  },
+  {
+    "id": "8402",
+    "template": "sea",
+    "z": -9
+  },
+  {
+    "id": "8403",
+    "template": "promenade",
+    "z": -5
+  },
+  {
+    "id": "8404",
+    "template": "sea",
+    "z": -5
+  },
+  {
+    "id": "8405",
+    "template": "promenade",
+    "z": -1
+  },
+  {
+    "id": "8406",
+    "template": "sea",
+    "z": -1
+  },
+  {
+    "id": "8407",
+    "template": "promenade",
+    "z": 3
+  },
+  {
+    "id": "8408",
+    "template": "sea",
+    "z": 3
+  },
+  {
+    "id": "8409",
+    "template": "promenade",
+    "z": 7
+  },
+  {
+    "id": "8410",
+    "template": "sea",
+    "z": 7
+  },
+  {
+    "id": "8413",
+    "template": "promenade",
+    "z": 19
+  },
+  {
+    "id": "8414",
+    "template": "sea",
+    "z": 19
+  },
+  {
+    "id": "8415",
+    "template": "promenade",
+    "z": 23
+  },
+  {
+    "id": "8416",
+    "template": "sea",
+    "z": 23
+  },
+  {
+    "id": "8417",
+    "template": "promenade",
+    "z": 27
+  },
+  {
+    "id": "8418",
+    "template": "sea",
+    "z": 27
+  }
+]

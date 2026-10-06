@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "recording": "symphonade_merged",
+  "notes": "The 15-second edition a game page loops, cut by `bitmagic trailer make` from shots.json's highest-scoring shots. Rebuilt on every make while \"auto\" is true: delete that line to keep your own cut.",
+  "auto": true,
+  "shots": [
+    {
+      "in": 9104,
+      "seconds": 4.8,
+      "label": "cold open: ship exterior flies in to the open gangway",
+      "ui": false
+    },
+    {
+      "in": 9464,
+      "seconds": 1.2,
+      "label": "through the gangway to the SILJA SYMPHONADE sign",
+      "ui": false
+    },
+    {
+      "in": 660,
+      "seconds": 2,
+      "label": "promenade to Information, troubadour"
+    },
+    {
+      "in": 1680,
+      "seconds": 3,
+      "label": "Sea Fortune slot spinning"
+    },
+    {
+      "in": 8580,
+      "seconds": 4,
+      "label": "dancing at Starlight"
+    }
+  ]
+}

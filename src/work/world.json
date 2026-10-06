@@ -1,0 +1,1266 @@
+{
+  "worldProfileData": {
+    "characterPoseVersion": 2,
+    "author": "Generated",
+    "cameraMode": "first-person",
+    "hasPlayerCharacter": true,
+    "playerSpawnPosition": {
+      "x": -27,
+      "y": 0.15,
+      "z": 14.25
+    },
+    "skyboxUrl": "https://bitmagic.ai/external-assets/skyboxes/default-skybox-v1.webp",
+    "worldSeed": 42,
+    "voxelBlockSize": 1,
+    "characterConfig": {
+      "height": 1.75,
+      "walkSpeed": 2,
+      "runSpeed": 3.5,
+      "fastRunSpeed": 5
+    },
+    "markers": [],
+    "groundWorldSizeX": 64,
+    "groundWorldSizeZ": 64,
+    "customBlockTypes": [
+      {
+        "name": "natural_rock",
+        "displayName": "Natural Rock",
+        "description": "Beautiful natural rock texture with varied gray and brown tones, subtle moss patches, natural weathered cracks, and layered sedimentary details. Has a warm, inviting quality with highlights and shadows that give depth.",
+        "textureUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264267128-525a786f-a320-4bdc-9e94-aa326b80fc4f.png",
+        "sideTextureUrl": null,
+        "textureSize": 16,
+        "createdAt": "2026-02-10T12:46:50.300Z"
+      }
+    ],
+    "hud": {
+      "startScreen": {
+        "imageUrl": "https://forged-assets.bitmagic.ai/images/1e6c1719-50f1-4e68-87cc-1b863396db3d/image.webp",
+        "title": "Party Boat",
+        "playLabel": "Step aboard"
+      },
+      "theme": {
+        "name": "Silja Symphonade",
+        "font": {
+          "key": "red-hat-display",
+          "case": "normal",
+          "weightBody": 500,
+          "weightHeading": 700,
+          "trackingLabel": 0.5,
+          "sizeScale": 1.2
+        },
+        "colors": {
+          "primary": "#185A85",
+          "danger": "#A9363E",
+          "warning": "#92601C",
+          "success": "#27705B",
+          "background": "#F3EEDD",
+          "surface": "#E4DDCA",
+          "text": "#142D47",
+          "textMuted": "#526174",
+          "outline": "#97815C"
+        },
+        "shape": {
+          "radiusPill": 8,
+          "radiusCard": 18,
+          "glow": "none",
+          "imageRendering": "auto",
+          "borderWidth": 2,
+          "bevel": 0.3,
+          "gloss": 0
+        },
+        "elements": {
+          "mobileControls": {
+            "colors": {
+              "text": "#F3EEDD"
+            }
+          },
+          "toast": {
+            "font": {
+              "weightBody": 700,
+              "sizeScale": 1.3
+            }
+          }
+        },
+        "decorations": {
+          "iconText": {
+            "backdrop": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 24\" preserveAspectRatio=\"none\"><rect width=\"100\" height=\"24\" rx=\"3\" fill=\"__surface__\"/></svg>",
+              "size": "100% 100%",
+              "repeat": "no-repeat"
+            }
+          }
+        }
+      }
+    },
+    "terrain": {
+      "shape": "none"
+    },
+    "spawnRotation": 1.5707963267948966,
+    "doors": [
+      {
+        "id": "Aft stairs entrance",
+        "position": {
+          "x": 6,
+          "y": 1.35,
+          "z": -22
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 2.2,
+        "height": 2.7,
+        "thickness": 0.1,
+        "kind": "plain",
+        "animation": "slide"
+      },
+      {
+        "id": "8411",
+        "position": {
+          "x": 10,
+          "y": 4.5,
+          "z": 14
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8411",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "8412",
+        "position": {
+          "x": 12,
+          "y": 4.5,
+          "z": 14
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8412",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "Sea View Lounge -8.5",
+        "position": {
+          "x": -8.5,
+          "y": 4.55,
+          "z": 60
+        },
+        "rotationY": 0,
+        "width": 1.6,
+        "height": 2.3,
+        "thickness": 0.1,
+        "kind": "plain",
+        "animation": "slide"
+      },
+      {
+        "id": "Sea View Lounge 8.5",
+        "position": {
+          "x": 8.5,
+          "y": 4.55,
+          "z": 60
+        },
+        "rotationY": 0,
+        "width": 1.6,
+        "height": 2.3,
+        "thickness": 0.1,
+        "kind": "plain",
+        "animation": "slide"
+      },
+      {
+        "id": "Boarding left door",
+        "position": {
+          "x": -14.7,
+          "y": 1.3,
+          "z": 11.75
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 2.3,
+        "height": 2.6,
+        "thickness": 0.12,
+        "kind": "plain",
+        "animation": "slide",
+        "autoOpenRadius": 2.8,
+        "assetId": "boarding-glass-door"
+      },
+      {
+        "id": "Boarding right door",
+        "position": {
+          "x": -14.7,
+          "y": 1.3,
+          "z": 14.25
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 2.3,
+        "height": 2.6,
+        "thickness": 0.12,
+        "kind": "plain",
+        "animation": "slide",
+        "autoOpenRadius": 2.8,
+        "assetId": "boarding-glass-door"
+      },
+      {
+        "id": "8401",
+        "position": {
+          "x": 10,
+          "y": 4.5,
+          "z": -9
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8401",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "8402",
+        "position": {
+          "x": 12,
+          "y": 4.5,
+          "z": -9
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8402",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "8403",
+        "position": {
+          "x": 10,
+          "y": 4.5,
+          "z": -5
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8403",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "8404",
+        "position": {
+          "x": 12,
+          "y": 4.5,
+          "z": -5
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8404",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "8405",
+        "position": {
+          "x": 10,
+          "y": 4.5,
+          "z": -1
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8405",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "8406",
+        "position": {
+          "x": 12,
+          "y": 4.5,
+          "z": -1
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8406",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "8407",
+        "position": {
+          "x": 10,
+          "y": 4.5,
+          "z": 3
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8407",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "8408",
+        "position": {
+          "x": 12,
+          "y": 4.5,
+          "z": 3
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8408",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "8409",
+        "position": {
+          "x": 10,
+          "y": 4.5,
+          "z": 7
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8409",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "8410",
+        "position": {
+          "x": 12,
+          "y": 4.5,
+          "z": 7
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8410",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "8413",
+        "position": {
+          "x": 10,
+          "y": 4.5,
+          "z": 19
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8413",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "8414",
+        "position": {
+          "x": 12,
+          "y": 4.5,
+          "z": 19
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8414",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "8415",
+        "position": {
+          "x": 10,
+          "y": 4.5,
+          "z": 23
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8415",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "8416",
+        "position": {
+          "x": 12,
+          "y": 4.5,
+          "z": 23
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8416",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "8417",
+        "position": {
+          "x": 10,
+          "y": 4.5,
+          "z": 27
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8417",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "8418",
+        "position": {
+          "x": 12,
+          "y": 4.5,
+          "z": 27
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-8418",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      }
+    ],
+    "playerSpawnRotation": 1.5707963267948966
+  },
+  "assets": [
+    {
+      "id": "default-tree-1",
+      "name": "voxelTree1",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264270453-tree-variant-1.vxl",
+      "type": "vxl",
+      "size": 249,
+      "boundingBox": {
+        "minX": -1.5,
+        "minY": 0,
+        "minZ": -1.5,
+        "maxX": 1.5,
+        "maxY": 5,
+        "maxZ": 1.5
+      }
+    },
+    {
+      "id": "default-tree-2",
+      "name": "voxelTree2",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264270494-tree-variant-2.vxl",
+      "type": "vxl",
+      "size": 265,
+      "boundingBox": {
+        "minX": -2,
+        "minY": 0,
+        "minZ": -2,
+        "maxX": 2,
+        "maxY": 6,
+        "maxZ": 2
+      }
+    },
+    {
+      "id": "default-tree-3",
+      "name": "voxelTree3",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264270578-tree-variant-3.vxl",
+      "type": "vxl",
+      "size": 217,
+      "boundingBox": {
+        "minX": -1,
+        "minY": 0,
+        "minZ": -1,
+        "maxX": 1,
+        "maxY": 4,
+        "maxZ": 1
+      }
+    },
+    {
+      "id": "default-rock-1",
+      "name": "voxelRock1",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264269816-rock-variant-1.vxl",
+      "type": "vxl",
+      "size": 103,
+      "boundingBox": {
+        "minX": -0.5,
+        "minY": 0,
+        "minZ": -0.5,
+        "maxX": 0.5,
+        "maxY": 0.5,
+        "maxZ": 0.5
+      }
+    },
+    {
+      "id": "default-rock-2",
+      "name": "voxelRock2",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264270214-rock-variant-2.vxl",
+      "type": "vxl",
+      "size": 106,
+      "boundingBox": {
+        "minX": -1,
+        "minY": 0,
+        "minZ": -1,
+        "maxX": 1,
+        "maxY": 1,
+        "maxZ": 1
+      }
+    },
+    {
+      "id": "default-rock-3",
+      "name": "voxelRock3",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264270092-rock-variant-3.vxl",
+      "type": "vxl",
+      "size": 142,
+      "boundingBox": {
+        "minX": -1.5,
+        "minY": 0,
+        "minZ": -1.5,
+        "maxX": 1.5,
+        "maxY": 1.5,
+        "maxZ": 1.5
+      }
+    },
+    {
+      "id": "img-cover_art-1791293617124",
+      "name": "cover_art",
+      "url": "https://forged-assets.bitmagic.ai/images/1e6c1719-50f1-4e68-87cc-1b863396db3d/image.webp",
+      "screenshotUrl": "https://forged-assets.bitmagic.ai/images/1e6c1719-50f1-4e68-87cc-1b863396db3d/image.webp",
+      "type": "image",
+      "source": "generated",
+      "prompt": "Low-poly art: flat-shaded polygon meshes with clean facets and hard edges, simple colour blocking, no visible cubes, no voxels.\nA low-poly game scene based on this game design:\nCover art for 'Party Boat', a cozy first-person adventure aboard the Silja Symphonade, a big white Baltic overnight cruise ferry with a blue SILJA LINE hull stripe and a seal logo on the funnel. One single unified scene, not a collage: the white ferry sailing on a calm turquoise Baltic sea at golden evening light, with warm glowing windows, pine-covered skerries in the distance. In the foreground on the open deck, three cheerful rounded toy-like cartoon passengers (a blonde woman in a magenta blouse dancing, a man with a big belly in a teal party shirt holding a beer, a woman in a red jacket with a backpack) celebrate. Match the reference images' rendering exactly: smooth clean flat-shaded low-poly 3D, simple untextured matte surfaces, soft rounded shapes, bright whites and saturated blues, soft shadows. No faceted triangle shading, no painterly texture. No text or logos other than SILJA LINE on the hull.\n\nDepict the world and atmosphere as a single illustrated scene. Low-poly art with flat-shaded facets and hard edges on every object, no cubes, no voxels, rendered as a highly polished 3D scene with the craft of a Pixar-quality animated film, cinematic lighting that fits the scene, soft ambient occlusion, rich detail and expressive composition. Wordless illustration, no text, no title, no words, no letters, no logos, no UI.",
+      "size": 78802
+    },
+    {
+      "id": "boarding-glass-door",
+      "name": "boarding-glass-door",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253256-1788954824347-boarding-glass-door.glb",
+      "type": "glb",
+      "size": 12100,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-09T11:53:44.727Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253256-1788954824347-boarding-glass-door.glb",
+        "sourceName": "boarding-glass-door.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253256-1788954824347-boarding-glass-door.glb",
+      "targetHeight": 2.6
+    },
+    {
+      "id": "b841bb9a-42a7-4644-8abc-5cb4f4e2263f",
+      "name": "Lift motor journey",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264269180-sound-effect.opus",
+      "type": "audio",
+      "format": "opus",
+      "prompt": "High fidelity close interior recording of a modern passenger ferry panoramic elevator electric motor. Gentle low smooth motor hum with a soft mechanical start, steady quiet ascent, subtle cable vibration, then gentle deceleration and a soft brake settling. One short elevator journey, luxurious quiet passenger lift, clean dry isolated sound effect, no voices, no music, no chime, no door sounds, no loud impacts.",
+      "source": "generated",
+      "size": 27680
+    },
+    {
+      "id": "00678693-9d5d-4db9-a8cc-e1c47a12f11e",
+      "name": "Lift arrival chime",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264267891-sound-effect.opus",
+      "type": "audio",
+      "format": "opus",
+      "prompt": "High fidelity isolated two-note arrival chime of an elegant modern passenger ferry elevator, warm clear ding dong, two mellow bell notes descending, clean attack and short natural metallic decay. Friendly understated lift arrival signal. No voice, no announcement, no music, no background noise.",
+      "source": "generated",
+      "size": 10417
+    },
+    {
+      "id": "9b5a672c-f13f-4ea9-bb40-ea002dd2ff5f",
+      "name": "Keycard contact",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264269098-sound-effect.opus",
+      "type": "audio",
+      "format": "opus",
+      "prompt": "High fidelity close Foley of one plastic hotel cabin keycard lightly tapping an electronic reader, delicate dry plastic tick followed immediately by a very quiet brief electronic scanning chirp. One contact only, short clean tactile sound. Modern passenger ferry cabin lock, realistic, understated. No success melody, no denial buzzer, no voices, no music, no room noise.",
+      "source": "generated",
+      "size": 4608
+    },
+    {
+      "id": "8ea82f0f-6aba-4a34-89c0-5c2d0dfab828",
+      "name": "Keycard accepted",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264268904-sound-effect.opus",
+      "type": "audio",
+      "format": "opus",
+      "prompt": "High fidelity isolated electronic hotel keycard lock acceptance sound. Two short clean bright ascending beeps, polite quiet confirmation, realistic tiny speaker on a passenger ferry cabin card reader. Immediate onset, brief decay, compact and clear, no voice, no music, no door movement, no ambience.",
+      "source": "generated",
+      "size": 3731
+    },
+    {
+      "id": "b7fdee06-4850-4ee8-a15d-a39c6dbd29a6",
+      "name": "Keycard rejected",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264269132-sound-effect.opus",
+      "type": "audio",
+      "format": "opus",
+      "prompt": "High fidelity isolated electronic hotel keycard lock rejection sound. Two short low descending muted buzz-beeps, unmistakable access denied, restrained realistic tiny card reader speaker, not an alarm, not harsh or frightening. Immediate onset, brief compact sound. No voices, no music, no door movement, no background noise.",
+      "source": "generated",
+      "size": 4032
+    },
+    {
+      "id": "6e5f263c-b5ae-4d5a-995b-9b8bbada2571",
+      "name": "Ferry door slide",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264268735-sound-effect.opus",
+      "type": "audio",
+      "format": "opus",
+      "prompt": "High fidelity close Foley of one modern passenger ferry powered sliding door opening. Immediate subtle latch click, smooth short brushed metal rail glide and soft pneumatic swish, ending with a gentle cushioned mechanical stop. Entire movement takes well under a second. Clean realistic dry isolated sound effect, refined quiet mechanism, no squeak, no slam, no beeps, no voices, no music, no background ambience.",
+      "source": "generated",
+      "size": 5738
+    },
+    {
+      "id": "be9b7399-3fa5-47cc-86b8-f7299dbb7f1c",
+      "name": "Starlight — Midnight Disco",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264267723-music.opus",
+      "type": "audio",
+      "format": "opus",
+      "prompt": "Original instrumental disco background music for the Starlight nightclub aboard an elegant Baltic passenger ferry. Warm late-1970s dancefloor groove, 116 BPM, tight four-on-the-floor drums, rounded syncopated electric bass, clean muted funk rhythm guitar, silky string stabs, Rhodes chords and tasteful analog synth accents. Sophisticated cheerful cruise-ship bar atmosphere, steady medium energy, polished studio recording. No vocals or spoken words, no crowd ambience, no dramatic intro or ending. Consistent groove suitable for a seamless repeating background loop.",
+      "source": "generated",
+      "size": 822993,
+      "loop": true,
+      "durationSeconds": 60.035896
+    },
+    {
+      "id": "ship-base",
+      "name": "Ship structure",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791275004066-base.glb",
+      "type": "glb",
+      "size": 31137748,
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791275004066-base.glb",
+      "targetHeight": 56.61973571777344,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-10-06T08:23:32.403Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791275004066-base.glb",
+        "sourceName": "base.glb"
+      }
+    },
+    {
+      "id": "ship-coffee-and-co",
+      "name": "Coffee And Co",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257784-1789396936974-coffee-and-co.glb",
+      "type": "glb",
+      "size": 2098396,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-14T14:42:18.551Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257784-1789396936974-coffee-and-co.glb",
+        "sourceName": "coffee-and-co.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257784-1789396936974-coffee-and-co.glb",
+      "targetHeight": 3.932500123977661
+    },
+    {
+      "id": "ship-bon-vivant",
+      "name": "Bon Vivant",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257190-1789396934732-bon-vivant.glb",
+      "type": "glb",
+      "size": 1730920,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-14T14:42:16.271Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257190-1789396934732-bon-vivant.glb",
+        "sourceName": "bon-vivant.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257190-1789396934732-bon-vivant.glb",
+      "targetHeight": 3.699999898672104
+    },
+    {
+      "id": "ship-starlight",
+      "name": "Starlight",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257011-1789392604169-starlight.glb",
+      "type": "glb",
+      "size": 2427332,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-14T13:30:08.342Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257011-1789392604169-starlight.glb",
+        "sourceName": "starlight.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257011-1789392604169-starlight.glb",
+      "targetHeight": 6.599999904632568
+    },
+    {
+      "id": "troubadour-acoustic",
+      "name": "One solo acoustic steel-string guitar troubadour performing in a quiet Baltic cruise ferry lounge. Warm intimate fingerpicked folk melody with gentle rhythmic strumming, relaxed 84 BPM, natural human timing, clean close acoustic recording. Guitar only, no vocals, no percussion, no bass, no synthesizers, no crowd. Pleasant continuous instrumental phrase suitable for looping, no dramatic ending.",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264267565-music.opus",
+      "type": "audio",
+      "format": "opus",
+      "prompt": "One solo acoustic steel-string guitar troubadour performing in a quiet Baltic cruise ferry lounge. Warm intimate fingerpicked folk melody with gentle rhythmic strumming, relaxed 84 BPM, natural human timing, clean close acoustic recording. Guitar only, no vocals, no percussion, no bass, no synthesizers, no crowd. Pleasant continuous instrumental phrase suitable for looping, no dramatic ending.",
+      "source": "generated",
+      "size": 867742,
+      "loop": true,
+      "durationSeconds": 60.088146
+    },
+    {
+      "id": "ship-grill-house",
+      "name": "Grill House",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258507-1789396941145-grill-house.glb",
+      "type": "glb",
+      "size": 399776,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-14T14:42:22.120Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258507-1789396941145-grill-house.glb",
+        "sourceName": "grill-house.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258507-1789396941145-grill-house.glb",
+      "targetHeight": 3.7150000035762787
+    },
+    {
+      "id": "ship-happy-lobster",
+      "name": "Happy Lobster",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258570-1789396942842-happy-lobster.glb",
+      "type": "glb",
+      "size": 532344,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-14T14:42:23.987Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258570-1789396942842-happy-lobster.glb",
+        "sourceName": "happy-lobster.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258570-1789396942842-happy-lobster.glb",
+      "targetHeight": 3.7150000035762787
+    },
+    {
+      "id": "ship-fast-lane",
+      "name": "Fast Lane",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258325-1789396939290-fast-lane.glb",
+      "type": "glb",
+      "size": 793420,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-14T14:42:20.470Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258325-1789396939290-fast-lane.glb",
+        "sourceName": "fast-lane.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258325-1789396939290-fast-lane.glb",
+      "targetHeight": 3.7150000035762787
+    },
+    {
+      "id": "ship-fashion",
+      "name": "Fashion",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253344-1788975904769-fashion.glb",
+      "type": "glb",
+      "size": 354908,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-09T17:45:05.673Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253344-1788975904769-fashion.glb",
+        "sourceName": "fashion.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253344-1788975904769-fashion.glb",
+      "targetHeight": 3.7150000035762787
+    },
+    {
+      "id": "ship-desigual",
+      "name": "Desigual",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264254098-1788975906318-desigual.glb",
+      "type": "glb",
+      "size": 943012,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-09T17:45:07.519Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264254098-1788975906318-desigual.glb",
+        "sourceName": "desigual.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264254098-1788975906318-desigual.glb",
+      "targetHeight": 3.7150000035762787
+    },
+    {
+      "id": "ship-marimekko",
+      "name": "Marimekko",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253435-1788975908173-marimekko.glb",
+      "type": "glb",
+      "size": 983896,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-09T17:45:09.347Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253435-1788975908173-marimekko.glb",
+        "sourceName": "marimekko.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253435-1788975908173-marimekko.glb",
+      "targetHeight": 3.7150000035762787
+    },
+    {
+      "id": "ship-luxury",
+      "name": "Luxury",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253769-1788975909992-luxury.glb",
+      "type": "glb",
+      "size": 610912,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-09T17:45:11.011Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253769-1788975909992-luxury.glb",
+        "sourceName": "luxury.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253769-1788975909992-luxury.glb",
+      "targetHeight": 3.7150000035762787
+    },
+    {
+      "id": "ship-electronics",
+      "name": "Electronics",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264254970-1788975911658-electronics.glb",
+      "type": "glb",
+      "size": 715408,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-09T17:45:12.705Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264254970-1788975911658-electronics.glb",
+        "sourceName": "electronics.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264254970-1788975911658-electronics.glb",
+      "targetHeight": 3.7150000035762787
+    },
+    {
+      "id": "ship-gifts",
+      "name": "Gifts & Moomin",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264255244-1788975913341-gifts.glb",
+      "type": "glb",
+      "size": 1977368,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-09T17:45:14.751Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264255244-1788975913341-gifts.glb",
+        "sourceName": "gifts.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264255244-1788975913341-gifts.glb",
+      "targetHeight": 3.7150000035762787
+    },
+    {
+      "id": "ship-kids-and-toys",
+      "name": "Kids & Toys",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264255484-1788975915400-kids-and-toys.glb",
+      "type": "glb",
+      "size": 1954128,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-09T17:45:16.731Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264255484-1788975915400-kids-and-toys.glb",
+        "sourceName": "kids-and-toys.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264255484-1788975915400-kids-and-toys.glb",
+      "targetHeight": 3.7150000035762787
+    },
+    {
+      "id": "ship-sea-pub",
+      "name": "Sea Pub",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259439-1789396944679-sea-pub.glb",
+      "type": "glb",
+      "size": 2084428,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-14T14:42:26.221Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259439-1789396944679-sea-pub.glb",
+        "sourceName": "sea-pub.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259439-1789396944679-sea-pub.glb",
+      "targetHeight": 4.340000003576279
+    },
+    {
+      "id": "asset_1789039625919_4vvbjh",
+      "name": "codex-clipboard-tH2u6w",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264255888-1789039626074-codex-clipboard-tH2u6w.png",
+      "type": "image",
+      "size": 232342,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-10T11:27:06.926Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264255888-1789039626074-codex-clipboard-tH2u6w.png",
+        "sourceName": "codex-clipboard-tH2u6w.png"
+      },
+      "screenshotUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264255888-1789039626074-codex-clipboard-tH2u6w.png"
+    },
+    {
+      "id": "3f59f1c7-693c-43b9-bea1-a6ad364f92db",
+      "name": "Close-up foley of one small sip of coffee from a ceramic mug: gentle liquid slosh as the cup tilts, a short soft sip and swallow. One brief natural action, dry clean recording, no voice, no music, no background ambience.",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264268254-sound-effect.opus",
+      "type": "audio",
+      "format": "opus",
+      "prompt": "Close-up foley of one small sip of coffee from a ceramic mug: gentle liquid slosh as the cup tilts, a short soft sip and swallow. One brief natural action, dry clean recording, no voice, no music, no background ambience.",
+      "source": "generated",
+      "size": 4418
+    },
+    {
+      "id": "bf1c6b37-2c1a-4a8e-9ef3-6b718ade5234",
+      "name": "One relaxed adult male voice softly saying a single satisfied aah after a delicious sip of coffee. A warm happy contented exhale, short and understated, natural human voice close to the microphone. Only aah, no other words, no sipping, no music, no room ambience, dry clean game sound effect.",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264269497-sound-effect.opus",
+      "type": "audio",
+      "format": "opus",
+      "prompt": "One relaxed adult male voice softly saying a single satisfied aah after a delicious sip of coffee. A warm happy contented exhale, short and understated, natural human voice close to the microphone. Only aah, no other words, no sipping, no music, no room ambience, dry clean game sound effect.",
+      "source": "generated",
+      "size": 5559
+    },
+    {
+      "id": "755afca7-ac46-4f40-84c5-929b1d2a9d2a",
+      "name": "Slot machine coin inserted, metallic coin clink into acceptor followed by a short cheerful electronic confirmation beep, isolated dry arcade sound effect, no music or voices",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264268804-sound-effect.opus",
+      "type": "audio",
+      "format": "opus",
+      "prompt": "Slot machine coin inserted, metallic coin clink into acceptor followed by a short cheerful electronic confirmation beep, isolated dry arcade sound effect, no music or voices",
+      "source": "generated",
+      "size": 9426
+    },
+    {
+      "id": "11439ab3-feec-4e42-ab7e-e9c1c6b450c9",
+      "name": "Vintage casino slot machine reels spinning for three seconds, lively mechanical rattling and soft electronic ticking, continuous reel motion only, dry isolated effect, no music no voices no win flourish",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264268088-sound-effect.opus",
+      "type": "audio",
+      "format": "opus",
+      "prompt": "Vintage casino slot machine reels spinning for three seconds, lively mechanical rattling and soft electronic ticking, continuous reel motion only, dry isolated effect, no music no voices no win flourish",
+      "source": "generated",
+      "size": 31866
+    },
+    {
+      "id": "4487bbbe-e8f6-4bbd-a80d-30e5aacd2180",
+      "name": "Single vintage slot machine reel stopping, a crisp mechanical clack with a tiny bright electronic pip, isolated dry arcade sound effect, no voices no music",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264268524-sound-effect.opus",
+      "type": "audio",
+      "format": "opus",
+      "prompt": "Single vintage slot machine reel stopping, a crisp mechanical clack with a tiny bright electronic pip, isolated dry arcade sound effect, no voices no music",
+      "source": "generated",
+      "size": 5216
+    },
+    {
+      "id": "cc3c8c36-121e-43ec-80d2-81e1a20da844",
+      "name": "Vintage slot machine winning payout, cheerful ascending electronic arcade bell arpeggio followed by a brief metallic coin shower, satisfying small prize jingle, isolated sound effect, no speech, no background music",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264269558-sound-effect.opus",
+      "type": "audio",
+      "format": "opus",
+      "prompt": "Vintage slot machine winning payout, cheerful ascending electronic arcade bell arpeggio followed by a brief metallic coin shower, satisfying small prize jingle, isolated sound effect, no speech, no background music",
+      "source": "generated",
+      "size": 29309
+    },
+    {
+      "id": "cabin-door-8401",
+      "name": "cabin-door-8401",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264256684-1789052082545-cabin-door-8401.glb",
+      "type": "glb",
+      "size": 291544,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-10T14:54:43.992Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264256684-1789052082545-cabin-door-8401.glb",
+        "sourceName": "cabin-door-8401.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264256684-1789052082545-cabin-door-8401.glb",
+      "targetHeight": 2.2
+    },
+    {
+      "id": "cabin-door-8402",
+      "name": "cabin-door-8402",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257335-1789052094621-cabin-door-8402.glb",
+      "type": "glb",
+      "size": 304464,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-10T14:54:55.539Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257335-1789052094621-cabin-door-8402.glb",
+        "sourceName": "cabin-door-8402.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257335-1789052094621-cabin-door-8402.glb",
+      "targetHeight": 2.2
+    },
+    {
+      "id": "asset_1789647556611_mdd8e5",
+      "name": "troubadour_slim_clean",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264263476-output-low.glb",
+      "type": "character",
+      "prompt": "One stylized low-poly male civilian character in a neutral symmetrical T-pose, both arms extended sideways, both hands completely open and empty. Character alone. Slim adult physique, narrow shoulders and waist, slender arms and legs. Narrow elongated rectangular head with softly bevelled corners, slim cheeks and narrow jaw. Warm peach skin, faceted swept brown hair in a few simple angular locks, black oval cartoon eyes, small wedge nose, expressive eyebrows, small ears and friendly smile. The body and face are made of simple broad flat planes with softened corners, midway between a block character and a rounded toy. Rust-red button-up collared short-sleeve shirt with small chest pocket, slate-blue trousers, brown belt, brown shoes. Clean matte flat-color surfaces. Simple appealing geometry. Exactly one clothed humanoid and nothing else. Plain background.",
+      "source": "generated"
+    },
+    {
+      "id": "asset_1789648617510_19hzxy",
+      "name": "information_clerk_slim",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264265598-output-low.glb",
+      "type": "character",
+      "prompt": "One stylized low-poly male passenger ferry information clerk in a neutral symmetrical T-pose, both arms extended sideways, both hands completely open and empty. Character alone. Slim adult physique, narrow shoulders and waist, slender arms and legs. Narrow elongated rectangular head with softly bevelled corners, slim cheeks and narrow jaw. Warm peach skin, faceted swept brown hair in a few simple angular locks, black oval cartoon eyes, small wedge nose, expressive eyebrows, small ears and friendly welcoming smile. The body and face are made of simple broad flat planes with softened corners, midway between a block character and a rounded toy. Navy-blue button-up collared short-sleeve uniform shirt with small chest pocket and small gold name badge, dark charcoal navy trousers, black belt, black shoes. Clean matte flat-color surfaces. Simple appealing geometry. Exactly one clothed humanoid and nothing else. Plain background.",
+      "source": "generated"
+    },
+    {
+      "id": "asset_1789652495848_2w95xv",
+      "name": "troubadour_rock_reference",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264263422-output-low.glb",
+      "type": "character",
+      "prompt": "Create ONE rigged humanoid matching the approved character reference image. The two views depict the SAME person; use the full-body view for proportions and the portrait for facial detail. A slim male aged 55 to 60 with a narrow softly squared face, salt-and-pepper short beard and moustache, grey hair under a dark brimmed hat. Weathered black leather sleeveless vest with silver snaps and zippers over a charcoal T-shirt, silver pendant, black wrist cuff, slim faded black jeans and worn black boots. Match the reference closely: softly bevelled blocky low-poly shapes, simple black oval eyes, wedge nose, mature smile lines, friendly smile, narrow head and slim limbs. Preserve this illustrated geometric style and these proportions, avoiding a round glossy cartoon face. Full body in a neutral symmetrical T-pose with both hands open and empty for rigging. One character alone on plain background, no close-up panel, no additional objects.",
+      "source": "generated"
+    },
+    {
+      "id": "asset_1789653095481_pzoafe",
+      "name": "coffee_cashier_reference",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264260604-output-low.glb",
+      "type": "character",
+      "prompt": "Create ONE adult female cafe cashier in the exact softly blocky low-poly art style of this approved reference. Use the reference for style, slim proportions, narrow softly squared face, simple black oval eyes and wedge nose, but make a distinct woman around 30–40 with warm brown hair tied in a neat bun, friendly smile and warm skin. Slim adult build, slender arms and legs, narrow face. Cream collared shirt with short sleeves, dark forest-green cafe apron with a pocket and small plain cream name badge, charcoal trousers and simple dark shoes. Broad flat planes, gently bevelled edges, restrained detail and matte colors matching the reference. Full body in a neutral symmetrical T-pose, both arms extended, open empty hands. Exactly one character alone, plain background; the reference full-body view and portrait show one stylistic example, do not reproduce the two-panel sheet. No objects or scenery.",
+      "source": "generated"
+    },
+    {
+      "id": "asset_1789653266148_1h9yun",
+      "name": "pub_bartender_reference",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264261214-output-low.glb",
+      "type": "character",
+      "prompt": "Create ONE adult male pub bartender in the exact softly blocky low-poly art style of this approved reference. Match the slim proportions, narrow softly squared face, simple black oval eyes, wedge nose, broad flat planes, gently bevelled edges and matte colors. Distinct friendly man around 45–55 with short dark brown hair graying at temples and a neat short mustache. Slim adult body, slender arms and legs, narrow face. Cream collared shirt with rolled sleeves, dark navy waistcoat with small buttons, charcoal trousers and brown shoes. Full body neutral symmetrical T-pose, arms extended, open empty hands. Exactly one character alone on plain background. The reference full-body view and portrait are one stylistic example; do not reproduce the two-panel sheet. No objects or scenery.",
+      "source": "generated"
+    },
+    {
+      "id": "asset_1789656952894_jm2h3d",
+      "name": "information_clerk_uniform_reference",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264266019-output-low.glb",
+      "type": "character",
+      "prompt": "Create ONE full-body male ferry information desk clerk based on the uniform and grooming in this photograph. Translate the photograph into a charming softly blocky low-poly 3D game character: slim adult body, slender limbs, narrow softly squared face, modestly enlarged head, simple black oval eyes, small wedge nose, friendly smile, broad flat planes with gently bevelled edges, matte surfaces and restrained detail. Clean-shaven adult man around 30–40, neatly side-parted short sandy brown hair. Essential outfit exactly inspired by the photo: WHITE SHORT-SLEEVED COLLARED SHIRT, dark navy shoulder epaulettes with pale rank stripes, dark navy straight necktie, small plain name badge on chest, dark navy uniform trousers, black belt and black shoes. No jacket, no hat. Single complete character alone in neutral symmetrical T-pose with both arms extended and empty open hands. Plain background, no counter, computer, furniture or other people. Stylized friendly game NPC, not a photorealistic person.",
+      "source": "generated"
+    },
+    {
+      "id": "asset_1789809213112_yhode7",
+      "name": "starlight_blonde_dancer",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264265189-output-low.glb",
+      "type": "character",
+      "prompt": "Create ONE adult blonde woman enjoying a Baltic ferry disco, about 35 years old. Match the approved reference in rendering style: softly blocky low-poly human, gently bevelled cuboid shapes, narrow softly squared face, simple friendly black oval eyes, small wedge nose and smiling mouth, faceted hair, matte painted materials. Shoulder-length golden blonde bob, magenta short-sleeve blouse, fitted dark navy trousers, comfortable white dance shoes, small gold earrings. Slim adult proportions like the existing ferry staff. Full body neutral symmetrical T-pose, open empty hands for rigging and dancing. Exactly one character alone on a plain background, no portrait panel, no scenery. Use the reference for style, not the male identity or uniform.",
+      "source": "generated"
+    },
+    {
+      "id": "asset_1789809401937_jgndrm",
+      "name": "starlight_bellied_dancer",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264262715-output-low.glb",
+      "type": "character",
+      "prompt": "Create ONE middle-aged male Baltic ferry disco passenger, about 50 to 55 years old, with a conspicuously large round protruding belly and broad stocky torso. Match the approved reference in art style: softly blocky low-poly human, gently bevelled cuboid shapes, softly squared face, simple friendly black oval eyes, small wedge nose, friendly smile, faceted hair and matte painted colors. Short receding salt-and-pepper hair, thick grey-brown moustache, subtle mature smile lines. Teal short-sleeve button-up party shirt stretched over his prominent round belly, dark charcoal trousers worn below the belly with a belt, brown comfortable shoes. Normal adult head size, heavyset body; make the belly clearly visible in silhouette while keeping arms and legs separately riggable. No drink or props. Full body neutral symmetrical T-pose, open empty hands. Exactly one character alone on plain background, no portrait panel or scenery. Match the reference style but not its slim build or male uniform.",
+      "source": "generated"
+    },
+    {
+      "id": "cabin-promenade",
+      "name": "Shared promenade cabin interior",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259451-1789813446684-cabin-promenade.glb",
+      "type": "glb",
+      "size": 78228,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-19T10:24:08.187Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259451-1789813446684-cabin-promenade.glb",
+        "sourceName": "cabin-promenade.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259451-1789813446684-cabin-promenade.glb",
+      "targetHeight": 3.65
+    },
+    {
+      "id": "cabin-sea",
+      "name": "Shared sea view cabin interior",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259521-1789813469493-cabin-sea.glb",
+      "type": "glb",
+      "size": 78148,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-19T10:24:30.672Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259521-1789813469493-cabin-sea.glb",
+        "sourceName": "cabin-sea.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259521-1789813469493-cabin-sea.glb",
+      "targetHeight": 3.65
+    },
+    {
+      "id": "cabin-door-shared",
+      "name": "Shared cabin card-reader door",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259646-1789813484337-cabin-door-shared.glb",
+      "type": "glb",
+      "size": 243296,
+      "production": {
+        "method": "uploaded",
+        "at": "2026-09-19T10:24:45.171Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259646-1789813484337-cabin-door-shared.glb",
+        "sourceName": "cabin-door-shared.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259646-1789813484337-cabin-door-shared.glb",
+      "targetHeight": 2.2
+    },
+    {
+      "id": "asset_1790078653704_a0o8k1",
+      "name": "traveler_family",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264264014-output-low.glb",
+      "type": "character",
+      "prompt": "One full-body rigged humanoid character for a stylized low-poly Baltic passenger ferry game. Warm humorous caricature, slightly oversized expressive head, clean faceted polygon forms, appealing readable face, matte cloth, restrained detail, cohesive colorful 1990s Nordic cruise aesthetic. Not voxel, not photorealistic. Human adult proportions compatible with walking, sitting, and dancing animations. Standing neutral riggable pose, two empty unobstructed hands, accessories attached close to body, no scenery or text. Adult Finnish mother, cheerful practical family vacationer, coral rain jacket, teal trousers, white sneakers, colorful backpack with a little unbranded plush animal peeking out. Short brown bob haircut.",
+      "source": "generated"
+    },
+    {
+      "id": "asset_1790139018882_k3cj14",
+      "name": "traveler_senior",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264261509-output-low.glb",
+      "type": "character",
+      "prompt": "One full-body rigged humanoid character for a stylized low-poly Baltic passenger ferry game. Warm humorous caricature, slightly oversized expressive head, clean faceted polygon forms, appealing readable face, matte cloth, restrained detail, cohesive colorful 1990s Nordic cruise aesthetic. Not voxel, not photorealistic. Human adult proportions compatible with walking, sitting, and dancing animations. Standing neutral riggable pose, two empty unobstructed hands, accessories attached close to body, no scenery or text. Senior Finnish man, charming silver-haired cruise regular ready for ballroom dancing, navy blazer, burgundy waistcoat, cream shirt, smart dark trousers and brown shoes. Expressive bushy eyebrows and friendly smile.",
+      "source": "generated"
+    },
+    {
+      "id": "asset_1790322120669_pvt9j7",
+      "name": "traveler_party",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264267004-output-low.glb",
+      "type": "character",
+      "prompt": "One full-body rigged humanoid character for a stylized low-poly Baltic passenger ferry game. Warm humorous caricature, slightly oversized expressive head, clean faceted polygon forms, appealing readable face, matte cloth, restrained detail, cohesive colorful 1990s Nordic cruise aesthetic. Not voxel, not photorealistic. Human adult proportions compatible with walking, sitting, and dancing animations. Standing neutral riggable pose, two empty unobstructed hands, accessories attached close to body, no scenery or text. Adult Finnish woman age 25, exuberant ferry partygoer, electric purple party jacket over a pink top, dark fitted trousers, bright sneakers, short blonde hair and small hoop earrings.",
+      "source": "generated"
+    },
+    {
+      "id": "asset_1790323888029_hngmvf",
+      "name": "traveler_driver",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264264871-output-low.glb",
+      "type": "character",
+      "prompt": "One full-body rigged humanoid character for a stylized low-poly Baltic passenger ferry game. Warm humorous caricature, slightly oversized expressive head, clean faceted polygon forms, appealing readable face, matte cloth, restrained detail, cohesive colorful 1990s Nordic cruise aesthetic. Not voxel, not photorealistic. Human adult proportions compatible with walking, sitting, and dancing animations. Standing neutral riggable pose, two empty unobstructed hands, accessories attached close to body, no scenery or text. Adult Finnish male professional truck driver age 45, broad shoulders, blue work jacket with small reflective trim, charcoal work trousers, sturdy boots, navy cap, friendly moustache. Small stainless thermos secured at hip, leaving both hands empty.",
+      "source": "generated"
+    },
+    {
+      "id": "asset_1790323888047_bay56p",
+      "name": "traveler_shopper",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264266563-output-low.glb",
+      "type": "character",
+      "prompt": "One full-body rigged humanoid character for a stylized low-poly Baltic passenger ferry game. Warm humorous caricature, slightly oversized expressive head, clean faceted polygon forms, appealing readable face, matte cloth, restrained detail, cohesive colorful 1990s Nordic cruise aesthetic. Not voxel, not photorealistic. Human adult proportions compatible with walking, sitting, and dancing animations. Standing neutral riggable pose, two empty unobstructed hands, accessories attached close to body, no scenery or text. Adult Finnish man, enthusiastic tax-free bargain shopper, mustard polo shirt, blue casual trousers, comfortable shoes, receding brown hair, slightly round belly. Colorful shopping bags and oversized candy box secured to a compact backpack, leaving both hands empty.",
+      "source": "generated"
+    },
+    {
+      "id": "asset_1790323888043_m0c9p6",
+      "name": "traveler_road",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264262217-output-low.glb",
+      "type": "character",
+      "prompt": "One full-body rigged humanoid character for a stylized low-poly Baltic passenger ferry game. Warm humorous caricature, slightly oversized expressive head, clean faceted polygon forms, appealing readable face, matte cloth, restrained detail, cohesive colorful 1990s Nordic cruise aesthetic. Not voxel, not photorealistic. Human adult proportions compatible with walking, sitting, and dancing animations. Standing neutral riggable pose, two empty unobstructed hands, accessories attached close to body, no scenery or text. Adult Finnish woman age 40, capable road-trip traveler, sage green travel jacket, striped shirt, jeans, sturdy shoes, auburn ponytail, small backpack and car keys clipped to her belt.",
+      "source": "generated"
+    },
+    {
+      "id": "asset_1791127414097_8138sk",
+      "name": "bon_vivant_host",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264265704-output-low.glb",
+      "type": "character",
+      "prompt": "A slim adult woman working as a restaurant host (maître d'): dark hair in a neat low bun, narrow face, crisp white blouse under a fitted navy waistcoat, small burgundy neck scarf, name badge, dark navy trousers and black low shoes. Softly blocky, gently bevelled low-poly style, neutral standing pose, empty hands.",
+      "source": "generated"
+    }
+  ],
+  "environmentObjects": [],
+  "gameId": "VPCT0XSS4E64",
+  "mechanisms": [
+    {
+      "id": "promenade-lift-port",
+      "type": "panoramaLift",
+      "name": "Port panorama lift",
+      "position": {
+        "x": -6,
+        "y": 0,
+        "z": 33
+      },
+      "params": {
+        "lowerFloor": 0,
+        "upperFloor": 3.4,
+        "width": 2.3,
+        "depth": 2.3,
+        "carHeight": 2.55,
+        "floorThickness": 0.24,
+        "doorWidth": 1.7,
+        "doorHeight": 2.4,
+        "gateOffset": 1.2,
+        "speed": 1.1,
+        "clearDelay": 0.8,
+        "yaw": -1.5707963267948966
+      }
+    },
+    {
+      "id": "promenade-lift-starboard",
+      "type": "panoramaLift",
+      "name": "Starboard panorama lift",
+      "position": {
+        "x": 6,
+        "y": 0,
+        "z": 33
+      },
+      "params": {
+        "lowerFloor": 0,
+        "upperFloor": 3.4,
+        "width": 2.3,
+        "depth": 2.3,
+        "carHeight": 2.55,
+        "floorThickness": 0.24,
+        "doorWidth": 1.7,
+        "doorHeight": 2.4,
+        "gateOffset": 1.2,
+        "speed": 1.1,
+        "clearDelay": 0.8,
+        "yaw": 1.5707963267948966
+      }
+    }
+  ]
+}

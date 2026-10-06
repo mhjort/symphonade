@@ -1,0 +1,64 @@
+{
+  "base": {
+    "name": "Ship structure",
+    "assetId": "ship-base"
+  },
+  "venues": [
+    {
+      "name": "Coffee & Co",
+      "assetId": "ship-coffee-and-co"
+    },
+    {
+      "name": "Bon Vivant",
+      "assetId": "ship-bon-vivant"
+    },
+    {
+      "name": "Starlight",
+      "assetId": "ship-starlight"
+    },
+    {
+      "name": "Grill House",
+      "assetId": "ship-grill-house"
+    },
+    {
+      "name": "Happy Lobster",
+      "assetId": "ship-happy-lobster"
+    },
+    {
+      "name": "Fast Lane",
+      "assetId": "ship-fast-lane"
+    },
+    {
+      "name": "Fashion",
+      "assetId": "ship-fashion"
+    },
+    {
+      "name": "Desigual",
+      "assetId": "ship-desigual"
+    },
+    {
+      "name": "Marimekko",
+      "assetId": "ship-marimekko"
+    },
+    {
+      "name": "Luxury",
+      "assetId": "ship-luxury"
+    },
+    {
+      "name": "Electronics",
+      "assetId": "ship-electronics"
+    },
+    {
+      "name": "Gifts & Moomin",
+      "assetId": "ship-gifts"
+    },
+    {
+      "name": "Kids & Toys",
+      "assetId": "ship-kids-and-toys"
+    },
+    {
+      "name": "Sea Pub",
+      "assetId": "ship-sea-pub"
+    }
+  ]
+}

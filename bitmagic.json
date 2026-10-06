@@ -1,0 +1,11 @@
+{
+  "gameId": "VPCT0XSS4E64",
+  "engineVersion": "3.1287",
+  "genre": "voxel",
+  "template": "first-person",
+  "environment": "prod",
+  "agentsMdHash": "e9158365ed4f64194ab92636422d922c8e239e469f67d8c2ad811001796cd3b6",
+  "agents": [
+    "claude-code"
+  ]
+}

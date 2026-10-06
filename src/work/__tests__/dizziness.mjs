@@ -1,0 +1,56 @@
+import { startVoyage } from './start-voyage.mjs';
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+const { chromium, devices } = await import(process.env.PLAYWRIGHT_MODULE ?? 'playwright-core');
+const { gamePort } = JSON.parse(await fs.readFile('.bitmagic/dev.json', 'utf8'));
+const browser = await chromium.launch({ channel: 'chrome', headless: true, args: ['--enable-unsafe-webgpu'] });
+try { for (const mobile of (process.env.TEST_PLATFORM === 'mobile' ? [true] : [false, true])) {
+    const page = await browser.newPage(mobile ? { ...devices['iPhone 14'] } : { viewport: { width: 1280, height: 900 } });
+    const errors = []; page.on('pageerror', error => errors.push(error.message));
+    await page.goto(`http://localhost:${gamePort}/`);
+    await page.waitForFunction(() => window.gameTemplate?.getGameEngine()?.genreModule?.slotMachine?.body, null, { timeout: 90000 });
+    await startVoyage(page);
+    const status = () => page.evaluate(()=>{const e=window.gameTemplate.getGameEngine(),g=e.genreModule;return {level:g.dizziness.severity,time:g.dizziness.secondsRemaining,filter:document.querySelector('canvas').style.filter,q:e.camera.quaternion.toArray(),position:e.getPlayerController().getGroundPosition().toArray()};});
+    const place = async () => {await page.evaluate(()=>{const p=window.gameTemplate.getGameEngine().getPlayerController();p.teleportTo(0,.15,12);p.cameraController.setHorizontalAngle(0);p.cameraController.setVerticalAngle(0);});await page.waitForTimeout(700);};
+    const touch = mobile ? await page.context().newCDPSession(page) : null;
+    const walk = async () => {
+        await place();const before=await status();
+        if (touch) {
+            const y=page.viewportSize().height-150;
+            await touch.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:80,y,id:1}]});
+            await touch.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:80,y:y-40,id:1}]});
+        } else await page.keyboard.down('KeyW');
+        await page.waitForTimeout(1800);
+        if (touch) await touch.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
+        else await page.keyboard.up('KeyW');
+        const after=await status();return {distance:before.position[2]-after.position[2],drift:Math.abs(before.position[0]-after.position[0])};
+    };
+    const original=(await status()).filter;
+    const sober=await walk(); assert.ok(sober.distance>2,'Walking baseline advances');
+    const levels=await page.evaluate(()=>{const d=window.gameTemplate.getGameEngine().genreModule.dizziness;d.drinkBeer();const one=d.severity;d.drinkBeer();const two=d.severity;d.drinkBeer();d.drinkBeer();return [one,two,d.severity,d.secondsRemaining];});
+    assert.deepEqual(levels,[.4,.8,1,180]);
+    const drunk=await walk();
+    assert.ok(drunk.distance<sober.distance*.9,'Dizziness slows real walking');
+    assert.ok(drunk.drift>sober.drift+.06,'Dizziness causes a bounded walking weave');
+    await place();const idle=await status();await page.waitForTimeout(800);const still=await status();
+    assert.ok(Math.hypot(still.position[0]-idle.position[0],still.position[2]-idle.position[2])<.03,'Idle player is not moved');
+    assert.ok(still.filter.includes('blur('));
+    assert.notDeepEqual(still.q,idle.q,'View changes with dizziness');
+    await page.screenshot({path:`.bitmagic/dizzy-${mobile?'mobile':'desktop'}.png`});
+    await page.evaluate(()=>window.gameTemplate.getGameEngine().gameStateManager.setPaused(true,'system'));
+    await page.waitForTimeout(200);const paused=await status();
+    await page.evaluate(()=>window.gameTemplate.getGameEngine().genreModule.dizziness.update(90));
+    await page.waitForTimeout(500);const later=await status();
+    assert.equal(later.time,paused.time);assert.equal(later.filter,paused.filter);assert.deepEqual(later.q,paused.q,'Paused view does not accumulate sway');
+    await page.evaluate(()=>window.gameTemplate.getGameEngine().gameStateManager.setPaused(false,'system'));
+    await page.emulateMedia({reducedMotion:'reduce'});
+    const reduced=await page.evaluate(()=>{const e=window.gameTemplate.getGameEngine();const before=e.camera.quaternion.toArray();e.genreModule.dizziness.applyView(e.camera);return {before,after:e.camera.quaternion.toArray()};});
+    assert.deepEqual(reduced.after,reduced.before,'Reduced motion suppresses added camera sway');
+    const fade=await page.evaluate(()=>{const d=window.gameTemplate.getGameEngine().genreModule.dizziness;d.update(180);d.drinkBeer();d.update(90);const half=d.severity;d.drinkBeer();const stacked=d.severity;d.update(180);return {half,stacked,level:d.severity,seconds:d.secondsRemaining,filter:document.querySelector('canvas').style.filter};});
+    assert.equal(fade.half,.2);assert.ok(Math.abs(fade.stacked-.6)<1e-8);assert.equal(fade.level,0);assert.equal(fade.seconds,0);assert.equal(fade.filter,original);
+    const recovery=await walk();assert.ok(Math.abs(recovery.distance-sober.distance)<.45,'Normal walking returns after recovery');
+    await page.evaluate(()=>{const d=window.gameTemplate.getGameEngine().genreModule.dizziness;d.drinkBeer();d.dispose();});assert.equal((await status()).filter,original,'Disposal restores canvas filter');
+    assert.deepEqual(errors,[]);
+    console.log('PASS',mobile?'phone':'desktop','stacking, cap, actual walking, idle, blur, camera, pause, reduced motion, recovery and disposal');
+    await page.close();
+} } finally { await browser.close(); }
