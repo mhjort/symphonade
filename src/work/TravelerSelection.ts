@@ -1,4 +1,6 @@
 import * as THREE from 'three';
+// The published bundle maps 'three' to its WebGPU build, which has no WebGLRenderer.
+import { WebGLRenderer } from 'three/src/renderers/WebGLRenderer.js';
 import { GameState, getGameStateManager } from 'engine/GameStateManager.js';
 import type { PlayerLoader } from 'engine/loaders/PlayerLoader.js';
 import type { PointerLockManager } from 'engine/PointerLockManager.js';
@@ -36,7 +38,7 @@ export class TravelerSelection {
     private readonly style = document.createElement('style');
     private readonly scene = new THREE.Scene();
     private readonly camera = new THREE.PerspectiveCamera(34, 1, .01, 30);
-    private renderer: THREE.WebGLRenderer | null = null;
+    private renderer: WebGLRenderer | null = null;
     private avatar: TravelerAvatar | null = null;
     private selected = TRAVELERS[0]!;
     private revision = 0;
@@ -199,7 +201,7 @@ export class TravelerSelection {
         this.element('.traveler-status').textContent = 'Preparing your traveler…';
         try {
             if (!this.renderer) {
-                this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+                this.renderer = new WebGLRenderer({ antialias: true, alpha: true });
                 this.renderer.setPixelRatio(Math.min(devicePixelRatio, 1.5));
                 this.renderer.setClearColor(0x000000, 0);
                 this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
