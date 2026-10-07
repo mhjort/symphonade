@@ -59,7 +59,8 @@ export class TravelerSelection {
 
     constructor(private readonly loadAvatar: (traveler: Traveler) => Promise<TravelerAvatar>,
         private readonly board: (traveler: Traveler, avatar: TravelerAvatar) => void,
-        private readonly pointerLock: () => PointerLockManager | null) {
+        private readonly pointerLock: () => PointerLockManager | null,
+        private readonly startGame: () => void) {
         this.style.textContent = `
             .traveler-selection { box-sizing:border-box; width:min(980px,96vw); max-height:94dvh;
                 margin:auto; padding:clamp(16px,3vw,32px); border:0; border-radius:var(--hud-radius-card);
@@ -90,6 +91,12 @@ export class TravelerSelection {
                 padding:10px 14px; border-radius:var(--hud-radius-card); font-weight:var(--hud-font-weight-heading); }
             .traveler-modes { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
             .traveler-selection .traveler-board { width:100%; background:var(--hud-color-primary); color:var(--hud-color-on-primary); }
+            /* Board solo carries .hud-play-button so tools that press the game's Play button
+               (bitmagic verify) board through this screen; keep the engine's Play styling off it. */
+            .traveler-selection .traveler-board.hud-play-button { font:inherit; text-transform:none; letter-spacing:normal;
+                border:2px solid transparent; border-radius:var(--hud-radius-card); padding:12px; box-shadow:none;
+                background-image:none; -webkit-text-stroke:0; transform:none; filter:none; transition:none; }
+            .traveler-selection .traveler-board.hud-play-button:disabled { opacity:.55; cursor:wait; }
             .traveler-selection .traveler-multiplayer { width:100%; opacity:.8; cursor:default; }
             .traveler-soon { display:inline-block; margin-left:6px; padding:2px 8px; border-radius:999px; font-size:12px;
                 background:var(--hud-color-primary); color:var(--hud-color-on-primary); vertical-align:middle; }
@@ -122,7 +129,7 @@ export class TravelerSelection {
             <h2></h2><p class="traveler-description"></p><div class="traveler-stats"></div>
             <p class="traveler-status" role="status" aria-live="polite"></p>
             <button class="traveler-retry" hidden>Retry preview</button>
-            <div class="traveler-modes"><button class="traveler-board" disabled>Board solo</button>
+            <div class="traveler-modes"><button class="traveler-board hud-play-button" disabled>Board solo</button>
             <button class="traveler-multiplayer" aria-disabled="true">Multiplayer <span class="traveler-soon">Coming soon</span></button></div></div></div>`;
         for (const traveler of TRAVELERS) {
             const button = document.createElement('button');
@@ -143,7 +150,9 @@ export class TravelerSelection {
         // Dialog keyboard navigation must never become a gameplay action or pause hotkey.
         this.dialog.addEventListener('keydown', event => event.stopPropagation());
         this.dialog.addEventListener('keyup', event => event.stopPropagation());
-        document.body.append(this.dialog);
+        // First in the document, so `.hud-play-button` lookups find Board solo before the
+        // engine's hidden Play button. A modal dialog renders on top wherever it sits.
+        document.body.prepend(this.dialog);
         this.scene.add(new THREE.HemisphereLight(0xf2f7ff, 0x65717d, 2.5));
         const key = new THREE.DirectionalLight(0xffead8, 3);
         key.position.set(3, 4, 5); this.scene.add(key);
@@ -154,6 +163,11 @@ export class TravelerSelection {
 
     private element<T extends HTMLElement = HTMLElement>(selector: string): T {
         return this.dialog.querySelector<T>(selector)!;
+    }
+
+    /** Open as the game's start screen, before gameplay begins. */
+    show(): void {
+        if (!this.opened && !this.disposed) this.open();
     }
 
     private open(): void {
@@ -238,9 +252,16 @@ export class TravelerSelection {
         try {
             this.board(this.selected, this.avatar);
             this.avatar = null; // Ownership transferred to VoxelGame.
+            const playing = this.state.getCurrentState() === GameState.PLAYING;
             this.dispose();
-            this.state.setPaused(false, 'interactive-ui');
-            this.pointerLock()?.requestLockWithRetry();
+            if (playing) {
+                // Autostarted (verify, portal instant play): gameplay was already running.
+                this.state.setPaused(false, 'interactive-ui');
+                this.pointerLock()?.requestLockWithRetry();
+            } else {
+                // This screen is the start screen: boarding is the Play press.
+                this.startGame();
+            }
         } catch (error) {
             this.boarding = false;
             this.element<HTMLButtonElement>('.traveler-board').disabled = false;

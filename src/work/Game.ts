@@ -436,7 +436,14 @@ export class VoxelGame implements GenreGameInterface {
             this.travelerSelection = new TravelerSelection(
                 traveler => this.prepareTraveler(traveler),
                 (traveler, avatar) => this.boardAsTraveler(traveler, avatar),
-                () => this.engine.getPointerLockManager?.() ?? null);
+                () => this.engine.getPointerLockManager?.() ?? null,
+                () => { this.engine.setStartupUiMode?.('engine'); this.engine.startGame?.(); });
+            // The traveler screen replaces the engine's start screen. Without those engine
+            // hooks it falls back to opening after the engine's own Play button.
+            if (this.engine.setStartupUiMode && this.engine.startGame) {
+                this.engine.setStartupUiMode('external');
+                this.travelerSelection.show();
+            }
 
             console.log('Voxel game loaded successfully');
         } catch (error) {

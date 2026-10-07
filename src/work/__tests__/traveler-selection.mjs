@@ -22,7 +22,6 @@ try {
    });
    await page.goto(`http://localhost:${gamePort}/`);
    await page.waitForFunction(()=>window.gameTemplate?.getGameEngine()?.genreModule?.travelerSelection,null,{timeout:120000});
-   await page.getByRole('button',{name:'Step aboard',exact:true}).click({force:true});
    await page.locator('dialog[open]').waitFor();
    assert.equal(await page.locator('[data-traveler]').count(),6);
    const state=()=>page.evaluate(()=>{

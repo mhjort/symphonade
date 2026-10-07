@@ -12,7 +12,6 @@ try {
  await page.route(url=>url.href.startsWith(family.url),route=>route.abort());
  await page.goto(`http://localhost:${gamePort}/`);
  await page.waitForFunction(()=>window.gameTemplate?.getGameEngine()?.genreModule?.travelerSelection,null,{timeout:120000});
- await page.getByRole('button',{name:'Step aboard',exact:true}).click({force:true});
  await page.getByRole('button',{name:'Retry preview',exact:true}).waitFor({timeout:60000});
  assert.equal(await page.getByRole('button',{name:'Board solo',exact:true}).isDisabled(),true);
  assert.equal(await page.evaluate(()=>window.gameTemplate.getGameEngine().genreModule.travelerId),null);
@@ -28,7 +27,6 @@ try {
  await page.reload();
  await page.waitForFunction(()=>window.gameTemplate?.getGameEngine()?.genreModule?.travelerSelection,null,{timeout:120000});
  assert.equal(await page.evaluate(()=>window.gameTemplate.getGameEngine().genreModule.travelerId),null);
- await page.getByRole('button',{name:'Step aboard',exact:true}).click({force:true});
  await page.locator('dialog[open]').waitFor();
  assert.equal(await page.locator('[data-traveler="family"]').getAttribute('aria-pressed'),'true');
  assert.deepEqual(errors,[]);
