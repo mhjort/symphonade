@@ -14,7 +14,7 @@ try {
  await page.waitForFunction(()=>window.gameTemplate?.getGameEngine()?.genreModule?.travelerSelection,null,{timeout:120000});
  await page.getByRole('button',{name:'Step aboard',exact:true}).click({force:true});
  await page.getByRole('button',{name:'Retry preview',exact:true}).waitFor({timeout:60000});
- assert.equal(await page.getByRole('button',{name:'Board the ferry',exact:true}).isDisabled(),true);
+ assert.equal(await page.getByRole('button',{name:'Board solo',exact:true}).isDisabled(),true);
  assert.equal(await page.evaluate(()=>window.gameTemplate.getGameEngine().genreModule.travelerId),null);
  await page.unrouteAll({behavior:'wait'});
  await page.getByRole('button',{name:'Retry preview',exact:true}).click();

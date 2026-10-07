@@ -4,6 +4,6 @@ export async function startVoyage(page, traveler = process.env.TEST_TRAVELER ?? 
     await page.locator('dialog.traveler-selection[open]').waitFor();
     await page.locator(`[data-traveler="${traveler}"]`).click();
     await page.getByText('Ready to board', { exact: true }).waitFor({ timeout: 120000 });
-    await page.getByRole('button', { name: 'Board the ferry', exact: true }).click();
+    await page.getByRole('button', { name: 'Board solo', exact: true }).click();
     await page.waitForFunction(() => window.gameTemplate.getGameEngine().gameStateManager.getCurrentState() === 'playing');
 }

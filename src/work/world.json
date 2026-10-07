@@ -620,16 +620,16 @@
     {
       "id": "boarding-glass-door",
       "name": "boarding-glass-door",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253256-1788954824347-boarding-glass-door.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301703071-boarding-glass-door.glb",
       "type": "glb",
       "size": 12100,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-09T11:53:44.727Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253256-1788954824347-boarding-glass-door.glb",
+        "at": "2026-10-06T15:48:24.031Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301703071-boarding-glass-door.glb",
         "sourceName": "boarding-glass-door.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253256-1788954824347-boarding-glass-door.glb",
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301703071-boarding-glass-door.glb",
       "targetHeight": 2.6
     },
     {
@@ -707,62 +707,62 @@
     {
       "id": "ship-base",
       "name": "Ship structure",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791275004066-base.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301706693-ship-base.glb",
       "type": "glb",
-      "size": 31137748,
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791275004066-base.glb",
-      "targetHeight": 56.61973571777344,
+      "size": 31137796,
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301706693-ship-base.glb",
+      "targetHeight": 56.619734,
       "production": {
         "method": "uploaded",
-        "at": "2026-10-06T08:23:32.403Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791275004066-base.glb",
-        "sourceName": "base.glb"
+        "at": "2026-10-06T15:48:29.646Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301706693-ship-base.glb",
+        "sourceName": "ship-base.glb"
       }
     },
     {
       "id": "ship-coffee-and-co",
       "name": "Coffee And Co",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257784-1789396936974-coffee-and-co.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301528321-ship-coffee-and-co.glb",
       "type": "glb",
       "size": 2098396,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-14T14:42:18.551Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257784-1789396936974-coffee-and-co.glb",
-        "sourceName": "coffee-and-co.glb"
+        "at": "2026-10-06T15:45:30.666Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301528321-ship-coffee-and-co.glb",
+        "sourceName": "ship-coffee-and-co.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257784-1789396936974-coffee-and-co.glb",
-      "targetHeight": 3.932500123977661
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301528321-ship-coffee-and-co.glb",
+      "targetHeight": 3.9375
     },
     {
       "id": "ship-bon-vivant",
       "name": "Bon Vivant",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257190-1789396934732-bon-vivant.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301526421-ship-bon-vivant.glb",
       "type": "glb",
-      "size": 1730920,
+      "size": 1730940,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-14T14:42:16.271Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257190-1789396934732-bon-vivant.glb",
-        "sourceName": "bon-vivant.glb"
+        "at": "2026-10-06T15:45:27.683Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301526421-ship-bon-vivant.glb",
+        "sourceName": "ship-bon-vivant.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257190-1789396934732-bon-vivant.glb",
-      "targetHeight": 3.699999898672104
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301526421-ship-bon-vivant.glb",
+      "targetHeight": 3.705
     },
     {
       "id": "ship-starlight",
       "name": "Starlight",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257011-1789392604169-starlight.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301556387-ship-starlight.glb",
       "type": "glb",
       "size": 2427332,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-14T13:30:08.342Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257011-1789392604169-starlight.glb",
-        "sourceName": "starlight.glb"
+        "at": "2026-10-06T15:45:58.365Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301556387-ship-starlight.glb",
+        "sourceName": "ship-starlight.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264257011-1789392604169-starlight.glb",
-      "targetHeight": 6.599999904632568
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301556387-ship-starlight.glb",
+      "targetHeight": 6.615
     },
     {
       "id": "troubadour-acoustic",
@@ -779,167 +779,167 @@
     {
       "id": "ship-grill-house",
       "name": "Grill House",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258507-1789396941145-grill-house.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301719685-ship-grill-house.glb",
       "type": "glb",
-      "size": 399776,
+      "size": 399800,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-14T14:42:22.120Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258507-1789396941145-grill-house.glb",
-        "sourceName": "grill-house.glb"
+        "at": "2026-10-06T15:48:41.151Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301719685-ship-grill-house.glb",
+        "sourceName": "ship-grill-house.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258507-1789396941145-grill-house.glb",
-      "targetHeight": 3.7150000035762787
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301719685-ship-grill-house.glb",
+      "targetHeight": 3.72
     },
     {
       "id": "ship-happy-lobster",
       "name": "Happy Lobster",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258570-1789396942842-happy-lobster.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301721796-ship-happy-lobster.glb",
       "type": "glb",
-      "size": 532344,
+      "size": 532348,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-14T14:42:23.987Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258570-1789396942842-happy-lobster.glb",
-        "sourceName": "happy-lobster.glb"
+        "at": "2026-10-06T15:48:43.334Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301721796-ship-happy-lobster.glb",
+        "sourceName": "ship-happy-lobster.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258570-1789396942842-happy-lobster.glb",
-      "targetHeight": 3.7150000035762787
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301721796-ship-happy-lobster.glb",
+      "targetHeight": 3.715
     },
     {
       "id": "ship-fast-lane",
       "name": "Fast Lane",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258325-1789396939290-fast-lane.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301715338-ship-fast-lane.glb",
       "type": "glb",
       "size": 793420,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-14T14:42:20.470Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258325-1789396939290-fast-lane.glb",
-        "sourceName": "fast-lane.glb"
+        "at": "2026-10-06T15:48:37.032Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301715338-ship-fast-lane.glb",
+        "sourceName": "ship-fast-lane.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264258325-1789396939290-fast-lane.glb",
-      "targetHeight": 3.7150000035762787
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301715338-ship-fast-lane.glb",
+      "targetHeight": 3.715
     },
     {
       "id": "ship-fashion",
       "name": "Fashion",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253344-1788975904769-fashion.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301713790-ship-fashion.glb",
       "type": "glb",
-      "size": 354908,
+      "size": 354912,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-09T17:45:05.673Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253344-1788975904769-fashion.glb",
-        "sourceName": "fashion.glb"
+        "at": "2026-10-06T15:48:34.657Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301713790-ship-fashion.glb",
+        "sourceName": "ship-fashion.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253344-1788975904769-fashion.glb",
-      "targetHeight": 3.7150000035762787
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301713790-ship-fashion.glb",
+      "targetHeight": 3.72
     },
     {
       "id": "ship-desigual",
       "name": "Desigual",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264254098-1788975906318-desigual.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301710319-ship-desigual.glb",
       "type": "glb",
-      "size": 943012,
+      "size": 943016,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-09T17:45:07.519Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264254098-1788975906318-desigual.glb",
-        "sourceName": "desigual.glb"
+        "at": "2026-10-06T15:48:31.449Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301710319-ship-desigual.glb",
+        "sourceName": "ship-desigual.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264254098-1788975906318-desigual.glb",
-      "targetHeight": 3.7150000035762787
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301710319-ship-desigual.glb",
+      "targetHeight": 3.715
     },
     {
       "id": "ship-marimekko",
       "name": "Marimekko",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253435-1788975908173-marimekko.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301551420-ship-marimekko.glb",
       "type": "glb",
-      "size": 983896,
+      "size": 983900,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-09T17:45:09.347Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253435-1788975908173-marimekko.glb",
-        "sourceName": "marimekko.glb"
+        "at": "2026-10-06T15:45:53.127Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301551420-ship-marimekko.glb",
+        "sourceName": "ship-marimekko.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253435-1788975908173-marimekko.glb",
-      "targetHeight": 3.7150000035762787
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301551420-ship-marimekko.glb",
+      "targetHeight": 3.715
     },
     {
       "id": "ship-luxury",
       "name": "Luxury",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253769-1788975909992-luxury.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301726561-ship-luxury.glb",
       "type": "glb",
       "size": 610912,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-09T17:45:11.011Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253769-1788975909992-luxury.glb",
-        "sourceName": "luxury.glb"
+        "at": "2026-10-06T15:48:48.123Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301726561-ship-luxury.glb",
+        "sourceName": "ship-luxury.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264253769-1788975909992-luxury.glb",
-      "targetHeight": 3.7150000035762787
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301726561-ship-luxury.glb",
+      "targetHeight": 3.715
     },
     {
       "id": "ship-electronics",
       "name": "Electronics",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264254970-1788975911658-electronics.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301712093-ship-electronics.glb",
       "type": "glb",
-      "size": 715408,
+      "size": 715412,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-09T17:45:12.705Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264254970-1788975911658-electronics.glb",
-        "sourceName": "electronics.glb"
+        "at": "2026-10-06T15:48:33.142Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301712093-ship-electronics.glb",
+        "sourceName": "ship-electronics.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264254970-1788975911658-electronics.glb",
-      "targetHeight": 3.7150000035762787
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301712093-ship-electronics.glb",
+      "targetHeight": 3.715
     },
     {
       "id": "ship-gifts",
       "name": "Gifts & Moomin",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264255244-1788975913341-gifts.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301717681-ship-gifts.glb",
       "type": "glb",
       "size": 1977368,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-09T17:45:14.751Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264255244-1788975913341-gifts.glb",
-        "sourceName": "gifts.glb"
+        "at": "2026-10-06T15:48:39.086Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301717681-ship-gifts.glb",
+        "sourceName": "ship-gifts.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264255244-1788975913341-gifts.glb",
-      "targetHeight": 3.7150000035762787
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301717681-ship-gifts.glb",
+      "targetHeight": 3.715
     },
     {
       "id": "ship-kids-and-toys",
       "name": "Kids & Toys",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264255484-1788975915400-kids-and-toys.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301723981-ship-kids-and-toys.glb",
       "type": "glb",
       "size": 1954128,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-09T17:45:16.731Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264255484-1788975915400-kids-and-toys.glb",
-        "sourceName": "kids-and-toys.glb"
+        "at": "2026-10-06T15:48:45.920Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301723981-ship-kids-and-toys.glb",
+        "sourceName": "ship-kids-and-toys.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264255484-1788975915400-kids-and-toys.glb",
-      "targetHeight": 3.7150000035762787
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301723981-ship-kids-and-toys.glb",
+      "targetHeight": 3.715
     },
     {
       "id": "ship-sea-pub",
       "name": "Sea Pub",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259439-1789396944679-sea-pub.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301728777-ship-sea-pub.glb",
       "type": "glb",
       "size": 2084428,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-14T14:42:26.221Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259439-1789396944679-sea-pub.glb",
-        "sourceName": "sea-pub.glb"
+        "at": "2026-10-06T15:48:50.653Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301728777-ship-sea-pub.glb",
+        "sourceName": "ship-sea-pub.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259439-1789396944679-sea-pub.glb",
-      "targetHeight": 4.340000003576279
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301728777-ship-sea-pub.glb",
+      "targetHeight": 4.34
     },
     {
       "id": "asset_1789039625919_4vvbjh",
@@ -1112,46 +1112,46 @@
     {
       "id": "cabin-promenade",
       "name": "Shared promenade cabin interior",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259451-1789813446684-cabin-promenade.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301519548-cabin-promenade.glb",
       "type": "glb",
       "size": 78228,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-19T10:24:08.187Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259451-1789813446684-cabin-promenade.glb",
+        "at": "2026-10-06T15:45:20.416Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301519548-cabin-promenade.glb",
         "sourceName": "cabin-promenade.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259451-1789813446684-cabin-promenade.glb",
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301519548-cabin-promenade.glb",
       "targetHeight": 3.65
     },
     {
       "id": "cabin-sea",
       "name": "Shared sea view cabin interior",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259521-1789813469493-cabin-sea.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301521054-cabin-sea.glb",
       "type": "glb",
       "size": 78148,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-19T10:24:30.672Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259521-1789813469493-cabin-sea.glb",
+        "at": "2026-10-06T15:45:22.164Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301521054-cabin-sea.glb",
         "sourceName": "cabin-sea.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259521-1789813469493-cabin-sea.glb",
-      "targetHeight": 3.65
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301521054-cabin-sea.glb",
+      "targetHeight": 3.655
     },
     {
       "id": "cabin-door-shared",
       "name": "Shared cabin card-reader door",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259646-1789813484337-cabin-door-shared.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301704664-cabin-door-shared.glb",
       "type": "glb",
       "size": 243296,
       "production": {
         "method": "uploaded",
-        "at": "2026-09-19T10:24:45.171Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259646-1789813484337-cabin-door-shared.glb",
+        "at": "2026-10-06T15:48:26.027Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301704664-cabin-door-shared.glb",
         "sourceName": "cabin-door-shared.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791264259646-1789813484337-cabin-door-shared.glb",
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301704664-cabin-door-shared.glb",
       "targetHeight": 2.2
     },
     {

@@ -58,7 +58,7 @@ try {
    assert.ok((await page.locator('.traveler-stats').innerText()).includes(`${marks} mk`));
    await page.screenshot({path:`.bitmagic/travelers/${id}-${mobile?'mobile':'desktop'}${fixture?'-fixture':''}.png`});
    // Real touch/keyboard confirmation, followed by an extra event to catch double initialization.
-   const board=page.getByRole('button',{name:'Board the ferry',exact:true});
+   const board=page.getByRole('button',{name:'Board solo',exact:true});
    if(mobile) await board.tap(); else { await board.focus(); await page.keyboard.press('Enter'); }
    await page.waitForFunction(()=>window.gameTemplate.getGameEngine().genreModule.travelerId !== null);
    await page.waitForFunction(()=>window.gameTemplate.getGameEngine().gameStateManager.getCurrentState()==='playing');

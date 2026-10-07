@@ -88,7 +88,11 @@ export class TravelerSelection {
             .traveler-stats { display:flex; gap:12px; margin:14px 0; }
             .traveler-stats span { background:var(--hud-color-surface); color:var(--hud-color-on-surface);
                 padding:10px 14px; border-radius:var(--hud-radius-card); font-weight:var(--hud-font-weight-heading); }
+            .traveler-modes { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
             .traveler-selection .traveler-board { width:100%; background:var(--hud-color-primary); color:var(--hud-color-on-primary); }
+            .traveler-selection .traveler-multiplayer { width:100%; opacity:.8; cursor:default; }
+            .traveler-soon { display:inline-block; margin-left:6px; padding:2px 8px; border-radius:999px; font-size:12px;
+                background:var(--hud-color-primary); color:var(--hud-color-on-primary); vertical-align:middle; }
             .traveler-status { min-height:22px; font-size:14px; }
             .traveler-note { font-size:13px; color:var(--hud-color-text-muted); }
             @media(max-width:600px) {
@@ -105,7 +109,7 @@ export class TravelerSelection {
                 .traveler-stats span { padding:8px 12px; }
                 .traveler-selection .traveler-intro { margin-bottom:10px; font-size:13px; }
                 .traveler-note { display:none; }
-                .traveler-selection .traveler-board { position:sticky; bottom:0; }
+                .traveler-modes { position:sticky; bottom:0; }
             }`;
         document.head.append(this.style);
         this.dialog.className = 'traveler-selection';
@@ -118,7 +122,8 @@ export class TravelerSelection {
             <h2></h2><p class="traveler-description"></p><div class="traveler-stats"></div>
             <p class="traveler-status" role="status" aria-live="polite"></p>
             <button class="traveler-retry" hidden>Retry preview</button>
-            <button class="traveler-board" disabled>Board the ferry</button></div></div>`;
+            <div class="traveler-modes"><button class="traveler-board" disabled>Board solo</button>
+            <button class="traveler-multiplayer" aria-disabled="true">Multiplayer <span class="traveler-soon">Coming soon</span></button></div></div></div>`;
         for (const traveler of TRAVELERS) {
             const button = document.createElement('button');
             button.className = 'traveler-choice';
@@ -129,6 +134,10 @@ export class TravelerSelection {
             this.element('.traveler-list').append(button);
         }
         this.element<HTMLButtonElement>('.traveler-board').onclick = () => this.confirm();
+        // Advertised only: no networking yet, so it explains itself instead of starting anything.
+        this.element<HTMLButtonElement>('.traveler-multiplayer').onclick = () => {
+            this.element('.traveler-status').textContent = 'Multiplayer voyages are coming soon. Board solo for now.';
+        };
         this.element<HTMLButtonElement>('.traveler-retry').onclick = () => void this.select(this.selected);
         this.dialog.addEventListener('cancel', event => event.preventDefault());
         // Dialog keyboard navigation must never become a gameplay action or pause hotkey.
