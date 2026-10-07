@@ -135,3 +135,6 @@ All 18 passenger cabins have live mirrors in their existing frames. The mirror r
 
 ## Phone HUD layout
 On touch devices the status corners use compact labels: top-left shows energy (⚡ 100%) and dizziness (🍺 39% · 2:54, ⚠ when one more beer is too many); top-right shows the ship clock (🕐 17:05 FI / SE), trip points (⭐ 250 TP) and the Bon Vivant reservation (🍽 19:30). The traveler name is not repeated on phones. On portrait phones the area and objective lines sit below the corner rows, inset clear of the mute and pause buttons. Desktop keeps the full labels.
+
+## Leaderboard
+A persistent, shared leaderboard ranks voyages by trip points. Only a voyage that reaches Stockholm submits its score; passing out or blacking out does not rank. Every end screen shows the top 5 above the replay button, each with the player's verified display name, traveler and trip points. A ranked voyage outside the top 5 shows its position ("#6 of 23"). Names come from the player's Bitmagic profile or a generated guest name; nobody types one in. The board is declared so it can appear on the game's public page.

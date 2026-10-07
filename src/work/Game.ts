@@ -9,6 +9,7 @@ import { getNpcSkeletonSource } from 'engine/npc/core/NpcSkeletonSource.js';
 import * as THREE from 'three';
 import { TravelerSelection, disposeTravelerAvatar, type TravelerAvatar } from './TravelerSelection.js';
 import { travelerAssetUrl, type Traveler, type TravelerId } from './Travelers.js';
+import { VoyageLeaderboard } from './VoyageLeaderboard.js';
 import type { MobileActionSpec } from 'engine/MobileActionSpec.js';
 import { ShipRoomLighting } from './ShipRoomLighting.js';
 import { StarlightLighting } from './StarlightLighting.js';
@@ -72,6 +73,7 @@ export class VoxelGame implements GenreGameInterface {
     private travelerAvatar: TravelerAvatar | null = null;
     private disposed = false;
     public travelerId: TravelerId | null = null;
+    private travelerName = '';
     private ship: ShipAssembly | null = null;
     private cabinMirrors: CabinMirrors | null = null;
     private chairSeating: ChairSeating | null = null;
@@ -503,6 +505,7 @@ export class VoxelGame implements GenreGameInterface {
         // Keep a stable identity and model URL on the session and avatar. A
         // later multiplayer layer can resolve this catalog without UI state.
         this.travelerId = traveler.id;
+        this.travelerName = traveler.name;
         avatar.root.userData.travelerId = traveler.id;
         avatar.root.userData.characterUrl = avatar.url;
         this.cabinMirrors!.setAvatar(avatar.root);
@@ -1007,6 +1010,9 @@ export class VoxelGame implements GenreGameInterface {
             { label: 'Ship time', value: this.voyageClock?.time.label ?? '17:00 · Finnish time' },
             { label: 'Energy', value: `${Math.ceil(this.energy?.value ?? 0)}%` },
         ] });
+        // Only arrivals rank: surviving the crossing is the goal. Every end screen shows the board.
+        void new VoyageLeaderboard(this.engine).showOnEndScreen(
+            outcome === 'win' ? this.tripPoints?.total ?? 0 : null, this.travelerName);
     }
 
     dispose(): void {
