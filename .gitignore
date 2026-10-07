@@ -3,3 +3,4 @@ node_modules/
 .bitmagic/
 .vite-cache/
 build/
+__pycache__/
