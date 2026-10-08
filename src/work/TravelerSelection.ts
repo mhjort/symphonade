@@ -178,7 +178,7 @@ export class TravelerSelection {
         this.pointerLock()?.setFreeMouseMode(true);
         this.pointerLock()?.cancelLockRequest();
         this.pointerLock()?.setInteractiveUIMode(true);
-        document.exitPointerLock();
+        document.exitPointerLock?.(); // Absent on iPhone Safari (no pointer lock).
         this.dialog.showModal();
         void this.select(this.selected);
         this.element<HTMLButtonElement>('.traveler-choice').focus();

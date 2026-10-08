@@ -334,7 +334,7 @@ export class BonVivantReservation {
         const lock = this.pointerLock();
         this.previousFreeMouse = lock?.getFreeMouseMode() ?? false;
         lock?.setFreeMouseMode(true); lock?.cancelLockRequest(); lock?.setInteractiveUIMode(true);
-        document.exitPointerLock();
+        document.exitPointerLock?.(); // Absent on iPhone Safari (no pointer lock).
         this.dialog.showModal();
         first?.focus();
     }
