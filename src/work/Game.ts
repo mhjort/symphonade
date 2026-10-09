@@ -297,7 +297,6 @@ export class VoxelGame implements GenreGameInterface {
             }
 
             await this.setupPlayerController();
-            this.engine.enableMuteControl?.();
             this.footsteps = new Footsteps(this.engine);
             this.ferrySounds = new FerrySounds(this.engine, this.worldProfileData,
                 () => this.playerController!.getPosition());

@@ -8,7 +8,7 @@ let installed: HTMLStyleElement | null = null;
 /**
  * Portrait phones have room for only one row across the top: the corner
  * stacks keep their compact labels and the area/objective stack drops below
- * them, inset clear of the engine's mute and pause buttons.
+ * them, inset clear of the engine's pause button.
  */
 export function installPhoneHudLayout(): () => void {
     if (!compactHud || installed) return () => {};
