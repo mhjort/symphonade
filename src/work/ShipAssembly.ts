@@ -84,7 +84,10 @@ export class ShipAssembly extends MeshLevel {
         ));
 
     constructor(private readonly shipEngine: EngineLike) {
-        super(shipEngine, { glb: { assetId: manifest.base.assetId }, level: { data: shipLevel } },
+        super(shipEngine, { glb: { assetId: manifest.base.assetId }, level: { data: { ...shipLevel,
+                // Animated promenade lamps are owned by PromenadeLighting.
+                lights: shipLevel.lights.filter(light => !light.name.startsWith('Atrium light')),
+            } } },
             DEFAULT_MESH_LEVEL_OPTIONS);
     }
 

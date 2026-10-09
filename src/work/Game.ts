@@ -12,6 +12,7 @@ import { travelerAssetUrl, type Traveler, type TravelerId } from './Travelers.js
 import { VoyageLeaderboard } from './VoyageLeaderboard.js';
 import type { MobileActionSpec } from 'engine/MobileActionSpec.js';
 import { ShipRoomLighting } from './ShipRoomLighting.js';
+import { PromenadeLighting } from './PromenadeLighting.js';
 import { StarlightLighting } from './StarlightLighting.js';
 import { NightSky } from './NightSky.js';
 import { EntranceMascot } from './EntranceMascot.js';
@@ -109,6 +110,7 @@ export class VoxelGame implements GenreGameInterface {
     private roomLighting: ShipRoomLighting | null = null;
     private nightSky: NightSky | null = null;
     private starlightLighting: StarlightLighting | null = null;
+    private promenadeLighting: PromenadeLighting | null = null;
     private entranceMascot: EntranceMascot | null = null;
     private slotMachine: SlotMachine | null = null;
     private rouletteTable: RouletteTable | null = null;
@@ -312,6 +314,7 @@ export class VoxelGame implements GenreGameInterface {
                 this.cameraManager!.getFirstPersonCamera(), this.hud, this.engine.physicsWorld!);
             this.starlightLighting = new StarlightLighting(this.engine);
             this.roomLighting = new ShipRoomLighting(this.engine);
+            this.promenadeLighting = new PromenadeLighting(this.engine.scene!, this.ship.getRoot());
             this.nightSky = new NightSky(this.engine);
             this.nightSky.attachScenery();
             const banknote = this.gameData?.assets?.find(asset => asset.id === 'asset_1789039625919_4vvbjh');
@@ -751,7 +754,8 @@ export class VoxelGame implements GenreGameInterface {
         this.checkVoyageOutcome();
         this.ferrySounds?.updateDoors();
         this.starlightLighting?.update(deltaTime);
-        this.roomLighting?.update(deltaTime, this.playerController?.getPosition());
+        this.promenadeLighting?.update(this.voyageClock?.shipMinutes ?? 0);
+        this.roomLighting?.update(deltaTime, this.playerController?.getPosition(), this.voyageClock?.shipMinutes ?? 0);
         if (this.playerController) this.entranceMascot?.update(deltaTime, this.playerController.getPosition());
         if (this.playerController) this.informationTroubadour?.update(deltaTime, this.playerController.getPosition());
         if (this.playerController) this.starlightMusic?.update(this.playerController.getPosition());
@@ -1054,6 +1058,7 @@ export class VoxelGame implements GenreGameInterface {
         this.roomLighting?.dispose();
         this.nightSky?.dispose();
         this.starlightLighting?.dispose();
+        this.promenadeLighting?.dispose();
         this.starlightMusic?.dispose();
         this.cabinDoorReaders?.dispose();
         this.cabinKeyCard?.dispose();
