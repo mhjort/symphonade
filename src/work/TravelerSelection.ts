@@ -136,8 +136,8 @@ export class TravelerSelection {
         document.head.append(this.style);
         this.dialog.className = 'traveler-selection';
         this.dialog.setAttribute('aria-labelledby', 'traveler-title');
-        this.dialog.innerHTML = `<h1 id="traveler-title">Choose your traveler</h1>
-            <p class="traveler-intro">Six ways to start your voyage. Who are you?</p>
+        this.dialog.innerHTML = `<h1 id="traveler-title">Symphonade</h1>
+            <p class="traveler-intro"><strong>Choose your traveler.</strong> Six ways to start your voyage.</p>
             <div class="traveler-layout"><div><div class="traveler-list" role="group" aria-label="Travelers"></div>
             <p class="traveler-note">Your traveler stays with you for this voyage.</p></div>
             <div class="traveler-details"><div class="traveler-preview" role="img" aria-label="Full-body traveler preview"></div>
