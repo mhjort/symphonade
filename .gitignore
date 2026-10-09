@@ -4,3 +4,4 @@ node_modules/
 .vite-cache/
 build/
 __pycache__/
+tools/blender-level/

@@ -1,0 +1,34 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import ts from 'typescript';
+const source = await fs.readFile(new URL('../RouletteRound.ts', import.meta.url), 'utf8');
+const js = ts.transpileModule(source, { compilerOptions: { target: ts.ScriptTarget.ES2022, module: ts.ModuleKind.ESNext } }).outputText;
+const { RouletteRound, ROULETTE_SPIN_SECONDS, rouletteReturn, WHEEL_ORDER, RED_NUMBERS } = await import(`data:text/javascript;base64,${Buffer.from(js).toString('base64')}`);
+assert.deepEqual([...WHEEL_ORDER].sort((a,b)=>a-b),Array.from({length:37},(_,i)=>i));
+assert.equal(RED_NUMBERS.size,18);
+for(const bet of [...Array.from({length:37},(_,i)=>i),'red','black','odd','even','low','high']) {
+    const returns=Array.from({length:37},(_,n)=>rouletteReturn(bet,n,5));
+    assert.equal(returns.reduce((a,b)=>a+b,0),180,`single-zero total return for ${bet}`);
+    if(typeof bet==='number') assert.equal(returns[bet],180);
+    else assert.equal(returns[0],0,'zero loses outside bets');
+}
+assert.equal(rouletteReturn('red',1,5),10); assert.equal(rouletteReturn('black',2,5),10);
+assert.equal(rouletteReturn('odd',3,5),10); assert.equal(rouletteReturn('even',36,5),10);
+assert.equal(rouletteReturn('low',18,5),10); assert.equal(rouletteReturn('high',19,5),10);
+assert.equal(rouletteReturn(37,37,5),0); assert.equal(rouletteReturn('red',1,-5),0);
+const wallet={balance:100,trySpend(n){if(this.balance<n)return false;this.balance-=n;return true;},credit(n){this.balance+=n;}};
+const game=new RouletteRound(wallet,()=>1.1/37);
+assert.equal(game.start('red',5),'started');assert.equal(wallet.balance,95);
+assert.equal(game.start('black',25),'busy');assert.equal(wallet.balance,95);
+assert.equal(ROULETTE_SPIN_SECONDS,8);
+assert.equal(game.update(5),null,'spin continues beyond former five seconds');
+assert.equal(game.update(ROULETTE_SPIN_SECONDS-5-.1),null);assert.equal(wallet.balance,95);
+assert.equal(game.update(.2).returned,10);assert.equal(wallet.balance,105);
+game.update(100);assert.equal(wallet.balance,105,'settle once');
+assert.equal(game.start('red',-5),'invalid');assert.equal(game.start(37,5),'invalid');
+assert.equal(game.start('red',7),'invalid');assert.equal(wallet.balance,105);
+assert.equal(game.start('red',25),'started');game.cancel();game.cancel();assert.equal(wallet.balance,105,'cancel refunds once');
+wallet.balance=4;assert.equal(game.start('red',5),'funds');assert.equal(game.pending,null);assert.equal(wallet.balance,4);
+wallet.balance=100;const zero=new RouletteRound(wallet,()=>0);zero.start(0,5);assert.equal(zero.update(ROULETTE_SPIN_SECONDS).returned,180);assert.equal(wallet.balance,275);
+zero.start('even',5);assert.equal(zero.update(ROULETTE_SPIN_SECONDS).returned,0);assert.equal(wallet.balance,270);
+console.log('PASS all 37 outcomes, outside/number returns, zero, wallet charges, duplicate spins, settlement, cancellation and insufficient funds');

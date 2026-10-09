@@ -22,7 +22,7 @@ export class StarlightDance {
     private readonly handModels: HandModel[] = [new FirstPersonHand('left'), new FirstPersonHand('right')];
     private readonly tilt = new THREE.Quaternion();
     private readonly euler = new THREE.Euler(0, 0, 0, 'YXZ');
-    private readonly room = shipLevel.volumes.find(volume => volume.name === 'Starlight')!;
+    private readonly room = shipLevel.volumes.find(volume => volume.name === 'Starlight dance floor')!;
 
     constructor(engine: EngineLike, private readonly player: PlayerController,
         private readonly seating: ChairSeating, private readonly energy: PlayerEnergy,
@@ -76,10 +76,10 @@ export class StarlightDance {
     }
 
     private available(): boolean {
-        const p = this.player.getPosition(), { position: c, size } = this.room;
+        const p = this.player.getGroundPosition(), { position: c, size } = this.room;
         return getGameStateManager().isState(GameState.PLAYING) && this.player.getControlsEnabled()
             && Math.abs(p.x - c[0]!) < size[0]! / 2 && Math.abs(p.z - c[2]!) < size[2]! / 2
-            && p.y >= -.2 && p.y < 2 && !this.seating.isSeated && this.energy.value > 0
+            && p.y >= -.2 && p.y < .3 && !this.seating.isSeated && this.energy.value > 0
             && this.player.isGrounded && this.player.moveDirection.lengthSq() < .001 && !this.player.keys.ascend;
     }
 

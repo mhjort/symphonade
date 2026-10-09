@@ -16,6 +16,7 @@ import { StarlightLighting } from './StarlightLighting.js';
 import { NightSky } from './NightSky.js';
 import { EntranceMascot } from './EntranceMascot.js';
 import { SlotMachine } from './SlotMachine.js';
+import { RouletteTable } from './RouletteTable.js';
 import { SwellSway, DEFAULT_SWELL_SWAY_OPTIONS } from 'engine/sailing/SwellSway.js';
 import { GameState, getGameStateManager } from 'engine/GameStateManager.js';
 import { InformationTroubadour } from './InformationTroubadour.js';
@@ -110,6 +111,7 @@ export class VoxelGame implements GenreGameInterface {
     private starlightLighting: StarlightLighting | null = null;
     private entranceMascot: EntranceMascot | null = null;
     private slotMachine: SlotMachine | null = null;
+    private rouletteTable: RouletteTable | null = null;
     private informationTroubadour: InformationTroubadour | null = null;
     private readonly swellOptions = { ...DEFAULT_SWELL_SWAY_OPTIONS, amplitudeScale: 0 };
     private readonly shipSwell = new SwellSway(this.swellOptions);
@@ -369,6 +371,10 @@ export class VoxelGame implements GenreGameInterface {
                 () => this.cameraManager!.getFirstPersonCamera().getCamera(), this.coffeeShop,
                 jackpot => { if (jackpot) this.completeQuest('slot-jackpot', 'Silja jackpot', 'Three ships on the payline!', 250); });
             await this.slotMachine.load();
+            this.rouletteTable = new RouletteTable(this.engine, this.playerController!,
+                () => this.cameraManager!.getFirstPersonCamera().getCamera(), this.coffeeShop, this.hud,
+                () => this.completeQuest('first-roulette', 'First roulette round', 'Took a turn at the Starlight table!', 100));
+            await this.rouletteTable.load();
             const clerk = this.engine.registerNpc('information_clerk', new ReceptionClerk(() => {
                 const doors = this.engine.getDoorSystem?.();
                 if (!doors) return;
@@ -739,6 +745,7 @@ export class VoxelGame implements GenreGameInterface {
             playerPosition: this.playerController.getPosition(),
         });
         this.slotMachine?.update(deltaTime);
+        this.rouletteTable?.update(deltaTime);
         this.starlightDance?.update(deltaTime);
         this.energy?.update(deltaTime, this.starlightDance?.active ?? false, this.chairSeating?.isSleeping ?? false);
         this.updateWelcomeTour();
@@ -1027,6 +1034,7 @@ export class VoxelGame implements GenreGameInterface {
         this.travelerSelection?.dispose();
         this.footsteps?.dispose();
         this.celebration?.dispose();
+        this.rouletteTable?.dispose();
         this.slotMachine?.dispose();
         this.dizziness?.dispose();
         if (this.playerController) this.playerController.impairWalking = null;

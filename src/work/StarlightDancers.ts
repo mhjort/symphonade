@@ -9,8 +9,8 @@ const deck = shipLevel.colliders.find(collider => collider.name === 'Starlight m
 const FLOOR_Y = deck.position![1]! + deck.size![1]! / 2;
 
 const DANCERS = [
-    { name: 'starlight_blonde_dancer', x: -2, z: 49.5, yaw: Math.PI - .3, speed: .967 },
-    { name: 'starlight_bellied_dancer', x: 2, z: 50.2, yaw: Math.PI + .3, speed: 1.02 },
+    { name: 'starlight_blonde_dancer', x: -2, z: 51.8, yaw: Math.PI - .3, speed: .967 },
+    { name: 'starlight_bellied_dancer', x: 2, z: 52.5, yaw: Math.PI + .3, speed: 1.02 },
 ] as const;
 
 class DiscoBehavior extends NpcIdleBehavior {

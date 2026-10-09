@@ -9,8 +9,10 @@ try { for (const mobile of [false, true]) {
     const page = await browser.newPage(mobile ? { ...devices['iPhone 14'] } : { viewport: { width: 1280, height: 900 } });
     const errors = [];
     page.on('pageerror', error => errors.push(error.message));
+    const loaded = page.waitForEvent('console', { predicate: m => m.text().includes('Player controls disabled - waiting for Play button'), timeout: 120000 });
     await page.goto(`http://localhost:${gamePort}/`);
     await page.waitForFunction(() => window.gameTemplate?.getGameEngine()?.genreModule?.slotMachine?.body, null, { timeout: 90000 });
+    await loaded; await page.waitForTimeout(500);
     await startVoyage(page);
     const state = () => page.evaluate(() => {
         const g = window.gameTemplate.getGameEngine().genreModule;
@@ -30,7 +32,7 @@ try { for (const mobile of [false, true]) {
         else { await page.keyboard.down('KeyE'); await page.waitForTimeout(100); await page.keyboard.up('KeyE'); }
         await page.waitForTimeout(250);
     };
-    await place(0,.1,46);
+    await place(0,.1,52.5);
     // Set up the existing post-check-in tour with only the disco objective left.
     await page.evaluate(() => {
         const e = window.gameTemplate.getGameEngine(), g = e.genreModule;
@@ -76,12 +78,12 @@ try { for (const mobile of [false, true]) {
     if (!mobile) {
         await page.keyboard.down('KeyW'); await page.waitForTimeout(250); await page.keyboard.up('KeyW');
         assert.equal((await state()).active, false, 'Walking stops the dance');
-        await place(0,.1,46); await toggle();
+        await place(0,.1,52.5); await toggle();
     }
     await place(0,.1,30);
     assert.equal((await state()).active, false);
     if (!mobile) { await toggle(); assert.equal((await state()).active, false); }
-    await place(0,.1,46); await toggle();
+    await place(0,.1,52.5); await toggle();
     await page.evaluate(() => { window.gameTemplate.getGameEngine().genreModule.energy.amount = 0; });
     await page.waitForTimeout(250);
     assert.equal((await state()).active, false);

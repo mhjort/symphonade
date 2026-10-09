@@ -150,34 +150,6 @@
         "color": "#536f7b"
       },
       {
-        "id": "Sea View Lounge -8.5",
-        "position": {
-          "x": -8.5,
-          "y": 4.55,
-          "z": 60
-        },
-        "rotationY": 0,
-        "width": 1.6,
-        "height": 2.3,
-        "thickness": 0.1,
-        "kind": "plain",
-        "animation": "slide"
-      },
-      {
-        "id": "Sea View Lounge 8.5",
-        "position": {
-          "x": 8.5,
-          "y": 4.55,
-          "z": 60
-        },
-        "rotationY": 0,
-        "width": 1.6,
-        "height": 2.3,
-        "thickness": 0.1,
-        "kind": "plain",
-        "animation": "slide"
-      },
-      {
         "id": "Boarding left door",
         "position": {
           "x": -14.7,
@@ -706,16 +678,16 @@
     },
     {
       "id": "ship-base",
-      "name": "Ship structure",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301706693-ship-base.glb",
+      "name": "Ship base",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791546599990-ship-base.glb",
       "type": "glb",
-      "size": 31137796,
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301706693-ship-base.glb",
+      "size": 31137808,
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791546599990-ship-base.glb",
       "targetHeight": 56.619734,
       "production": {
         "method": "uploaded",
-        "at": "2026-10-06T15:48:29.646Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301706693-ship-base.glb",
+        "at": "2026-10-09T11:50:02.545Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791546599990-ship-base.glb",
         "sourceName": "ship-base.glb"
       }
     },
@@ -752,17 +724,17 @@
     {
       "id": "ship-starlight",
       "name": "Starlight",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301556387-ship-starlight.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791547831979-ship-starlight.glb",
       "type": "glb",
-      "size": 2427332,
+      "size": 2758648,
       "production": {
         "method": "uploaded",
-        "at": "2026-10-06T15:45:58.365Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301556387-ship-starlight.glb",
+        "at": "2026-10-09T12:10:33.447Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791547831979-ship-starlight.glb",
         "sourceName": "ship-starlight.glb"
       },
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791301556387-ship-starlight.glb",
-      "targetHeight": 6.615
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791547831979-ship-starlight.glb",
+      "targetHeight": 6.655
     },
     {
       "id": "troubadour-acoustic",
@@ -1209,6 +1181,32 @@
       "type": "character",
       "prompt": "A slim adult woman working as a restaurant host (maître d'): dark hair in a neat low bun, narrow face, crisp white blouse under a fitted navy waistcoat, small burgundy neck scarf, name badge, dark navy trousers and black low shoes. Softly blocky, gently bevelled low-poly style, neutral standing pose, empty hands.",
       "source": "generated"
+    },
+    {
+      "id": "starlight-roulette-table",
+      "name": "Starlight roulette table",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791547370210-Starlight roulette table.glb",
+      "type": "glb",
+      "size": 235320,
+      "production": {
+        "method": "generated",
+        "at": "2026-10-09T12:02:51.008Z",
+        "prompt": "One elegant low-poly casino roulette table for a 1990s Baltic cruise ferry lounge. Full freestanding elongated oval table, polished dark walnut pedestal base and curved mahogany outer rail, brass trim, rich emerald green felt betting board on one side, a clearly recognizable inset wooden roulette wheel with red and black pockets and brass spindle at the other end. Accurate believable tabletop proportions about 3.2 metres long by 1.6 metres wide by 1.05 metres high. Cream padded rim. The table only, no chairs, no people, no room, no surrounding floor, no overhead sign. Clean stylised polygon geometry, premium finish, not voxel blocks.",
+        "sourceUrl": "https://forged-assets.bitmagic.ai/CCASOUDE/output.glb"
+      },
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791547370210-Starlight roulette table.glb",
+      "targetHeight": 1.05,
+      "description": "One elegant low-poly casino roulette table for a 1990s Baltic cruise ferry lounge. Full freestanding elongated oval table, polished dark walnut pedestal base and curved mahogany outer rail, brass trim, rich emerald green felt betting board on one side, a clearly recognizable inset wooden roulette wheel with red and black pockets and brass spindle at the other end. Accurate believable tabletop proportions about 3.2 metres long by 1.6 metres wide by 1.05 metres high. Cream padded rim. The table only, no chairs, no people, no room, no surrounding floor, no overhead sign. Clean stylised polygon geometry, premium finish, not voxel blocks."
+    },
+    {
+      "id": "13ce90e5-ea60-48ff-bbc6-bd79e4b48459",
+      "name": "Close-up casino roulette wheel spinning with an ivory ball rolling rapidly around a polished wooden rim, dry mechanical whir and light rattling clicks that gradually slow down, ending with a few distinct ball bounces and a soft final pocket clack. No speech, no music, no ambience.",
+      "url": "https://forged-assets.bitmagic.ai/sound-effects/13ce90e5-ea60-48ff-bbc6-bd79e4b48459/sound-effect.opus",
+      "type": "audio",
+      "format": "opus",
+      "prompt": "Close-up casino roulette wheel spinning with an ivory ball rolling rapidly around a polished wooden rim, dry mechanical whir and light rattling clicks that gradually slow down, ending with a few distinct ball bounces and a soft final pocket clack. No speech, no music, no ambience.",
+      "source": "generated",
+      "size": 88782
     }
   ],
   "environmentObjects": [],

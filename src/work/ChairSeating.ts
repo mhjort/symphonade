@@ -82,7 +82,9 @@ export class ChairSeating {
             else if (/^CoffeeCo/.test(name)) point.y = centerY - height / 2 + height - .58 + .0375;
             else point.y += .01;
             const forward = new THREE.Vector3(0, 0, 1);
-            if (/Starlight/.test(name)) forward.set(-Math.sign(point.x), 0, 0);
+            const authoredSeat = shipLevel.extras.starlightSeats.find(seat => seat.name === name);
+            if (authoredSeat) forward.fromArray(authoredSeat.forward);
+            else if (/Starlight/.test(name)) forward.set(-Math.sign(point.x), 0, 0);
             else if (!/Sea View/.test(name)) {
                 const back = shipLevel.colliders.find(c => c.name === name.replace('chair seat', 'chair back'));
                 if (back?.position && back.name !== name) forward.copy(point).sub(new THREE.Vector3(...back.position)).setY(0).normalize();

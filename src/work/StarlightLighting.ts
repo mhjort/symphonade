@@ -73,7 +73,7 @@ export class StarlightLighting {
             const phase = this.time * 0.28 + index * 1.7;
             const stageWash = index === 0 || index === 4;
             const x = stageWash ? (index === 0 ? -2.6 : 2.6) : Math.sin(phase) * 3.1;
-            const z = stageWash ? 57.2 : 47.5 + Math.cos(phase * 0.7 + index) * 3.2;
+            const z = stageWash ? 57.2 : 52.2 + Math.cos(phase * 0.7 + index) * 1.3;
             spot.target.position.set(x, stageWash ? 0.57 : 0.055, z);
             this.direction.subVectors(spot.position, spot.target.position);
             const length = this.direction.length();
