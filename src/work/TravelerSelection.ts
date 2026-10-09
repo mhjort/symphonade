@@ -67,12 +67,15 @@ export class TravelerSelection {
             .traveler-selection { box-sizing:border-box; width:min(980px,96vw); max-height:94dvh;
                 margin:auto; padding:clamp(16px,3vw,32px); border:0; border-radius:var(--hud-radius-card);
                 background:var(--hud-color-background); color:var(--hud-color-text);
-                font-family:var(--hud-font-family); overflow:auto; }
+                font-family:var(--hud-font-family); overflow:hidden; }
+            .traveler-selection[open] { display:flex; flex-direction:column; }
+            .traveler-selection > h1,.traveler-selection > p,.traveler-selection > .traveler-modes { flex-shrink:0; }
             .traveler-selection::backdrop { background:color-mix(in srgb,var(--hud-color-background) 88%,transparent); }
             .traveler-selection h1 { font-size:clamp(24px,4vw,36px); margin:0 0 6px; }
             .traveler-selection p { line-height:1.45; }
             .traveler-selection .traveler-intro { margin:0 0 20px; color:var(--hud-color-text-muted); }
-            .traveler-layout { display:grid; grid-template-columns:1fr 1.1fr; gap:28px; }
+            .traveler-layout { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.1fr); gap:28px;
+                min-height:0; overflow:auto; overscroll-behavior:contain; }
             .traveler-list { display:grid; grid-template-columns:1fr 1fr; gap:10px; align-content:start; }
             .traveler-selection button { min-height:52px; padding:12px; cursor:pointer; font:inherit;
                 border:2px solid transparent; border-radius:var(--hud-radius-card);
@@ -83,7 +86,7 @@ export class TravelerSelection {
             .traveler-choice { text-align:left; }
             .traveler-choice strong,.traveler-choice span { display:block; }
             .traveler-choice span { font-size:13px; margin-top:5px; }
-            .traveler-preview { height:310px; border-radius:var(--hud-radius-card); overflow:hidden;
+            .traveler-preview { height:clamp(140px,calc(100dvh - 390px),310px); border-radius:var(--hud-radius-card); overflow:hidden;
                 background:var(--hud-color-surface); }
             .traveler-preview canvas { display:block; width:100%; height:100%; }
             .traveler-details h2 { margin:14px 0 0; font-size:24px; }
@@ -91,7 +94,7 @@ export class TravelerSelection {
             .traveler-stats { display:flex; gap:12px; margin:14px 0; }
             .traveler-stats span { background:var(--hud-color-surface); color:var(--hud-color-on-surface);
                 padding:10px 14px; border-radius:var(--hud-radius-card); font-weight:var(--hud-font-weight-heading); }
-            .traveler-modes { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+            .traveler-modes { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:12px; }
             .traveler-selection .traveler-board { width:100%; background:var(--hud-color-primary); color:var(--hud-color-on-primary); }
             /* Board solo carries .hud-play-button so tools that press the game's Play button
                (bitmagic verify) board through this screen; keep the engine's Play styling off it. */
@@ -104,6 +107,17 @@ export class TravelerSelection {
                 background:var(--hud-color-primary); color:var(--hud-color-on-primary); vertical-align:middle; }
             .traveler-status { min-height:22px; font-size:14px; }
             .traveler-note { font-size:13px; color:var(--hud-color-text-muted); }
+            @media(min-width:601px) and (max-height:700px) {
+                .traveler-selection { padding:16px; }
+                .traveler-selection h1 { font-size:26px; }
+                .traveler-selection .traveler-intro { margin-bottom:12px; }
+                .traveler-layout { gap:18px; }
+                .traveler-selection button { padding:8px; }
+                .traveler-details h2 { margin-top:8px; font-size:20px; }
+                .traveler-details p { margin:6px 0; font-size:14px; }
+                .traveler-stats { margin:8px 0; }
+                .traveler-stats span { padding:6px 10px; }
+            }
             @media(max-width:600px) {
                 .traveler-selection { padding:14px; }
                 .traveler-selection h1 { font-size:24px; }
@@ -118,7 +132,6 @@ export class TravelerSelection {
                 .traveler-stats span { padding:8px 12px; }
                 .traveler-selection .traveler-intro { margin-bottom:10px; font-size:13px; }
                 .traveler-note { display:none; }
-                .traveler-modes { position:sticky; bottom:0; }
             }`;
         document.head.append(this.style);
         this.dialog.className = 'traveler-selection';
@@ -130,9 +143,9 @@ export class TravelerSelection {
             <div class="traveler-details"><div class="traveler-preview" role="img" aria-label="Full-body traveler preview"></div>
             <h2></h2><p class="traveler-description"></p><div class="traveler-stats"></div>
             <p class="traveler-status" role="status" aria-live="polite"></p>
-            <button class="traveler-retry" hidden>Retry preview</button>
+            <button class="traveler-retry" hidden>Retry preview</button></div></div>
             <div class="traveler-modes"><button class="traveler-board hud-play-button" disabled>Board solo</button>
-            <button class="traveler-multiplayer" aria-disabled="true">Multiplayer <span class="traveler-soon">Coming soon</span></button></div></div></div>`;
+            <button class="traveler-multiplayer" aria-disabled="true">Multiplayer <span class="traveler-soon">Coming soon</span></button></div>`;
         for (const traveler of TRAVELERS) {
             const button = document.createElement('button');
             button.className = 'traveler-choice';

@@ -23,6 +23,7 @@ try {
    await page.goto(`http://localhost:${gamePort}/`);
    await page.waitForFunction(()=>window.gameTemplate?.getGameEngine()?.genreModule?.travelerSelection,null,{timeout:120000});
    await page.locator('dialog[open]').waitFor();
+   await page.waitForFunction(()=>window.gameTemplate.getGameEngine().gameStateManager.getCurrentState() !== 'loading');
    assert.equal(await page.locator('[data-traveler]').count(),6);
    const state=()=>page.evaluate(()=>{
     const e=window.gameTemplate.getGameEngine(),g=e.genreModule,p=e.getPlayerController();
