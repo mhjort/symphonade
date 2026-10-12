@@ -31,7 +31,7 @@ try {
      cameraMask:e.camera.layers.mask,mirrorMask:active[0]?.camera(e.camera).layers.mask};
    });
    console.log(renderer,mobile?'mobile':'desktop',state);
-   assert.equal(state.count,18);assert.equal(state.active,1);assert.equal(state.visible,true);
+   assert.equal(state.count,36);assert.equal(state.active,1);assert.equal(state.visible,true);
    assert.ok(state.skins>0);assert.equal(state.original,false);
    assert.equal(state.reflectionId,state.id);
    assert.equal(state.cameraMask & (1<<29),0);assert.ok(state.mirrorMask & (1<<29));

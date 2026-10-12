@@ -8,7 +8,7 @@ import { KinematicPlatform, DEFAULT_KINEMATIC_PLATFORM_OPTIONS } from 'engine/Ki
 import { DungeonDoor } from 'engine/doors/DungeonDoor.js';
 import { Keyring } from 'engine/doors/Keyring.js';
 
-type Floor = 0 | 1;
+type Floor = 0 | 1 | 2;
 type Phase = 'docked' | 'closing' | 'moving';
 type LandingGate = Pick<DungeonDoor, 'open' | 'close' | 'getState' | 'dispose'>;
 
@@ -16,11 +16,12 @@ type LandingGate = Pick<DungeonDoor, 'open' | 'close' | 'getState' | 'dispose'>;
 class PanoramaLift {
     private readonly scene: THREE.Scene;
     readonly floorMesh: THREE.Mesh;
-    readonly gates: [LandingGate, LandingGate];
+    readonly gates: [LandingGate, LandingGate, LandingGate];
     readonly movers: KinematicPlatform[] = [];
     readonly x: number;
     readonly z: number;
-    readonly levels: [number, number];
+    readonly levels: [number, number, number];
+    private travelDirection: 1 | -1 = 1;
     readonly width: number;
     readonly depth: number;
     readonly gateOffset: number;
@@ -54,7 +55,7 @@ class PanoramaLift {
         };
         this.x = spec.position?.x ?? 0;
         this.z = spec.position?.z ?? 0;
-        this.levels = [num('lowerFloor'), num('upperFloor')];
+        this.levels = [num('lowerFloor'), num('upperFloor'), num('topFloor')];
         this.width = num('width'); this.depth = num('depth');
         this.carHeight = num('carHeight'); this.floorThickness = num('floorThickness');
         this.doorWidth = num('doorWidth'); this.gateOffset = num('gateOffset');
@@ -216,14 +217,14 @@ class PanoramaLift {
                 dispose: () => leaves.forEach(leaf => leaf.dispose()),
             };
         };
-        this.gates = [gate(0), gate(1)];
+        this.gates = [gate(0), gate(1), gate(2)];
         this.gates[0].open();
 
         this.canvas = document.createElement('canvas'); this.canvas.width = 256; this.canvas.height = 128;
         this.display = new THREE.CanvasTexture(this.canvas); this.display.colorSpace = THREE.SRGBColorSpace;
         const screenMaterial = new THREE.MeshBasicMaterial({ map: this.display }); this.materials.push(screenMaterial);
         const displayGeometry = new THREE.PlaneGeometry(.66, .33); this.geometries.push(displayGeometry);
-        for (const floor of [0, 1] as const) {
+        for (const floor of [0, 1, 2] as const) {
             const screen = new THREE.Mesh(displayGeometry, screenMaterial);
             screen.position.copy(this.worldPoint(0, this.levels[floor] + 2.92, this.gateOffset + .10));
             screen.rotation.y = this.yaw;
@@ -245,7 +246,7 @@ class PanoramaLift {
         mesh.rotation.y += this.yaw;
         return new KinematicPlatform(engine, {
             ...DEFAULT_KINEMATIC_PLATFORM_OPTIONS, mesh,
-            waypoints: this.levels.map(y => this.worldPoint(dx, y + offset, dz)),
+            waypoints: [this.levels[0], this.levels[2]].map(y => this.worldPoint(dx, y + offset, dz)),
             speed: this.speed, returnSpeed: this.speed, loop: 'pingpong', trigger: 'always', dwellS: 0,
         });
     }
@@ -262,7 +263,7 @@ class PanoramaLift {
     get height(): number { return this.floorMesh.position.y + this.floorThickness / 2; }
     near(p: THREE.Vector3): boolean {
         const local = this.localPoint(p);
-        return Math.abs(local.x) < 1.8 && local.z > -1.5 && local.z < this.gateOffset + 1.8 && p.y > -.5 && p.y < this.levels[1] + .7;
+        return Math.abs(local.x) < 1.8 && local.z > -1.5 && local.z < this.gateOffset + 1.8 && p.y > -.5 && p.y < this.levels[2] + .7;
     }
     inside(p: THREE.Vector3): boolean {
         const local = this.localPoint(p);
@@ -272,16 +273,22 @@ class PanoramaLift {
         const local = this.localPoint(p);
         return Math.abs(local.x) < this.doorWidth / 2 + .3 && Math.abs(local.z - this.gateOffset) < .6 && Math.abs(p.y - this.levels[this.floor]) < 1.3;
     }
+    floorAt(p: THREE.Vector3): Floor {
+        return p.y > (this.levels[1] + this.levels[2]) / 2 ? 2 : p.y > (this.levels[0] + this.levels[1]) / 2 ? 1 : 0;
+    }
+    private nextFloor(): Floor {
+        return this.floor === 0 ? 1 : this.floor === 2 ? 1 : this.travelDirection > 0 ? 2 : 0;
+    }
     request(p: THREE.Vector3): void {
         if (this.phase !== 'docked') return;
-        const requested: Floor = this.inside(p) ? (this.floor === 0 ? 1 : 0) : (p.y > 2 ? 1 : 0);
+        const requested: Floor = this.inside(p) ? this.nextFloor() : this.floorAt(p);
         if (requested === this.floor) { this.gates[this.floor].open(); return; }
         this.target = requested; this.phase = 'closing'; this.clearTime = 0;
     }
     update(dt: number, p: THREE.Vector3): void {
         let travelDt = 0;
         if (this.phase === 'docked') {
-            this.gates[this.floor === 0 ? 1 : 0].close();
+            this.gates.forEach((gate, index) => { if (index !== this.floor) gate.close(); });
             if (this.near(p) && Math.abs(p.y - this.height) < 1.3) this.gates[this.floor].open();
             else if (!this.thresholdBlocked(p)) this.gates[this.floor].close();
         } else if (this.phase === 'closing') {
@@ -298,10 +305,18 @@ class PanoramaLift {
                 }
             }
         } else {
-            const remaining = Math.abs(this.levels[this.target] - this.height);
+            // Engine platforms follow a ping-pong shaft path. A call behind the
+            // current direction rides through the end before returning; all
+            // intermediate landing gates remain interlocked.
+            const targetY = this.levels[this.target];
+            const ahead = (targetY - this.height) * this.travelDirection > 0;
+            const nextY = ahead ? targetY : this.levels[this.travelDirection > 0 ? 2 : 0];
+            const remaining = Math.abs(nextY - this.height);
             travelDt = Math.min(dt, remaining / this.speed);
         }
         for (const mover of this.movers) mover.update(travelDt);
+        if (this.height >= this.levels[2] - .0001) this.travelDirection = -1;
+        if (this.height <= this.levels[0] + .0001) this.travelDirection = 1;
         if (this.phase === 'moving' && Math.abs(this.height - this.levels[this.target]) < .0001) {
             this.floor = this.target; this.phase = 'docked';
             this.sounds.play('liftArrival', this.worldPoint(0, this.height + 1, 0));
@@ -312,12 +327,12 @@ class PanoramaLift {
     hint(p: THREE.Vector3): string {
         if (this.phase === 'moving') return `Lift → Deck ${this.target + 7}`;
         if (this.phase === 'closing') return this.thresholdBlocked(p) ? 'Clear the doorway to depart' : 'Doors closing';
-        if (this.inside(p)) return `Travel to deck ${this.floor === 0 ? 8 : 7}`;
-        const here = p.y > 2 ? 1 : 0;
+        if (this.inside(p)) return `Travel to deck ${this.nextFloor() + 7}`;
+        const here = this.floorAt(p);
         return here === this.floor ? `Deck ${this.floor + 7} · Step inside` : 'Call elevator';
     }
     private renderIndicator(): void {
-        const text = this.phase === 'moving' ? `${this.target === 1 ? '↑' : '↓'} ${this.target + 7}` : `${this.floor + 7}`;
+        const text = this.phase === 'moving' ? `${this.travelDirection > 0 ? '↑' : '↓'} ${this.target + 7}` : `${this.floor + 7}`;
         if (text === this.displayText) return;
         this.displayText = text;
         const c = this.canvas.getContext('2d'); if (!c) return;
@@ -349,7 +364,7 @@ export class PromenadeElevators {
                 anchor.position.set(lift.x, height + .5, lift.z);
                 const eligible = () => lift.near(player.getPosition()) && Math.abs(player.getPosition().y - height) < 1.3;
                 const actionable = () => lift.phase === 'docked' &&
-                    (lift.inside(player.getPosition()) || (player.getPosition().y > 2 ? 1 : 0) !== lift.floor);
+                    (lift.inside(player.getPosition()) || lift.floorAt(player.getPosition()) !== lift.floor);
                 this.interactions.push(new InteractableComponent(engine.physicsWorld, {
                     object3D: anchor, radius: lift.depth + 2,
                     interactable: {

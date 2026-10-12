@@ -64,19 +64,34 @@
       "yaw": 0.0
     },
     {
-      "name": "Cabin 8411 wall above",
+      "name": "Cabin 8411 wall above deck9 cut 0",
       "shape": "box",
       "position": [
         6.0,
-        13.850000000000001,
+        6.825,
         14.0
       ],
       "size": [
-        0.3,
-        14.500000000000002,
+        0.3000000000000007,
+        0.4499999999999993,
         3.0
       ],
-      "yaw": 0.0
+      "yaw": 0
+    },
+    {
+      "name": "Cabin 8411 wall above deck9 cut 1",
+      "shape": "box",
+      "position": [
+        6.0,
+        15.675,
+        14.0
+      ],
+      "size": [
+        0.3000000000000007,
+        10.850000000000001,
+        3.0
+      ],
+      "yaw": 0
     },
     {
       "name": "Cafe port",
@@ -1495,7 +1510,7 @@
       "yaw": 0.0
     },
     {
-      "name": "Starlight roof",
+      "name": "Starlight roof deck9 cut 0",
       "shape": "box",
       "position": [
         0.0,
@@ -1503,11 +1518,41 @@
         48.0
       ],
       "size": [
-        20.4,
+        19.8,
         0.25,
-        24.4
+        24.400000000000006
       ],
-      "yaw": 0.0
+      "yaw": 0
+    },
+    {
+      "name": "Starlight roof deck9 cut 1",
+      "shape": "box",
+      "position": [
+        10.05,
+        6.725,
+        48.2
+      ],
+      "size": [
+        0.29999999999999893,
+        0.25,
+        24.0
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Starlight roof deck9 cut 2",
+      "shape": "box",
+      "position": [
+        -10.05,
+        6.725,
+        48.2
+      ],
+      "size": [
+        0.29999999999999893,
+        0.25,
+        24.0
+      ],
+      "yaw": 0
     },
     {
       "name": "Starlight outer port lower",
@@ -1540,19 +1585,49 @@
       "yaw": 0.0
     },
     {
-      "name": "Starlight upper aft -1",
+      "name": "Starlight upper aft -1 deck9 cut 0",
       "shape": "box",
       "position": [
-        -10.0,
+        -9.875,
         5.0,
         38.45
       ],
       "size": [
-        0.3,
-        3.1999999999999997,
-        4.899999999999999
+        0.05000000000000071,
+        3.1999999999999993,
+        4.900000000000006
       ],
-      "yaw": 0.0
+      "yaw": 0
+    },
+    {
+      "name": "Starlight upper aft -1 deck9 cut 1",
+      "shape": "box",
+      "position": [
+        -10.025,
+        4.99,
+        38.45
+      ],
+      "size": [
+        0.25,
+        3.1799999999999997,
+        4.900000000000006
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Starlight upper aft -1 deck9 cut 2",
+      "shape": "box",
+      "position": [
+        -10.025,
+        6.59,
+        38.550000000000004
+      ],
+      "size": [
+        0.25,
+        0.019999999999999574,
+        4.700000000000003
+      ],
+      "yaw": 0
     },
     {
       "name": "Starlight sea glazing -1 0 sill",
@@ -3475,34 +3550,124 @@
       "yaw": 1.5707963267948966
     },
     {
-      "name": "Forward bulkhead upper left",
+      "name": "Forward bulkhead upper left deck9 cut 0",
       "shape": "box",
       "position": [
-        -3.55,
+        -3.4,
         12.249999999999998,
         36.0
       ],
       "size": [
-        0.3,
+        4.6000000000000005,
         17.7,
-        4.9
+        0.29999999999999716
       ],
-      "yaw": 1.5707963267948966
+      "yaw": 0
     },
     {
-      "name": "Forward bulkhead upper right",
+      "name": "Forward bulkhead upper left deck9 cut 1",
       "shape": "box",
       "position": [
-        3.5500000000000007,
+        -5.85,
+        5.225,
+        36.0
+      ],
+      "size": [
+        0.2999999999999998,
+        3.6500000000000012,
+        0.29999999999999716
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Forward bulkhead upper left deck9 cut 2",
+      "shape": "box",
+      "position": [
+        -5.85,
+        15.399999999999999,
+        36.0
+      ],
+      "size": [
+        0.2999999999999998,
+        11.399999999999999,
+        0.29999999999999716
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Forward bulkhead upper left deck9 cut 3",
+      "shape": "box",
+      "position": [
+        -5.85,
+        8.375,
+        36.025
+      ],
+      "size": [
+        0.2999999999999998,
+        2.6499999999999995,
+        0.25
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Forward bulkhead upper right deck9 cut 0",
+      "shape": "box",
+      "position": [
+        3.4000000000000004,
         12.249999999999998,
         36.0
       ],
       "size": [
-        0.3,
+        4.6,
         17.7,
-        4.9
+        0.29999999999999716
       ],
-      "yaw": 1.5707963267948966
+      "yaw": 0
+    },
+    {
+      "name": "Forward bulkhead upper right deck9 cut 1",
+      "shape": "box",
+      "position": [
+        5.8500000000000005,
+        5.225,
+        36.0
+      ],
+      "size": [
+        0.3000000000000007,
+        3.6500000000000012,
+        0.29999999999999716
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Forward bulkhead upper right deck9 cut 2",
+      "shape": "box",
+      "position": [
+        5.8500000000000005,
+        15.399999999999999,
+        36.0
+      ],
+      "size": [
+        0.3000000000000007,
+        11.399999999999999,
+        0.29999999999999716
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Forward bulkhead upper right deck9 cut 3",
+      "shape": "box",
+      "position": [
+        5.8500000000000005,
+        8.375,
+        36.025
+      ],
+      "size": [
+        0.3000000000000007,
+        2.6499999999999995,
+        0.25
+      ],
+      "yaw": 0
     },
     {
       "name": "Forward bulkhead upper lintel",
@@ -4377,17 +4542,47 @@
       "yaw": 0
     },
     {
-      "name": "Bon Vivant entrance wall left cabin cut 1",
+      "name": "Bon Vivant entrance wall left cabin cut 1 deck9 cut 0",
       "shape": "box",
       "position": [
         6.0,
-        13.850000000000001,
+        6.825,
         -9.3
       ],
       "size": [
         0.3000000000000007,
-        14.500000000000002,
-        3.3999999999999995
+        0.4499999999999993,
+        3.3999999999999986
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Bon Vivant entrance wall left cabin cut 1 deck9 cut 1",
+      "shape": "box",
+      "position": [
+        6.0,
+        15.675,
+        -9.3
+      ],
+      "size": [
+        0.3000000000000007,
+        10.850000000000001,
+        3.3999999999999986
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Bon Vivant entrance wall left cabin cut 1 deck9 cut 2",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.65,
+        -10.754999999999999
+      ],
+      "size": [
+        0.3000000000000007,
+        3.2,
+        0.4900000000000002
       ],
       "yaw": 0
     },
@@ -4422,17 +4617,62 @@
       "yaw": 0
     },
     {
-      "name": "Bon Vivant entrance wall right cabin cut 1",
+      "name": "Bon Vivant entrance wall right cabin cut 1 deck9 cut 0",
       "shape": "box",
       "position": [
         6.0,
-        13.850000000000001,
+        6.825,
         -1.6999999999999993
       ],
       "size": [
         0.3000000000000007,
-        14.500000000000002,
+        0.4499999999999993,
         5.4
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Bon Vivant entrance wall right cabin cut 1 deck9 cut 1",
+      "shape": "box",
+      "position": [
+        6.0,
+        15.675,
+        -1.6999999999999993
+      ],
+      "size": [
+        0.3000000000000007,
+        10.850000000000001,
+        5.4
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Bon Vivant entrance wall right cabin cut 1 deck9 cut 2",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.65,
+        -3.0
+      ],
+      "size": [
+        0.3000000000000007,
+        3.2,
+        0.9800000000000004
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Bon Vivant entrance wall right cabin cut 1 deck9 cut 3",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.65,
+        0.7550000000000004
+      ],
+      "size": [
+        0.3000000000000007,
+        3.2,
+        0.4900000000000009
       ],
       "yaw": 0
     },
@@ -4482,17 +4722,47 @@
       "yaw": 0
     },
     {
-      "name": "Bon Vivant entrance wall lintel cabin cut 1",
+      "name": "Bon Vivant entrance wall lintel cabin cut 1 deck9 cut 0",
       "shape": "box",
       "position": [
         6.0,
-        13.850000000000001,
+        6.825,
         -6.0
       ],
       "size": [
         0.3000000000000007,
-        14.500000000000002,
+        0.4499999999999993,
         3.1999999999999993
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Bon Vivant entrance wall lintel cabin cut 1 deck9 cut 1",
+      "shape": "box",
+      "position": [
+        6.0,
+        15.675,
+        -6.0
+      ],
+      "size": [
+        0.3000000000000007,
+        10.850000000000001,
+        3.1999999999999993
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Bon Vivant entrance wall lintel cabin cut 1 deck9 cut 2",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.65,
+        -7.0
+      ],
+      "size": [
+        0.3000000000000007,
+        3.2,
+        0.9800000000000004
       ],
       "yaw": 0
     },
@@ -5517,34 +5787,79 @@
       "yaw": 0.0
     },
     {
-      "name": "Foyer roof -1",
+      "name": "Foyer roof -1 deck9 cut 0",
       "shape": "box",
       "position": [
-        -8.0,
+        -8.530000000000001,
         6.725,
         33.1
       ],
       "size": [
-        4.25,
+        2.74,
         0.25,
-        5.95
+        5.950000000000003
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Foyer aft enclosure -1",
+      "name": "Foyer roof -1 deck9 cut 1",
       "shape": "box",
       "position": [
-        -8.0,
+        -6.5175,
+        6.725,
+        30.8375
+      ],
+      "size": [
+        1.2850000000000001,
+        0.25,
+        1.4250000000000007
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer roof -1 deck9 cut 2",
+      "shape": "box",
+      "position": [
+        -6.5175,
+        6.725,
+        35.2625
+      ],
+      "size": [
+        1.2850000000000001,
+        0.25,
+        1.625
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer aft enclosure -1 deck9 cut 0",
+      "shape": "box",
+      "position": [
+        -7.95,
         3.3,
         30.2
       ],
       "size": [
-        0.3,
+        3.9000000000000004,
         6.6,
-        4.0
+        0.29999999999999716
       ],
-      "yaw": -1.5707963267948966
+      "yaw": 0
+    },
+    {
+      "name": "Foyer aft enclosure -1 deck9 cut 1",
+      "shape": "box",
+      "position": [
+        -9.95,
+        3.29,
+        30.2
+      ],
+      "size": [
+        0.09999999999999964,
+        6.58,
+        0.29999999999999716
+      ],
+      "yaw": 0
     },
     {
       "name": "Foyer gallery extension -1",
@@ -5607,79 +5922,259 @@
       "yaw": 0.0
     },
     {
-      "name": "Foyer upper facade -1 30.2",
+      "name": "Foyer upper facade -1 30.2 deck9 cut 0",
       "shape": "box",
       "position": [
         -6.0,
-        13.850000000000001,
+        14.075500000000002,
         30.96
       ],
       "size": [
-        0.3,
-        14.500000000000002,
-        1.5199999999999996
+        0.3000000000000007,
+        14.049000000000001,
+        1.519999999999996
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Foyer upper facade -1 34.28",
+      "name": "Foyer upper facade -1 30.2 deck9 cut 1",
       "shape": "box",
       "position": [
         -6.0,
-        13.850000000000001,
+        6.8255,
+        30.875
+      ],
+      "size": [
+        0.3000000000000007,
+        0.4509999999999996,
+        1.3499999999999979
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer upper facade -1 34.28 deck9 cut 0",
+      "shape": "box",
+      "position": [
+        -6.0,
+        15.4,
         35.14
       ],
       "size": [
-        0.3,
-        14.500000000000002,
+        0.3000000000000007,
+        11.400000000000002,
         1.7199999999999989
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Foyer Port shaft side -1.2",
+      "name": "Foyer upper facade -1 34.28 deck9 cut 1",
       "shape": "box",
       "position": [
-        -6.6,
+        -6.0,
+        8.375499999999999,
+        34.29
+      ],
+      "size": [
+        0.3000000000000007,
+        2.648999999999999,
+        0.01999999999999602
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer upper facade -1 34.28 deck9 cut 2",
+      "shape": "box",
+      "position": [
+        -6.0,
+        8.375499999999999,
+        35.95
+      ],
+      "size": [
+        0.3000000000000007,
+        2.648999999999999,
+        0.10000000000000142
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer upper facade -1 34.28 deck9 cut 3",
+      "shape": "box",
+      "position": [
+        -6.0,
+        6.825,
+        35.225
+      ],
+      "size": [
+        0.3000000000000007,
+        0.4499999999999993,
+        1.5499999999999972
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer upper facade -1 34.28 deck9 cut 4",
+      "shape": "box",
+      "position": [
+        -6.0,
+        7.0504999999999995,
+        35.95
+      ],
+      "size": [
+        0.3000000000000007,
+        0.001000000000000334,
+        0.10000000000000142
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Port shaft side -1.2 deck9 cut 0",
+      "shape": "box",
+      "position": [
+        -7.18,
         10.3,
         31.8
       ],
       "size": [
-        0.08,
+        0.03999999999999915,
         20.6,
-        1.2
+        0.0799999999999983
       ],
-      "yaw": -1.5707963267948966
+      "yaw": 0
     },
     {
-      "name": "Foyer Port shaft side 1.2",
+      "name": "Foyer Port shaft side -1.2 deck9 cut 1",
       "shape": "box",
       "position": [
-        -6.6,
+        -6.58,
+        3.29,
+        31.8
+      ],
+      "size": [
+        1.1600000000000001,
+        6.58,
+        0.0799999999999983
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Port shaft side -1.2 deck9 cut 2",
+      "shape": "box",
+      "position": [
+        -6.58,
+        13.825500000000002,
+        31.8
+      ],
+      "size": [
+        1.1600000000000001,
+        13.549000000000001,
+        0.0799999999999983
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Port shaft side 1.2 deck9 cut 0",
+      "shape": "box",
+      "position": [
+        -7.18,
         10.3,
         34.2
       ],
       "size": [
-        0.08,
+        0.03999999999999915,
         20.6,
-        1.2
+        0.0799999999999983
       ],
-      "yaw": -1.5707963267948966
+      "yaw": 0
     },
     {
-      "name": "Foyer Port shaft back",
+      "name": "Foyer Port shaft side 1.2 deck9 cut 1",
+      "shape": "box",
+      "position": [
+        -6.58,
+        3.29,
+        34.2
+      ],
+      "size": [
+        1.1600000000000001,
+        6.58,
+        0.0799999999999983
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Port shaft side 1.2 deck9 cut 2",
+      "shape": "box",
+      "position": [
+        -6.58,
+        13.825500000000002,
+        34.2
+      ],
+      "size": [
+        1.1600000000000001,
+        13.549000000000001,
+        0.0799999999999983
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Port shaft back deck9 cut 0",
       "shape": "box",
       "position": [
         -7.2,
-        13.700000000000001,
+        6.925000000000001,
         33.0
       ],
       "size": [
-        0.08,
-        13.8,
-        2.4
+        0.08000000000000007,
+        0.2499999999999991,
+        2.400000000000002
       ],
-      "yaw": 0.0
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Port shaft back deck9 cut 1",
+      "shape": "box",
+      "position": [
+        -7.2,
+        15.025,
+        33.0
+      ],
+      "size": [
+        0.08000000000000007,
+        11.150000000000002,
+        2.400000000000002
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Port shaft back deck9 cut 2",
+      "shape": "box",
+      "position": [
+        -7.2,
+        8.25,
+        31.975
+      ],
+      "size": [
+        0.08000000000000007,
+        2.3999999999999995,
+        0.34999999999999787
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Port shaft back deck9 cut 3",
+      "shape": "box",
+      "position": [
+        -7.2,
+        8.25,
+        34.025000000000006
+      ],
+      "size": [
+        0.08000000000000007,
+        2.3999999999999995,
+        0.3500000000000014
+      ],
+      "yaw": 0
     },
     {
       "name": "Foyer Port shaft gate frame 0 left",
@@ -5727,49 +6222,94 @@
       "yaw": 0.0
     },
     {
-      "name": "Foyer Port shaft gate frame 3.4 left",
+      "name": "Foyer Port shaft gate frame 3.4 left deck9 cut 0",
       "shape": "box",
       "position": [
-        -7.2,
+        -7.21,
         5.1,
         31.975
       ],
       "size": [
-        0.12,
-        3.4,
-        0.35
+        0.09999999999999964,
+        3.4000000000000004,
+        0.34999999999999787
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Foyer Port shaft gate frame 3.4 right",
+      "name": "Foyer Port shaft gate frame 3.4 left deck9 cut 1",
       "shape": "box",
       "position": [
-        -7.2,
+        -7.15,
+        4.99,
+        31.975
+      ],
+      "size": [
+        0.019999999999999574,
+        3.1800000000000006,
+        0.34999999999999787
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Port shaft gate frame 3.4 right deck9 cut 0",
+      "shape": "box",
+      "position": [
+        -7.21,
         5.1,
         34.025
       ],
       "size": [
-        0.12,
-        3.4,
-        0.3500000000000001
+        0.09999999999999964,
+        3.4000000000000004,
+        0.3499999999999943
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Foyer Port shaft gate frame 3.4 lintel",
+      "name": "Foyer Port shaft gate frame 3.4 right deck9 cut 1",
       "shape": "box",
       "position": [
-        -7.2,
+        -7.15,
+        4.99,
+        34.025
+      ],
+      "size": [
+        0.019999999999999574,
+        3.1800000000000006,
+        0.3499999999999943
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Port shaft gate frame 3.4 lintel deck9 cut 0",
+      "shape": "box",
+      "position": [
+        -7.21,
         6.3,
         33.0
       ],
       "size": [
-        0.12,
+        0.09999999999999964,
         1.0,
-        1.6999999999999997
+        1.7000000000000028
       ],
-      "yaw": 0.0
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Port shaft gate frame 3.4 lintel deck9 cut 1",
+      "shape": "box",
+      "position": [
+        -7.15,
+        6.1899999999999995,
+        33.0
+      ],
+      "size": [
+        0.019999999999999574,
+        0.7800000000000002,
+        1.7000000000000028
+      ],
+      "yaw": 0
     },
     {
       "name": "Foyer Port shaft cap",
@@ -5967,34 +6507,79 @@
       "yaw": -1.439896632895322
     },
     {
-      "name": "Foyer shaft white pier -1 31.72",
+      "name": "Foyer shaft white pier -1 31.72 deck9 cut 0",
       "shape": "box",
       "position": [
         -6.0,
-        10.55,
+        3.29,
         31.72
       ],
       "size": [
-        0.3,
-        21.1,
+        0.3000000000000007,
+        6.58,
         0.1599999999999966
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Foyer shaft white pier -1 34.28",
+      "name": "Foyer shaft white pier -1 31.72 deck9 cut 1",
       "shape": "box",
       "position": [
         -6.0,
-        10.55,
+        14.075500000000002,
+        31.72
+      ],
+      "size": [
+        0.3000000000000007,
+        14.049000000000001,
+        0.1599999999999966
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer shaft white pier -1 34.28 deck9 cut 0",
+      "shape": "box",
+      "position": [
+        -6.0,
+        3.29,
         34.28
       ],
       "size": [
-        0.3,
-        21.1,
+        0.3000000000000007,
+        6.58,
         0.1599999999999966
       ],
-      "yaw": 0.0
+      "yaw": 0
+    },
+    {
+      "name": "Foyer shaft white pier -1 34.28 deck9 cut 1",
+      "shape": "box",
+      "position": [
+        -6.0,
+        15.4,
+        34.28
+      ],
+      "size": [
+        0.3000000000000007,
+        11.400000000000002,
+        0.1599999999999966
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer shaft white pier -1 34.28 deck9 cut 2",
+      "shape": "box",
+      "position": [
+        -6.0,
+        8.375499999999999,
+        34.25
+      ],
+      "size": [
+        0.3000000000000007,
+        2.648999999999999,
+        0.09999999999999432
+      ],
+      "yaw": 0
     },
     {
       "name": "Foyer rear floor 1 0",
@@ -6057,34 +6642,79 @@
       "yaw": 0.0
     },
     {
-      "name": "Foyer roof 1",
+      "name": "Foyer roof 1 deck9 cut 0",
       "shape": "box",
       "position": [
-        8.0,
+        8.530000000000001,
         6.725,
         33.1
       ],
       "size": [
-        4.25,
+        2.74,
         0.25,
-        5.95
+        5.950000000000003
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Foyer aft enclosure 1",
+      "name": "Foyer roof 1 deck9 cut 1",
       "shape": "box",
       "position": [
-        8.0,
+        6.5175,
+        6.725,
+        30.8375
+      ],
+      "size": [
+        1.2850000000000001,
+        0.25,
+        1.4250000000000007
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer roof 1 deck9 cut 2",
+      "shape": "box",
+      "position": [
+        6.5175,
+        6.725,
+        35.2625
+      ],
+      "size": [
+        1.2850000000000001,
+        0.25,
+        1.625
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer aft enclosure 1 deck9 cut 0",
+      "shape": "box",
+      "position": [
+        7.95,
         3.3,
         30.2
       ],
       "size": [
-        0.3,
+        3.9000000000000004,
         6.6,
-        4.0
+        0.29999999999999716
       ],
-      "yaw": 1.5707963267948966
+      "yaw": 0
+    },
+    {
+      "name": "Foyer aft enclosure 1 deck9 cut 1",
+      "shape": "box",
+      "position": [
+        9.95,
+        3.29,
+        30.2
+      ],
+      "size": [
+        0.09999999999999964,
+        6.58,
+        0.29999999999999716
+      ],
+      "yaw": 0
     },
     {
       "name": "Foyer gallery extension 1",
@@ -6147,79 +6777,259 @@
       "yaw": 0.0
     },
     {
-      "name": "Foyer upper facade 1 30.2",
+      "name": "Foyer upper facade 1 30.2 deck9 cut 0",
       "shape": "box",
       "position": [
         6.0,
-        13.850000000000001,
+        14.075500000000002,
         30.96
       ],
       "size": [
-        0.3,
-        14.500000000000002,
-        1.5199999999999996
+        0.3000000000000007,
+        14.049000000000001,
+        1.519999999999996
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Foyer upper facade 1 34.28",
+      "name": "Foyer upper facade 1 30.2 deck9 cut 1",
       "shape": "box",
       "position": [
         6.0,
-        13.850000000000001,
+        6.8255,
+        30.875
+      ],
+      "size": [
+        0.3000000000000007,
+        0.4509999999999996,
+        1.3499999999999979
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer upper facade 1 34.28 deck9 cut 0",
+      "shape": "box",
+      "position": [
+        6.0,
+        15.4,
         35.14
       ],
       "size": [
-        0.3,
-        14.500000000000002,
+        0.3000000000000007,
+        11.400000000000002,
         1.7199999999999989
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Foyer Starboard shaft side -1.2",
+      "name": "Foyer upper facade 1 34.28 deck9 cut 1",
       "shape": "box",
       "position": [
-        6.6,
+        6.0,
+        8.375499999999999,
+        34.29
+      ],
+      "size": [
+        0.3000000000000007,
+        2.648999999999999,
+        0.01999999999999602
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer upper facade 1 34.28 deck9 cut 2",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.375499999999999,
+        35.95
+      ],
+      "size": [
+        0.3000000000000007,
+        2.648999999999999,
+        0.10000000000000142
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer upper facade 1 34.28 deck9 cut 3",
+      "shape": "box",
+      "position": [
+        6.0,
+        6.825,
+        35.225
+      ],
+      "size": [
+        0.3000000000000007,
+        0.4499999999999993,
+        1.5499999999999972
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer upper facade 1 34.28 deck9 cut 4",
+      "shape": "box",
+      "position": [
+        6.0,
+        7.0504999999999995,
+        35.95
+      ],
+      "size": [
+        0.3000000000000007,
+        0.001000000000000334,
+        0.10000000000000142
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Starboard shaft side -1.2 deck9 cut 0",
+      "shape": "box",
+      "position": [
+        7.18,
         10.3,
         34.2
       ],
       "size": [
-        0.08,
+        0.03999999999999915,
         20.6,
-        1.2
+        0.0799999999999983
       ],
-      "yaw": 1.5707963267948966
+      "yaw": 0
     },
     {
-      "name": "Foyer Starboard shaft side 1.2",
+      "name": "Foyer Starboard shaft side -1.2 deck9 cut 1",
       "shape": "box",
       "position": [
-        6.6,
+        6.58,
+        3.29,
+        34.2
+      ],
+      "size": [
+        1.1600000000000001,
+        6.58,
+        0.0799999999999983
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Starboard shaft side -1.2 deck9 cut 2",
+      "shape": "box",
+      "position": [
+        6.58,
+        13.825500000000002,
+        34.2
+      ],
+      "size": [
+        1.1600000000000001,
+        13.549000000000001,
+        0.0799999999999983
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Starboard shaft side 1.2 deck9 cut 0",
+      "shape": "box",
+      "position": [
+        7.18,
         10.3,
         31.8
       ],
       "size": [
-        0.08,
+        0.03999999999999915,
         20.6,
-        1.2
+        0.0799999999999983
       ],
-      "yaw": 1.5707963267948966
+      "yaw": 0
     },
     {
-      "name": "Foyer Starboard shaft back",
+      "name": "Foyer Starboard shaft side 1.2 deck9 cut 1",
+      "shape": "box",
+      "position": [
+        6.58,
+        3.29,
+        31.8
+      ],
+      "size": [
+        1.1600000000000001,
+        6.58,
+        0.0799999999999983
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Starboard shaft side 1.2 deck9 cut 2",
+      "shape": "box",
+      "position": [
+        6.58,
+        13.825500000000002,
+        31.8
+      ],
+      "size": [
+        1.1600000000000001,
+        13.549000000000001,
+        0.0799999999999983
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Starboard shaft back deck9 cut 0",
       "shape": "box",
       "position": [
         7.2,
-        13.700000000000001,
+        6.925000000000001,
         33.0
       ],
       "size": [
-        0.08,
-        13.8,
-        2.4
+        0.08000000000000007,
+        0.2499999999999991,
+        2.400000000000002
       ],
-      "yaw": 3.141592653589793
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Starboard shaft back deck9 cut 1",
+      "shape": "box",
+      "position": [
+        7.2,
+        15.025,
+        33.0
+      ],
+      "size": [
+        0.08000000000000007,
+        11.150000000000002,
+        2.400000000000002
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Starboard shaft back deck9 cut 2",
+      "shape": "box",
+      "position": [
+        7.2,
+        8.25,
+        31.975
+      ],
+      "size": [
+        0.08000000000000007,
+        2.3999999999999995,
+        0.34999999999999787
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Starboard shaft back deck9 cut 3",
+      "shape": "box",
+      "position": [
+        7.2,
+        8.25,
+        34.025000000000006
+      ],
+      "size": [
+        0.08000000000000007,
+        2.3999999999999995,
+        0.3500000000000014
+      ],
+      "yaw": 0
     },
     {
       "name": "Foyer Starboard shaft gate frame 0 left",
@@ -6267,49 +7077,94 @@
       "yaw": 3.141592653589793
     },
     {
-      "name": "Foyer Starboard shaft gate frame 3.4 left",
+      "name": "Foyer Starboard shaft gate frame 3.4 left deck9 cut 0",
       "shape": "box",
       "position": [
-        7.2,
+        7.21,
         5.1,
         34.025
       ],
       "size": [
-        0.12,
-        3.4,
-        0.35
+        0.09999999999999964,
+        3.4000000000000004,
+        0.3499999999999943
       ],
-      "yaw": 3.141592653589793
+      "yaw": 0
     },
     {
-      "name": "Foyer Starboard shaft gate frame 3.4 right",
+      "name": "Foyer Starboard shaft gate frame 3.4 left deck9 cut 1",
       "shape": "box",
       "position": [
-        7.2,
+        7.15,
+        4.99,
+        34.025
+      ],
+      "size": [
+        0.019999999999999574,
+        3.1800000000000006,
+        0.3499999999999943
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Starboard shaft gate frame 3.4 right deck9 cut 0",
+      "shape": "box",
+      "position": [
+        7.21,
         5.1,
         31.975
       ],
       "size": [
-        0.12,
-        3.4,
-        0.3500000000000001
+        0.09999999999999964,
+        3.4000000000000004,
+        0.34999999999999787
       ],
-      "yaw": 3.141592653589793
+      "yaw": 0
     },
     {
-      "name": "Foyer Starboard shaft gate frame 3.4 lintel",
+      "name": "Foyer Starboard shaft gate frame 3.4 right deck9 cut 1",
       "shape": "box",
       "position": [
-        7.2,
+        7.15,
+        4.99,
+        31.975
+      ],
+      "size": [
+        0.019999999999999574,
+        3.1800000000000006,
+        0.34999999999999787
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Starboard shaft gate frame 3.4 lintel deck9 cut 0",
+      "shape": "box",
+      "position": [
+        7.21,
         6.3,
         33.0
       ],
       "size": [
-        0.12,
+        0.09999999999999964,
         1.0,
-        1.6999999999999997
+        1.7000000000000028
       ],
-      "yaw": 3.141592653589793
+      "yaw": 0
+    },
+    {
+      "name": "Foyer Starboard shaft gate frame 3.4 lintel deck9 cut 1",
+      "shape": "box",
+      "position": [
+        7.15,
+        6.1899999999999995,
+        33.0
+      ],
+      "size": [
+        0.019999999999999574,
+        0.7800000000000002,
+        1.7000000000000028
+      ],
+      "yaw": 0
     },
     {
       "name": "Foyer Starboard shaft cap",
@@ -6507,34 +7362,79 @@
       "yaw": 1.7016960206944711
     },
     {
-      "name": "Foyer shaft white pier 1 31.72",
+      "name": "Foyer shaft white pier 1 31.72 deck9 cut 0",
       "shape": "box",
       "position": [
         6.0,
-        10.55,
+        3.29,
         31.72
       ],
       "size": [
-        0.3,
-        21.1,
+        0.3000000000000007,
+        6.58,
         0.1599999999999966
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Foyer shaft white pier 1 34.28",
+      "name": "Foyer shaft white pier 1 31.72 deck9 cut 1",
       "shape": "box",
       "position": [
         6.0,
-        10.55,
+        14.075500000000002,
+        31.72
+      ],
+      "size": [
+        0.3000000000000007,
+        14.049000000000001,
+        0.1599999999999966
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer shaft white pier 1 34.28 deck9 cut 0",
+      "shape": "box",
+      "position": [
+        6.0,
+        3.29,
         34.28
       ],
       "size": [
-        0.3,
-        21.1,
+        0.3000000000000007,
+        6.58,
         0.1599999999999966
       ],
-      "yaw": 0.0
+      "yaw": 0
+    },
+    {
+      "name": "Foyer shaft white pier 1 34.28 deck9 cut 1",
+      "shape": "box",
+      "position": [
+        6.0,
+        15.4,
+        34.28
+      ],
+      "size": [
+        0.3000000000000007,
+        11.400000000000002,
+        0.1599999999999966
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Foyer shaft white pier 1 34.28 deck9 cut 2",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.375499999999999,
+        34.25
+      ],
+      "size": [
+        0.3000000000000007,
+        2.648999999999999,
+        0.09999999999999432
+      ],
+      "yaw": 0
     },
     {
       "name": "Venue boundary grill-house left",
@@ -6627,49 +7527,154 @@
       "yaw": 0.0
     },
     {
-      "name": "Venue boundary fast-lane left",
+      "name": "Venue boundary fast-lane left deck9 cut 0",
       "shape": "box",
       "position": [
         6.0,
-        10.55,
+        3.525,
         2.8249999999999997
       ],
       "size": [
-        0.3,
-        21.1,
-        3.65
+        0.3000000000000007,
+        7.05,
+        3.6499999999999995
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Venue boundary fast-lane right",
+      "name": "Venue boundary fast-lane left deck9 cut 1",
       "shape": "box",
       "position": [
         6.0,
-        10.55,
+        15.675,
+        2.8249999999999997
+      ],
+      "size": [
+        0.3000000000000007,
+        10.850000000000001,
+        3.6499999999999995
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary fast-lane left deck9 cut 2",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.65,
+        1.2449999999999999
+      ],
+      "size": [
+        0.3000000000000007,
+        3.2,
+        0.4900000000000002
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary fast-lane left deck9 cut 3",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.65,
+        4.58
+      ],
+      "size": [
+        0.3000000000000007,
+        3.2,
+        0.13999999999999968
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary fast-lane right deck9 cut 0",
+      "shape": "box",
+      "position": [
+        6.0,
+        3.525,
         9.675
       ],
       "size": [
-        0.3,
-        21.1,
-        3.6500000000000004
+        0.3000000000000007,
+        7.05,
+        3.6499999999999995
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Venue boundary fast-lane lintel",
+      "name": "Venue boundary fast-lane right deck9 cut 1",
       "shape": "box",
       "position": [
         6.0,
-        11.975000000000001,
+        15.675,
+        9.675
+      ],
+      "size": [
+        0.3000000000000007,
+        10.850000000000001,
+        3.6499999999999995
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary fast-lane right deck9 cut 2",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.65,
+        10.004999999999999
+      ],
+      "size": [
+        0.3000000000000007,
+        3.2,
+        2.99
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary fast-lane lintel deck9 cut 0",
+      "shape": "box",
+      "position": [
+        6.0,
+        4.950000000000001,
         6.25
       ],
       "size": [
-        0.3,
-        18.25,
-        3.1999999999999997
+        0.3000000000000007,
+        4.199999999999998,
+        3.1999999999999993
       ],
-      "yaw": 0.0
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary fast-lane lintel deck9 cut 1",
+      "shape": "box",
+      "position": [
+        6.0,
+        15.675,
+        6.25
+      ],
+      "size": [
+        0.3000000000000007,
+        10.850000000000001,
+        3.1999999999999993
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary fast-lane lintel deck9 cut 2",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.65,
+        5.07
+      ],
+      "size": [
+        0.3000000000000007,
+        3.2,
+        0.8399999999999999
+      ],
+      "yaw": 0
     },
     {
       "name": "Venue boundary fashion left",
@@ -6942,49 +7947,139 @@
       "yaw": 0.0
     },
     {
-      "name": "Venue boundary kids-and-toys left",
+      "name": "Venue boundary kids-and-toys left deck9 cut 0",
       "shape": "box",
       "position": [
         6.0,
-        10.55,
+        3.525,
         23.95
       ],
       "size": [
-        0.3,
-        21.1,
-        1.9
+        0.3000000000000007,
+        7.05,
+        1.8999999999999986
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Venue boundary kids-and-toys right",
+      "name": "Venue boundary kids-and-toys left deck9 cut 1",
       "shape": "box",
       "position": [
         6.0,
-        10.55,
+        15.675,
+        23.95
+      ],
+      "size": [
+        0.3000000000000007,
+        10.850000000000001,
+        1.8999999999999986
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary kids-and-toys left deck9 cut 2",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.65,
+        24.705
+      ],
+      "size": [
+        0.3000000000000007,
+        3.2,
+        0.389999999999997
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary kids-and-toys right deck9 cut 0",
+      "shape": "box",
+      "position": [
+        6.0,
+        3.525,
         29.05
       ],
       "size": [
-        0.3,
-        21.1,
-        1.9000000000000004
+        0.3000000000000007,
+        7.05,
+        1.8999999999999986
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Venue boundary kids-and-toys lintel",
+      "name": "Venue boundary kids-and-toys right deck9 cut 1",
       "shape": "box",
       "position": [
         6.0,
-        11.975000000000001,
+        15.675,
+        29.05
+      ],
+      "size": [
+        0.3000000000000007,
+        10.850000000000001,
+        1.8999999999999986
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary kids-and-toys right deck9 cut 2",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.65,
+        29.255000000000003
+      ],
+      "size": [
+        0.3000000000000007,
+        3.2,
+        1.4899999999999984
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary kids-and-toys lintel deck9 cut 0",
+      "shape": "box",
+      "position": [
+        6.0,
+        4.950000000000001,
         26.5
       ],
       "size": [
-        0.3,
-        18.25,
-        3.1999999999999997
+        0.3000000000000007,
+        4.199999999999998,
+        3.200000000000003
       ],
-      "yaw": 0.0
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary kids-and-toys lintel deck9 cut 1",
+      "shape": "box",
+      "position": [
+        6.0,
+        15.675,
+        26.5
+      ],
+      "size": [
+        0.3000000000000007,
+        10.850000000000001,
+        3.200000000000003
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary kids-and-toys lintel deck9 cut 2",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.65,
+        25.195
+      ],
+      "size": [
+        0.3000000000000007,
+        3.2,
+        0.5899999999999999
+      ],
+      "yaw": 0
     },
     {
       "name": "Venue boundary stair entrance left",
@@ -7032,34 +8127,109 @@
       "yaw": 0.0
     },
     {
-      "name": "Venue boundary east below cabin cabin cut 0",
+      "name": "Venue boundary east below cabin cabin cut 0 deck9 cut 0",
       "shape": "box",
       "position": [
         6.0,
-        10.55,
+        3.525,
         12.0
       ],
       "size": [
         0.3000000000000007,
-        21.1,
+        7.05,
         1.0
       ],
       "yaw": 0
     },
     {
-      "name": "Venue boundary reception",
+      "name": "Venue boundary east below cabin cabin cut 0 deck9 cut 1",
       "shape": "box",
       "position": [
         6.0,
-        10.55,
+        15.675,
+        12.0
+      ],
+      "size": [
+        0.3000000000000007,
+        10.850000000000001,
+        1.0
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary east below cabin cabin cut 0 deck9 cut 2",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.65,
+        11.995000000000001
+      ],
+      "size": [
+        0.3000000000000007,
+        3.2,
+        0.9900000000000002
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary reception deck9 cut 0",
+      "shape": "box",
+      "position": [
+        6.0,
+        3.525,
         19.25
       ],
       "size": [
-        0.3,
-        21.1,
+        0.3000000000000007,
+        7.05,
         7.5
       ],
-      "yaw": 0.0
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary reception deck9 cut 1",
+      "shape": "box",
+      "position": [
+        6.0,
+        15.675,
+        19.25
+      ],
+      "size": [
+        0.3000000000000007,
+        10.850000000000001,
+        7.5
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary reception deck9 cut 2",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.65,
+        16.5
+      ],
+      "size": [
+        0.3000000000000007,
+        3.2,
+        1.9799999999999986
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Venue boundary reception deck9 cut 3",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.65,
+        21.0
+      ],
+      "size": [
+        0.3000000000000007,
+        3.2,
+        0.9799999999999969
+      ],
+      "yaw": 0
     },
     {
       "name": "Venue boundary east lift join cabin cut 0",
@@ -9773,49 +10943,49 @@
       "yaw": 0.0
     },
     {
-      "name": "Rear lift stairs ceiling",
-      "shape": "box",
-      "position": [
-        -13.1,
-        6.725,
-        33.1
-      ],
-      "size": [
-        6.35,
-        0.25,
-        6.1
-      ],
-      "yaw": 0.0
-    },
-    {
-      "name": "Rear lift stairs outer wall",
+      "name": "Rear lift stairs outer wall deck9 cut 0",
       "shape": "box",
       "position": [
         -16.12,
-        3.325,
+        3.29,
         33.1
       ],
       "size": [
-        0.3,
-        6.65,
+        0.29999999999999893,
+        6.58,
         6.0
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Rear lift stairs aft wall",
+      "name": "Rear lift stairs aft wall deck9 cut 0",
       "shape": "box",
       "position": [
         -13.035,
-        3.325,
+        3.29,
         30.1
       ],
       "size": [
-        0.3,
-        6.65,
-        6.170000000000002
+        6.170000000000002,
+        6.58,
+        0.29999999999999716
       ],
-      "yaw": 1.5707963267948966
+      "yaw": 0
+    },
+    {
+      "name": "Rear lift stairs aft wall deck9 cut 1",
+      "shape": "box",
+      "position": [
+        -13.035,
+        6.615,
+        29.975
+      ],
+      "size": [
+        6.170000000000002,
+        0.07000000000000028,
+        0.04999999999999716
+      ],
+      "yaw": 0
     },
     {
       "name": "Rear lift stairs foyer opening 7 left",
@@ -9863,49 +11033,94 @@
       "yaw": 0.0
     },
     {
-      "name": "Rear lift stairs foyer opening 8 left",
+      "name": "Rear lift stairs foyer opening 8 left deck9 cut 0",
       "shape": "box",
       "position": [
-        -10.0,
+        -9.875,
         5.1,
         30.177500000000002
       ],
       "size": [
-        0.3,
-        3.4,
-        0.15500000000000003
+        0.05000000000000071,
+        3.4000000000000004,
+        0.15500000000000114
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Rear lift stairs foyer opening 8 right",
+      "name": "Rear lift stairs foyer opening 8 left deck9 cut 1",
       "shape": "box",
       "position": [
-        -10.0,
+        -10.025,
+        4.99,
+        30.177500000000002
+      ],
+      "size": [
+        0.25,
+        3.1800000000000006,
+        0.15500000000000114
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Rear lift stairs foyer opening 8 right deck9 cut 0",
+      "shape": "box",
+      "position": [
+        -9.875,
         5.1,
         34.1025
       ],
       "size": [
-        0.3,
-        3.4,
-        3.995
+        0.05000000000000071,
+        3.4000000000000004,
+        3.9950000000000045
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Rear lift stairs foyer opening 8 lintel",
+      "name": "Rear lift stairs foyer opening 8 right deck9 cut 1",
       "shape": "box",
       "position": [
-        -10.0,
+        -10.025,
+        4.99,
+        34.1025
+      ],
+      "size": [
+        0.25,
+        3.1800000000000006,
+        3.9950000000000045
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Rear lift stairs foyer opening 8 lintel deck9 cut 0",
+      "shape": "box",
+      "position": [
+        -9.875,
         6.425,
         31.18
       ],
       "size": [
-        0.3,
+        0.05000000000000071,
         0.75,
-        1.8499999999999999
+        1.8499999999999979
       ],
-      "yaw": 0.0
+      "yaw": 0
+    },
+    {
+      "name": "Rear lift stairs foyer opening 8 lintel deck9 cut 1",
+      "shape": "box",
+      "position": [
+        -10.025,
+        6.3149999999999995,
+        31.18
+      ],
+      "size": [
+        0.25,
+        0.5300000000000002,
+        1.8499999999999979
+      ],
+      "yaw": 0
     },
     {
       "name": "Rear lift stairs window sill",
@@ -9968,19 +11183,19 @@
       "yaw": 1.5707963267948966
     },
     {
-      "name": "Rear lift stairs window header",
+      "name": "Rear lift stairs window header deck9 cut 0",
       "shape": "box",
       "position": [
         -13.06,
-        5.6,
+        5.5649999999999995,
         36.0
       ],
       "size": [
-        0.3,
-        2.1000000000000005,
-        6.120000000000001
+        6.120000000000001,
+        2.030000000000001,
+        0.29999999999999716
       ],
-      "yaw": 1.5707963267948966
+      "yaw": 0
     },
     {
       "name": "Rear lift stairs window collider",
@@ -10166,19 +11381,34 @@
       ]
     },
     {
-      "name": "Rear lift stairs upper landing guard",
+      "name": "Rear lift stairs upper landing guard deck9 cut 0",
       "shape": "box",
       "position": [
-        -11.7,
+        -10.099999999999998,
         3.925,
         31.55
       ],
       "size": [
-        0.045,
-        1.0500000000000003,
-        3.200000000000001
+        1.7763568394002505e-15,
+        1.0500000000000007,
+        0.045000000000001705
       ],
-      "yaw": 1.5707963267948966
+      "yaw": 0
+    },
+    {
+      "name": "Rear lift stairs upper landing guard deck9 cut 1",
+      "shape": "box",
+      "position": [
+        -11.7,
+        3.405,
+        31.55
+      ],
+      "size": [
+        3.200000000000001,
+        0.010000000000000675,
+        0.045000000000001705
+      ],
+      "yaw": 0
     },
     {
       "name": "Starboard rear lift stairs lower floor",
@@ -10226,34 +11456,19 @@
       "yaw": -0.0
     },
     {
-      "name": "Starboard rear lift stairs ceiling",
-      "shape": "box",
-      "position": [
-        13.1,
-        6.725,
-        33.1
-      ],
-      "size": [
-        6.35,
-        0.25,
-        6.1
-      ],
-      "yaw": -0.0
-    },
-    {
-      "name": "Starboard rear lift stairs outer wall",
+      "name": "Starboard rear lift stairs outer wall deck9 cut 0",
       "shape": "box",
       "position": [
         16.12,
-        3.325,
+        3.29,
         33.1
       ],
       "size": [
-        0.3,
-        6.65,
+        0.29999999999999893,
+        6.58,
         6.0
       ],
-      "yaw": -0.0
+      "yaw": 0
     },
     {
       "name": "Starboard rear lift stairs foyer opening 7 left",
@@ -10301,49 +11516,94 @@
       "yaw": -0.0
     },
     {
-      "name": "Starboard rear lift stairs foyer opening 8 left",
+      "name": "Starboard rear lift stairs foyer opening 8 left deck9 cut 0",
       "shape": "box",
       "position": [
-        10.0,
+        9.875,
         5.1,
         30.177500000000002
       ],
       "size": [
-        0.3,
-        3.4,
-        0.15500000000000003
+        0.05000000000000071,
+        3.4000000000000004,
+        0.15500000000000114
       ],
-      "yaw": -0.0
+      "yaw": 0
     },
     {
-      "name": "Starboard rear lift stairs foyer opening 8 right",
+      "name": "Starboard rear lift stairs foyer opening 8 left deck9 cut 1",
       "shape": "box",
       "position": [
-        10.0,
+        10.025,
+        4.99,
+        30.177500000000002
+      ],
+      "size": [
+        0.25,
+        3.1800000000000006,
+        0.15500000000000114
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Starboard rear lift stairs foyer opening 8 right deck9 cut 0",
+      "shape": "box",
+      "position": [
+        9.875,
         5.1,
         34.1025
       ],
       "size": [
-        0.3,
-        3.4,
-        3.995
+        0.05000000000000071,
+        3.4000000000000004,
+        3.9950000000000045
       ],
-      "yaw": -0.0
+      "yaw": 0
     },
     {
-      "name": "Starboard rear lift stairs foyer opening 8 lintel",
+      "name": "Starboard rear lift stairs foyer opening 8 right deck9 cut 1",
       "shape": "box",
       "position": [
-        10.0,
+        10.025,
+        4.99,
+        34.1025
+      ],
+      "size": [
+        0.25,
+        3.1800000000000006,
+        3.9950000000000045
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Starboard rear lift stairs foyer opening 8 lintel deck9 cut 0",
+      "shape": "box",
+      "position": [
+        9.875,
         6.425,
         31.18
       ],
       "size": [
-        0.3,
+        0.05000000000000071,
         0.75,
-        1.8499999999999999
+        1.8499999999999979
       ],
-      "yaw": -0.0
+      "yaw": 0
+    },
+    {
+      "name": "Starboard rear lift stairs foyer opening 8 lintel deck9 cut 1",
+      "shape": "box",
+      "position": [
+        10.025,
+        6.3149999999999995,
+        31.18
+      ],
+      "size": [
+        0.25,
+        0.5300000000000002,
+        1.8499999999999979
+      ],
+      "yaw": 0
     },
     {
       "name": "Starboard rear lift stairs window sill",
@@ -10406,19 +11666,19 @@
       "yaw": -1.5707963267948966
     },
     {
-      "name": "Starboard rear lift stairs window header",
+      "name": "Starboard rear lift stairs window header deck9 cut 0",
       "shape": "box",
       "position": [
         13.06,
-        5.6,
+        5.5649999999999995,
         36.0
       ],
       "size": [
-        0.3,
-        2.1000000000000005,
-        6.120000000000001
+        6.120000000000001,
+        2.030000000000001,
+        0.29999999999999716
       ],
-      "yaw": -1.5707963267948966
+      "yaw": 0
     },
     {
       "name": "Starboard rear lift stairs window collider",
@@ -10604,19 +11864,34 @@
       ]
     },
     {
-      "name": "Starboard rear lift stairs upper landing guard",
+      "name": "Starboard rear lift stairs upper landing guard deck9 cut 0",
       "shape": "box",
       "position": [
-        11.7,
+        10.099999999999998,
         3.925,
         31.55
       ],
       "size": [
-        0.045,
-        1.0500000000000003,
-        3.200000000000001
+        1.7763568394002505e-15,
+        1.0500000000000007,
+        0.045000000000001705
       ],
-      "yaw": -1.5707963267948966
+      "yaw": 0
+    },
+    {
+      "name": "Starboard rear lift stairs upper landing guard deck9 cut 1",
+      "shape": "box",
+      "position": [
+        11.7,
+        3.405,
+        31.55
+      ],
+      "size": [
+        3.200000000000001,
+        0.010000000000000675,
+        0.045000000000001705
+      ],
+      "yaw": 0
     },
     {
       "name": "Starboard rear lift stairs cabins corridor floor",
@@ -10634,32 +11909,62 @@
       "yaw": 0.0
     },
     {
-      "name": "Starboard rear lift stairs cabins corridor roof",
+      "name": "Starboard rear lift stairs cabins corridor roof deck9 cut 0",
       "shape": "box",
       "position": [
-        11.0,
+        9.850000000000001,
         6.725,
         9.04
       ],
       "size": [
-        2.4,
+        0.09999999999999964,
         0.25,
         42.18
       ],
-      "yaw": 0.0
+      "yaw": 0
     },
     {
-      "name": "Starboard rear lift stairs corridor outer aft cabin cut 0",
+      "name": "Starboard rear lift stairs cabins corridor roof deck9 cut 1",
+      "shape": "box",
+      "position": [
+        11.05,
+        6.725,
+        8.975
+      ],
+      "size": [
+        2.299999999999999,
+        0.25,
+        42.05
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Starboard rear lift stairs corridor outer aft cabin cut 0 deck9 cut 0",
       "shape": "box",
       "position": [
         12.0,
-        6.1,
+        6.09,
         22.8
       ],
       "size": [
         0.3000000000000007,
-        1.0,
+        0.9800000000000004,
         14.600000000000001
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Starboard rear lift stairs corridor outer aft cabin cut 0 deck9 cut 1",
+      "shape": "box",
+      "position": [
+        12.0,
+        6.59,
+        22.75
+      ],
+      "size": [
+        0.3000000000000007,
+        0.019999999999999574,
+        14.5
       ],
       "yaw": 0
     },
@@ -10724,17 +12029,47 @@
       "yaw": 0
     },
     {
-      "name": "Starboard rear lift stairs corridor inner aft cabin cut 0",
+      "name": "Starboard rear lift stairs corridor inner aft cabin cut 0 deck9 cut 0",
       "shape": "box",
       "position": [
-        10.0,
+        9.875,
         6.1,
         22.8
       ],
       "size": [
-        0.3000000000000007,
+        0.05000000000000071,
         1.0,
         14.600000000000001
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Starboard rear lift stairs corridor inner aft cabin cut 0 deck9 cut 1",
+      "shape": "box",
+      "position": [
+        10.025,
+        6.09,
+        22.8
+      ],
+      "size": [
+        0.25,
+        0.9800000000000004,
+        14.600000000000001
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Starboard rear lift stairs corridor inner aft cabin cut 0 deck9 cut 2",
+      "shape": "box",
+      "position": [
+        10.025,
+        6.59,
+        22.75
+      ],
+      "size": [
+        0.25,
+        0.019999999999999574,
+        14.5
       ],
       "yaw": 0
     },
@@ -10814,64 +12149,139 @@
       "yaw": 1.5707963267948966
     },
     {
-      "name": "Starboard rear lift stairs cabin entrance left",
+      "name": "Starboard rear lift stairs cabin entrance left deck9 cut 0",
       "shape": "box",
       "position": [
         10.049999999999999,
-        5.025,
+        4.99,
         30.1
       ],
       "size": [
-        0.3,
-        3.2500000000000004,
-        0.20000000000000007
+        0.1999999999999993,
+        3.1799999999999997,
+        0.29999999999999716
       ],
-      "yaw": 1.5707963267948966
+      "yaw": 0
     },
     {
-      "name": "Starboard rear lift stairs cabin entrance right",
+      "name": "Starboard rear lift stairs cabin entrance left deck9 cut 1",
+      "shape": "box",
+      "position": [
+        10.049999999999999,
+        6.615,
+        29.975
+      ],
+      "size": [
+        0.1999999999999993,
+        0.07000000000000028,
+        0.04999999999999716
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Starboard rear lift stairs cabin entrance right deck9 cut 0",
       "shape": "box",
       "position": [
         14.035,
-        5.025,
+        4.99,
         30.1
       ],
       "size": [
-        0.3,
-        3.2500000000000004,
-        4.170000000000002
+        4.170000000000002,
+        3.1799999999999997,
+        0.29999999999999716
       ],
-      "yaw": 1.5707963267948966
+      "yaw": 0
     },
     {
-      "name": "Starboard rear lift stairs cabin entrance lintel",
+      "name": "Starboard rear lift stairs cabin entrance right deck9 cut 1",
+      "shape": "box",
+      "position": [
+        14.035,
+        6.615,
+        29.975
+      ],
+      "size": [
+        4.170000000000002,
+        0.07000000000000028,
+        0.04999999999999716
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Starboard rear lift stairs cabin entrance lintel deck9 cut 0",
       "shape": "box",
       "position": [
         11.049999999999999,
-        6.35,
+        6.3149999999999995,
         30.1
       ],
       "size": [
-        0.3,
-        0.6000000000000005,
-        1.7999999999999998
+        1.8000000000000007,
+        0.5300000000000011,
+        0.29999999999999716
       ],
-      "yaw": 1.5707963267948966
+      "yaw": 0
     },
     {
-      "name": "Open stair access Starlight side wall",
+      "name": "Starboard rear lift stairs cabin entrance lintel deck9 cut 1",
       "shape": "box",
       "position": [
-        10.0,
+        11.049999999999999,
+        6.615,
+        29.975
+      ],
+      "size": [
+        1.8000000000000007,
+        0.07000000000000028,
+        0.04999999999999716
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Open stair access Starlight side wall deck9 cut 0",
+      "shape": "box",
+      "position": [
+        9.875,
         5.0,
         38.45
       ],
       "size": [
-        0.3,
-        3.1999999999999997,
-        4.899999999999999
+        0.05000000000000071,
+        3.1999999999999993,
+        4.900000000000006
       ],
-      "yaw": 0.0
+      "yaw": 0
+    },
+    {
+      "name": "Open stair access Starlight side wall deck9 cut 1",
+      "shape": "box",
+      "position": [
+        10.025,
+        4.99,
+        38.45
+      ],
+      "size": [
+        0.25,
+        3.1799999999999997,
+        4.900000000000006
+      ],
+      "yaw": 0
+    },
+    {
+      "name": "Open stair access Starlight side wall deck9 cut 2",
+      "shape": "box",
+      "position": [
+        10.025,
+        6.59,
+        38.550000000000004
+      ],
+      "size": [
+        0.25,
+        0.019999999999999574,
+        4.700000000000003
+      ],
+      "yaw": 0
     },
     {
       "name": "Open stair access Port foyer lower",
@@ -10904,19 +12314,34 @@
       "yaw": -1.5707963267948966
     },
     {
-      "name": "Open stair access Port foyer upper right",
+      "name": "Open stair access Port foyer upper right deck9 cut 0",
       "shape": "box",
       "position": [
-        -9.775,
+        -9.725000000000001,
         5.0,
         35.95
       ],
       "size": [
-        0.3,
-        3.1999999999999997,
-        0.4500000000000002
+        0.34999999999999964,
+        3.1999999999999993,
+        0.29999999999999716
       ],
-      "yaw": -1.5707963267948966
+      "yaw": 0
+    },
+    {
+      "name": "Open stair access Port foyer upper right deck9 cut 1",
+      "shape": "box",
+      "position": [
+        -9.95,
+        4.99,
+        35.95
+      ],
+      "size": [
+        0.09999999999999964,
+        3.1799999999999997,
+        0.29999999999999716
+      ],
+      "yaw": 0
     },
     {
       "name": "Open stair access Port foyer upper lintel",
@@ -10964,19 +12389,34 @@
       "yaw": -1.5707963267948966
     },
     {
-      "name": "Open stair access Port club upper right",
+      "name": "Open stair access Port club upper right deck9 cut 0",
       "shape": "box",
       "position": [
-        -9.775,
+        -9.725000000000001,
         5.0,
         36.0
       ],
       "size": [
-        0.3,
-        3.1999999999999997,
-        0.4500000000000002
+        0.34999999999999964,
+        3.1999999999999993,
+        0.29999999999999716
       ],
-      "yaw": -1.5707963267948966
+      "yaw": 0
+    },
+    {
+      "name": "Open stair access Port club upper right deck9 cut 1",
+      "shape": "box",
+      "position": [
+        -9.95,
+        4.99,
+        36.0
+      ],
+      "size": [
+        0.09999999999999964,
+        3.1799999999999997,
+        0.29999999999999716
+      ],
+      "yaw": 0
     },
     {
       "name": "Open stair access Port club upper lintel",
@@ -11024,19 +12464,34 @@
       "yaw": 1.5707963267948966
     },
     {
-      "name": "Open stair access Starboard foyer upper right",
+      "name": "Open stair access Starboard foyer upper right deck9 cut 0",
       "shape": "box",
       "position": [
-        9.775,
+        9.725000000000001,
         5.0,
         35.95
       ],
       "size": [
-        0.3,
-        3.1999999999999997,
-        0.4500000000000002
+        0.34999999999999964,
+        3.1999999999999993,
+        0.29999999999999716
       ],
-      "yaw": 1.5707963267948966
+      "yaw": 0
+    },
+    {
+      "name": "Open stair access Starboard foyer upper right deck9 cut 1",
+      "shape": "box",
+      "position": [
+        9.95,
+        4.99,
+        35.95
+      ],
+      "size": [
+        0.09999999999999964,
+        3.1799999999999997,
+        0.29999999999999716
+      ],
+      "yaw": 0
     },
     {
       "name": "Open stair access Starboard foyer upper lintel",
@@ -11084,19 +12539,34 @@
       "yaw": 1.5707963267948966
     },
     {
-      "name": "Open stair access Starboard club upper right",
+      "name": "Open stair access Starboard club upper right deck9 cut 0",
       "shape": "box",
       "position": [
-        9.775,
+        9.725000000000001,
         5.0,
         36.0
       ],
       "size": [
-        0.3,
-        3.1999999999999997,
-        0.4500000000000002
+        0.34999999999999964,
+        3.1999999999999993,
+        0.29999999999999716
       ],
-      "yaw": 1.5707963267948966
+      "yaw": 0
+    },
+    {
+      "name": "Open stair access Starboard club upper right deck9 cut 1",
+      "shape": "box",
+      "position": [
+        9.95,
+        4.99,
+        36.0
+      ],
+      "size": [
+        0.09999999999999964,
+        3.1799999999999997,
+        0.29999999999999716
+      ],
+      "yaw": 0
     },
     {
       "name": "Open stair access Starboard club upper lintel",
@@ -19038,6 +20508,5337 @@
       ],
       "yaw": 0,
       "group": "environment"
+    },
+    {
+      "name": "Cabin 9401 floor",
+      "shape": "box",
+      "position": [
+        8.0,
+        6.949999999999999,
+        -9.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9401 roof",
+      "shape": "box",
+      "position": [
+        8.0,
+        10.375,
+        -9.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9401 end 12.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        -10.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9401 end 15.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        -7.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9401 window sill",
+      "shape": "box",
+      "position": [
+        6.0,
+        7.5,
+        -9.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9401 window head",
+      "shape": "box",
+      "position": [
+        6.0,
+        9.875,
+        -9.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9401 window pane collider",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.725,
+        -9.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9401 jamb L",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        -8.37
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9401 jamb R",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        -9.63
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9401 header",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.4,
+        -9.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9401 bed base",
+      "shape": "box",
+      "position": [
+        7.4,
+        7.3100000000000005,
+        -8.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9401 desk",
+      "shape": "box",
+      "position": [
+        6.75,
+        7.779999999999999,
+        -10.07
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9401 wetroom back",
+      "shape": "box",
+      "position": [
+        9.25,
+        8.2,
+        -10.39
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9401 wetroom side",
+      "shape": "box",
+      "position": [
+        8.65,
+        8.2,
+        -10.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9402 floor",
+      "shape": "box",
+      "position": [
+        14.0,
+        6.949999999999999,
+        -9.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9402 roof",
+      "shape": "box",
+      "position": [
+        14.0,
+        10.375,
+        -9.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9402 end 12.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        -10.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9402 end 15.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        -7.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9402 window sill",
+      "shape": "box",
+      "position": [
+        16.0,
+        7.5,
+        -9.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9402 window head",
+      "shape": "box",
+      "position": [
+        16.0,
+        9.875,
+        -9.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9402 window pane collider",
+      "shape": "box",
+      "position": [
+        16.0,
+        8.725,
+        -9.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9402 jamb L",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        -8.37
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9402 jamb R",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        -9.63
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9402 header",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.4,
+        -9.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9402 bed base",
+      "shape": "box",
+      "position": [
+        14.6,
+        7.3100000000000005,
+        -8.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9402 desk",
+      "shape": "box",
+      "position": [
+        15.25,
+        7.779999999999999,
+        -10.07
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9402 wetroom back",
+      "shape": "box",
+      "position": [
+        12.75,
+        8.2,
+        -10.39
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9402 wetroom side",
+      "shape": "box",
+      "position": [
+        13.35,
+        8.2,
+        -10.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9403 floor",
+      "shape": "box",
+      "position": [
+        8.0,
+        6.949999999999999,
+        -5.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9403 roof",
+      "shape": "box",
+      "position": [
+        8.0,
+        10.375,
+        -5.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9403 end 12.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        -6.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9403 end 15.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        -3.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9403 window sill",
+      "shape": "box",
+      "position": [
+        6.0,
+        7.5,
+        -5.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9403 window head",
+      "shape": "box",
+      "position": [
+        6.0,
+        9.875,
+        -5.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9403 window pane collider",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.725,
+        -5.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9403 jamb L",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        -4.369999999999999
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9403 jamb R",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        -5.630000000000001
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9403 header",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.4,
+        -5.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9403 bed base",
+      "shape": "box",
+      "position": [
+        7.4,
+        7.3100000000000005,
+        -4.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9403 desk",
+      "shape": "box",
+      "position": [
+        6.75,
+        7.779999999999999,
+        -6.07
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9403 wetroom back",
+      "shape": "box",
+      "position": [
+        9.25,
+        8.2,
+        -6.390000000000001
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9403 wetroom side",
+      "shape": "box",
+      "position": [
+        8.65,
+        8.2,
+        -6.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9404 floor",
+      "shape": "box",
+      "position": [
+        14.0,
+        6.949999999999999,
+        -5.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9404 roof",
+      "shape": "box",
+      "position": [
+        14.0,
+        10.375,
+        -5.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9404 end 12.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        -6.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9404 end 15.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        -3.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9404 window sill",
+      "shape": "box",
+      "position": [
+        16.0,
+        7.5,
+        -5.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9404 window head",
+      "shape": "box",
+      "position": [
+        16.0,
+        9.875,
+        -5.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9404 window pane collider",
+      "shape": "box",
+      "position": [
+        16.0,
+        8.725,
+        -5.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9404 jamb L",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        -4.369999999999999
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9404 jamb R",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        -5.630000000000001
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9404 header",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.4,
+        -5.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9404 bed base",
+      "shape": "box",
+      "position": [
+        14.6,
+        7.3100000000000005,
+        -4.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9404 desk",
+      "shape": "box",
+      "position": [
+        15.25,
+        7.779999999999999,
+        -6.07
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9404 wetroom back",
+      "shape": "box",
+      "position": [
+        12.75,
+        8.2,
+        -6.390000000000001
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9404 wetroom side",
+      "shape": "box",
+      "position": [
+        13.35,
+        8.2,
+        -6.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9405 floor",
+      "shape": "box",
+      "position": [
+        8.0,
+        6.949999999999999,
+        -1.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9405 roof",
+      "shape": "box",
+      "position": [
+        8.0,
+        10.375,
+        -1.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9405 end 12.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        -2.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9405 end 15.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        0.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9405 window sill",
+      "shape": "box",
+      "position": [
+        6.0,
+        7.5,
+        -1.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9405 window head",
+      "shape": "box",
+      "position": [
+        6.0,
+        9.875,
+        -1.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9405 window pane collider",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.725,
+        -1.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9405 jamb L",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        -0.3699999999999992
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9405 jamb R",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        -1.6300000000000008
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9405 header",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.4,
+        -1.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9405 bed base",
+      "shape": "box",
+      "position": [
+        7.4,
+        7.3100000000000005,
+        0.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9405 desk",
+      "shape": "box",
+      "position": [
+        6.75,
+        7.779999999999999,
+        -2.0700000000000003
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9405 wetroom back",
+      "shape": "box",
+      "position": [
+        9.25,
+        8.2,
+        -2.3900000000000006
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9405 wetroom side",
+      "shape": "box",
+      "position": [
+        8.65,
+        8.2,
+        -2.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9406 floor",
+      "shape": "box",
+      "position": [
+        14.0,
+        6.949999999999999,
+        -1.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9406 roof",
+      "shape": "box",
+      "position": [
+        14.0,
+        10.375,
+        -1.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9406 end 12.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        -2.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9406 end 15.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        0.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9406 window sill",
+      "shape": "box",
+      "position": [
+        16.0,
+        7.5,
+        -1.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9406 window head",
+      "shape": "box",
+      "position": [
+        16.0,
+        9.875,
+        -1.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9406 window pane collider",
+      "shape": "box",
+      "position": [
+        16.0,
+        8.725,
+        -1.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9406 jamb L",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        -0.3699999999999992
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9406 jamb R",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        -1.6300000000000008
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9406 header",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.4,
+        -1.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9406 bed base",
+      "shape": "box",
+      "position": [
+        14.6,
+        7.3100000000000005,
+        0.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9406 desk",
+      "shape": "box",
+      "position": [
+        15.25,
+        7.779999999999999,
+        -2.0700000000000003
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9406 wetroom back",
+      "shape": "box",
+      "position": [
+        12.75,
+        8.2,
+        -2.3900000000000006
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9406 wetroom side",
+      "shape": "box",
+      "position": [
+        13.35,
+        8.2,
+        -2.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9407 floor",
+      "shape": "box",
+      "position": [
+        8.0,
+        6.949999999999999,
+        3.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9407 roof",
+      "shape": "box",
+      "position": [
+        8.0,
+        10.375,
+        3.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9407 end 12.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        1.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9407 end 15.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        4.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9407 window sill",
+      "shape": "box",
+      "position": [
+        6.0,
+        7.5,
+        3.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9407 window head",
+      "shape": "box",
+      "position": [
+        6.0,
+        9.875,
+        3.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9407 window pane collider",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.725,
+        3.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9407 jamb L",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        3.630000000000001
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9407 jamb R",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        2.369999999999999
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9407 header",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.4,
+        3.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9407 bed base",
+      "shape": "box",
+      "position": [
+        7.4,
+        7.3100000000000005,
+        4.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9407 desk",
+      "shape": "box",
+      "position": [
+        6.75,
+        7.779999999999999,
+        1.9299999999999997
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9407 wetroom back",
+      "shape": "box",
+      "position": [
+        9.25,
+        8.2,
+        1.6099999999999994
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9407 wetroom side",
+      "shape": "box",
+      "position": [
+        8.65,
+        8.2,
+        2.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9408 floor",
+      "shape": "box",
+      "position": [
+        14.0,
+        6.949999999999999,
+        3.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9408 roof",
+      "shape": "box",
+      "position": [
+        14.0,
+        10.375,
+        3.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9408 end 12.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        1.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9408 end 15.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        4.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9408 window sill",
+      "shape": "box",
+      "position": [
+        16.0,
+        7.5,
+        3.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9408 window head",
+      "shape": "box",
+      "position": [
+        16.0,
+        9.875,
+        3.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9408 window pane collider",
+      "shape": "box",
+      "position": [
+        16.0,
+        8.725,
+        3.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9408 jamb L",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        3.630000000000001
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9408 jamb R",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        2.369999999999999
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9408 header",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.4,
+        3.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9408 bed base",
+      "shape": "box",
+      "position": [
+        14.6,
+        7.3100000000000005,
+        4.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9408 desk",
+      "shape": "box",
+      "position": [
+        15.25,
+        7.779999999999999,
+        1.9299999999999997
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9408 wetroom back",
+      "shape": "box",
+      "position": [
+        12.75,
+        8.2,
+        1.6099999999999994
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9408 wetroom side",
+      "shape": "box",
+      "position": [
+        13.35,
+        8.2,
+        2.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9409 floor",
+      "shape": "box",
+      "position": [
+        8.0,
+        6.949999999999999,
+        7.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9409 roof",
+      "shape": "box",
+      "position": [
+        8.0,
+        10.375,
+        7.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9409 end 12.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        5.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9409 end 15.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        8.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9409 window sill",
+      "shape": "box",
+      "position": [
+        6.0,
+        7.5,
+        7.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9409 window head",
+      "shape": "box",
+      "position": [
+        6.0,
+        9.875,
+        7.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9409 window pane collider",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.725,
+        7.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9409 jamb L",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        7.630000000000001
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9409 jamb R",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        6.369999999999999
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9409 header",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.4,
+        7.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9409 bed base",
+      "shape": "box",
+      "position": [
+        7.4,
+        7.3100000000000005,
+        8.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9409 desk",
+      "shape": "box",
+      "position": [
+        6.75,
+        7.779999999999999,
+        5.93
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9409 wetroom back",
+      "shape": "box",
+      "position": [
+        9.25,
+        8.2,
+        5.609999999999999
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9409 wetroom side",
+      "shape": "box",
+      "position": [
+        8.65,
+        8.2,
+        6.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9410 floor",
+      "shape": "box",
+      "position": [
+        14.0,
+        6.949999999999999,
+        7.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9410 roof",
+      "shape": "box",
+      "position": [
+        14.0,
+        10.375,
+        7.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9410 end 12.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        5.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9410 end 15.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        8.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9410 window sill",
+      "shape": "box",
+      "position": [
+        16.0,
+        7.5,
+        7.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9410 window head",
+      "shape": "box",
+      "position": [
+        16.0,
+        9.875,
+        7.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9410 window pane collider",
+      "shape": "box",
+      "position": [
+        16.0,
+        8.725,
+        7.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9410 jamb L",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        7.630000000000001
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9410 jamb R",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        6.369999999999999
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9410 header",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.4,
+        7.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9410 bed base",
+      "shape": "box",
+      "position": [
+        14.6,
+        7.3100000000000005,
+        8.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9410 desk",
+      "shape": "box",
+      "position": [
+        15.25,
+        7.779999999999999,
+        5.93
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9410 wetroom back",
+      "shape": "box",
+      "position": [
+        12.75,
+        8.2,
+        5.609999999999999
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9410 wetroom side",
+      "shape": "box",
+      "position": [
+        13.35,
+        8.2,
+        6.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9411 floor",
+      "shape": "box",
+      "position": [
+        8.0,
+        6.949999999999999,
+        14.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9411 roof",
+      "shape": "box",
+      "position": [
+        8.0,
+        10.375,
+        14.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9411 end 12.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        12.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9411 end 15.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        15.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9411 window sill",
+      "shape": "box",
+      "position": [
+        6.0,
+        7.5,
+        14.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9411 window head",
+      "shape": "box",
+      "position": [
+        6.0,
+        9.875,
+        14.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9411 window pane collider",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.725,
+        14.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9411 jamb L",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        14.63
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9411 jamb R",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        13.37
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9411 header",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.4,
+        14.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9411 bed base",
+      "shape": "box",
+      "position": [
+        7.4,
+        7.3100000000000005,
+        15.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9411 desk",
+      "shape": "box",
+      "position": [
+        6.75,
+        7.779999999999999,
+        12.93
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9411 wetroom back",
+      "shape": "box",
+      "position": [
+        9.25,
+        8.2,
+        12.61
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9411 wetroom side",
+      "shape": "box",
+      "position": [
+        8.65,
+        8.2,
+        13.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9412 floor",
+      "shape": "box",
+      "position": [
+        14.0,
+        6.949999999999999,
+        14.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9412 roof",
+      "shape": "box",
+      "position": [
+        14.0,
+        10.375,
+        14.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9412 end 12.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        12.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9412 end 15.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        15.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9412 window sill",
+      "shape": "box",
+      "position": [
+        16.0,
+        7.5,
+        14.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9412 window head",
+      "shape": "box",
+      "position": [
+        16.0,
+        9.875,
+        14.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9412 window pane collider",
+      "shape": "box",
+      "position": [
+        16.0,
+        8.725,
+        14.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9412 jamb L",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        14.63
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9412 jamb R",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        13.37
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9412 header",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.4,
+        14.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9412 bed base",
+      "shape": "box",
+      "position": [
+        14.6,
+        7.3100000000000005,
+        15.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9412 desk",
+      "shape": "box",
+      "position": [
+        15.25,
+        7.779999999999999,
+        12.93
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9412 wetroom back",
+      "shape": "box",
+      "position": [
+        12.75,
+        8.2,
+        12.61
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9412 wetroom side",
+      "shape": "box",
+      "position": [
+        13.35,
+        8.2,
+        13.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9413 floor",
+      "shape": "box",
+      "position": [
+        8.0,
+        6.949999999999999,
+        19.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9413 roof",
+      "shape": "box",
+      "position": [
+        8.0,
+        10.375,
+        19.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9413 end 12.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        17.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9413 end 15.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        20.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9413 window sill",
+      "shape": "box",
+      "position": [
+        6.0,
+        7.5,
+        19.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9413 window head",
+      "shape": "box",
+      "position": [
+        6.0,
+        9.875,
+        19.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9413 window pane collider",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.725,
+        19.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9413 jamb L",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        19.630000000000003
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9413 jamb R",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        18.369999999999997
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9413 header",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.4,
+        19.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9413 bed base",
+      "shape": "box",
+      "position": [
+        7.4,
+        7.3100000000000005,
+        20.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9413 desk",
+      "shape": "box",
+      "position": [
+        6.75,
+        7.779999999999999,
+        17.93
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9413 wetroom back",
+      "shape": "box",
+      "position": [
+        9.25,
+        8.2,
+        17.61
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9413 wetroom side",
+      "shape": "box",
+      "position": [
+        8.65,
+        8.2,
+        18.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9414 floor",
+      "shape": "box",
+      "position": [
+        14.0,
+        6.949999999999999,
+        19.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9414 roof",
+      "shape": "box",
+      "position": [
+        14.0,
+        10.375,
+        19.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9414 end 12.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        17.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9414 end 15.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        20.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9414 window sill",
+      "shape": "box",
+      "position": [
+        16.0,
+        7.5,
+        19.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9414 window head",
+      "shape": "box",
+      "position": [
+        16.0,
+        9.875,
+        19.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9414 window pane collider",
+      "shape": "box",
+      "position": [
+        16.0,
+        8.725,
+        19.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9414 jamb L",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        19.630000000000003
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9414 jamb R",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        18.369999999999997
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9414 header",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.4,
+        19.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9414 bed base",
+      "shape": "box",
+      "position": [
+        14.6,
+        7.3100000000000005,
+        20.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9414 desk",
+      "shape": "box",
+      "position": [
+        15.25,
+        7.779999999999999,
+        17.93
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9414 wetroom back",
+      "shape": "box",
+      "position": [
+        12.75,
+        8.2,
+        17.61
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9414 wetroom side",
+      "shape": "box",
+      "position": [
+        13.35,
+        8.2,
+        18.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9415 floor",
+      "shape": "box",
+      "position": [
+        8.0,
+        6.949999999999999,
+        23.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9415 roof",
+      "shape": "box",
+      "position": [
+        8.0,
+        10.375,
+        23.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9415 end 12.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        21.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9415 end 15.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        24.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9415 window sill",
+      "shape": "box",
+      "position": [
+        6.0,
+        7.5,
+        23.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9415 window head",
+      "shape": "box",
+      "position": [
+        6.0,
+        9.875,
+        23.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9415 window pane collider",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.725,
+        23.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9415 jamb L",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        23.630000000000003
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9415 jamb R",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        22.369999999999997
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9415 header",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.4,
+        23.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9415 bed base",
+      "shape": "box",
+      "position": [
+        7.4,
+        7.3100000000000005,
+        24.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9415 desk",
+      "shape": "box",
+      "position": [
+        6.75,
+        7.779999999999999,
+        21.93
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9415 wetroom back",
+      "shape": "box",
+      "position": [
+        9.25,
+        8.2,
+        21.61
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9415 wetroom side",
+      "shape": "box",
+      "position": [
+        8.65,
+        8.2,
+        22.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9416 floor",
+      "shape": "box",
+      "position": [
+        14.0,
+        6.949999999999999,
+        23.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9416 roof",
+      "shape": "box",
+      "position": [
+        14.0,
+        10.375,
+        23.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9416 end 12.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        21.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9416 end 15.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        24.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9416 window sill",
+      "shape": "box",
+      "position": [
+        16.0,
+        7.5,
+        23.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9416 window head",
+      "shape": "box",
+      "position": [
+        16.0,
+        9.875,
+        23.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9416 window pane collider",
+      "shape": "box",
+      "position": [
+        16.0,
+        8.725,
+        23.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9416 jamb L",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        23.630000000000003
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9416 jamb R",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        22.369999999999997
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9416 header",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.4,
+        23.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9416 bed base",
+      "shape": "box",
+      "position": [
+        14.6,
+        7.3100000000000005,
+        24.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9416 desk",
+      "shape": "box",
+      "position": [
+        15.25,
+        7.779999999999999,
+        21.93
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9416 wetroom back",
+      "shape": "box",
+      "position": [
+        12.75,
+        8.2,
+        21.61
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9416 wetroom side",
+      "shape": "box",
+      "position": [
+        13.35,
+        8.2,
+        22.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9417 floor",
+      "shape": "box",
+      "position": [
+        8.0,
+        6.949999999999999,
+        27.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9417 roof",
+      "shape": "box",
+      "position": [
+        8.0,
+        10.375,
+        27.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9417 end 12.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        25.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9417 end 15.5",
+      "shape": "box",
+      "position": [
+        8.0,
+        8.65,
+        28.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9417 window sill",
+      "shape": "box",
+      "position": [
+        6.0,
+        7.5,
+        27.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9417 window head",
+      "shape": "box",
+      "position": [
+        6.0,
+        9.875,
+        27.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9417 window pane collider",
+      "shape": "box",
+      "position": [
+        6.0,
+        8.725,
+        27.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9417 jamb L",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        27.630000000000003
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9417 jamb R",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.25,
+        26.369999999999997
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9417 header",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.4,
+        27.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9417 bed base",
+      "shape": "box",
+      "position": [
+        7.4,
+        7.3100000000000005,
+        28.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9417 desk",
+      "shape": "box",
+      "position": [
+        6.75,
+        7.779999999999999,
+        25.93
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9417 wetroom back",
+      "shape": "box",
+      "position": [
+        9.25,
+        8.2,
+        25.61
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9417 wetroom side",
+      "shape": "box",
+      "position": [
+        8.65,
+        8.2,
+        26.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9418 floor",
+      "shape": "box",
+      "position": [
+        14.0,
+        6.949999999999999,
+        27.0
+      ],
+      "size": [
+        4.15,
+        0.2,
+        3.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9418 roof",
+      "shape": "box",
+      "position": [
+        14.0,
+        10.375,
+        27.0
+      ],
+      "size": [
+        4.2,
+        0.25,
+        3.2
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9418 end 12.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        25.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9418 end 15.5",
+      "shape": "box",
+      "position": [
+        14.0,
+        8.65,
+        28.5
+      ],
+      "size": [
+        0.16,
+        3.1999999999999997,
+        4.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9418 window sill",
+      "shape": "box",
+      "position": [
+        16.0,
+        7.5,
+        27.0
+      ],
+      "size": [
+        0.3,
+        0.8999999999999999,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9418 window head",
+      "shape": "box",
+      "position": [
+        16.0,
+        9.875,
+        27.0
+      ],
+      "size": [
+        0.3,
+        0.75,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9418 window pane collider",
+      "shape": "box",
+      "position": [
+        16.0,
+        8.725,
+        27.0
+      ],
+      "size": [
+        0.15,
+        1.5500000000000003,
+        3.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9418 jamb L",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        27.630000000000003
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9418 jamb R",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.25,
+        26.369999999999997
+      ],
+      "size": [
+        0.19,
+        2.4000000000000004,
+        0.42
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9418 header",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.4,
+        27.0
+      ],
+      "size": [
+        1.46,
+        0.33,
+        0.46
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Cabin 9418 bed base",
+      "shape": "box",
+      "position": [
+        14.6,
+        7.3100000000000005,
+        28.0
+      ],
+      "size": [
+        2.05,
+        0.5,
+        0.75
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9418 desk",
+      "shape": "box",
+      "position": [
+        15.25,
+        7.779999999999999,
+        25.93
+      ],
+      "size": [
+        1.05,
+        0.1,
+        0.5
+      ],
+      "yaw": 0.0,
+      "group": "environment"
+    },
+    {
+      "name": "Cabin 9418 wetroom back",
+      "shape": "box",
+      "position": [
+        12.75,
+        8.2,
+        25.61
+      ],
+      "size": [
+        1.2,
+        2.3,
+        0.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Cabin 9418 wetroom side",
+      "shape": "box",
+      "position": [
+        13.35,
+        8.2,
+        26.0
+      ],
+      "size": [
+        0.1,
+        2.2999999999999994,
+        1.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor floor",
+      "shape": "box",
+      "position": [
+        11.0,
+        6.95,
+        9.025
+      ],
+      "size": [
+        1.85,
+        0.2,
+        42.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor ceiling",
+      "shape": "box",
+      "position": [
+        11.0,
+        10.375,
+        9.025
+      ],
+      "size": [
+        2.3,
+        0.25,
+        42.15
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 10 0",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.65,
+        -10.8
+      ],
+      "size": [
+        0.15,
+        3.2,
+        2.5
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 10 2",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.65,
+        -7.0
+      ],
+      "size": [
+        0.15,
+        3.2,
+        2.8999999999999995
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 10 4",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.65,
+        -3.0
+      ],
+      "size": [
+        0.15,
+        3.2,
+        2.9000000000000004
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 10 6",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.65,
+        1.0000000000000002
+      ],
+      "size": [
+        0.15,
+        3.2,
+        2.9000000000000004
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 10 8",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.65,
+        5.0
+      ],
+      "size": [
+        0.15,
+        3.2,
+        2.9000000000000004
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 10 10",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.65,
+        10.5
+      ],
+      "size": [
+        0.15,
+        3.2,
+        5.8999999999999995
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 10 12",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.65,
+        16.5
+      ],
+      "size": [
+        0.15,
+        3.2,
+        3.8999999999999986
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 10 14",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.65,
+        21.0
+      ],
+      "size": [
+        0.15,
+        3.2,
+        2.8999999999999986
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 10 16",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.65,
+        25.0
+      ],
+      "size": [
+        0.15,
+        3.2,
+        2.8999999999999986
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 10 18",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.65,
+        28.825000000000003
+      ],
+      "size": [
+        0.15,
+        3.2,
+        2.5500000000000007
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 10 -9",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.75,
+        -9.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.1000000000000014
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 10 -5",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.75,
+        -5.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.0999999999999996
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 10 -1",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.75,
+        -1.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 10 3",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.75,
+        3.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.0999999999999996
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 10 7",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.75,
+        7.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.0999999999999996
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 10 14",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.75,
+        14.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.1000000000000014
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 10 19",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.75,
+        19.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.1000000000000014
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 10 23",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.75,
+        23.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.1000000000000014
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 10 27",
+      "shape": "box",
+      "position": [
+        10.0,
+        9.75,
+        27.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.1000000000000014
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 12 0",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.65,
+        -10.8
+      ],
+      "size": [
+        0.15,
+        3.2,
+        2.5
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 12 2",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.65,
+        -7.0
+      ],
+      "size": [
+        0.15,
+        3.2,
+        2.8999999999999995
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 12 4",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.65,
+        -3.0
+      ],
+      "size": [
+        0.15,
+        3.2,
+        2.9000000000000004
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 12 6",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.65,
+        1.0000000000000002
+      ],
+      "size": [
+        0.15,
+        3.2,
+        2.9000000000000004
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 12 8",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.65,
+        5.0
+      ],
+      "size": [
+        0.15,
+        3.2,
+        2.9000000000000004
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 12 10",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.65,
+        10.5
+      ],
+      "size": [
+        0.15,
+        3.2,
+        5.8999999999999995
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 12 12",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.65,
+        16.5
+      ],
+      "size": [
+        0.15,
+        3.2,
+        3.8999999999999986
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 12 14",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.65,
+        21.0
+      ],
+      "size": [
+        0.15,
+        3.2,
+        2.8999999999999986
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 12 16",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.65,
+        25.0
+      ],
+      "size": [
+        0.15,
+        3.2,
+        2.8999999999999986
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor 12 18",
+      "shape": "box",
+      "position": [
+        12.0,
+        8.65,
+        28.825000000000003
+      ],
+      "size": [
+        0.15,
+        3.2,
+        2.5500000000000007
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 12 -9",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.75,
+        -9.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.1000000000000014
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 12 -5",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.75,
+        -5.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.0999999999999996
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 12 -1",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.75,
+        -1.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 12 3",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.75,
+        3.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.0999999999999996
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 12 7",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.75,
+        7.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.0999999999999996
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 12 14",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.75,
+        14.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.1000000000000014
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 12 19",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.75,
+        19.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.1000000000000014
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 12 23",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.75,
+        23.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.1000000000000014
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 lintel 12 27",
+      "shape": "box",
+      "position": [
+        12.0,
+        9.75,
+        27.0
+      ],
+      "size": [
+        0.15,
+        1.0,
+        1.1000000000000014
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 corridor end",
+      "shape": "box",
+      "position": [
+        11.0,
+        8.65,
+        -12.05
+      ],
+      "size": [
+        0.15,
+        3.2,
+        2.0
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Deck 9 Port flight 0 ramp",
+      "shape": "convexHull",
+      "vertices": [
+        -12.524999999999999,
+        3.2199999999999998,
+        31.5,
+        -12.524999999999999,
+        3.4,
+        31.5,
+        -10.375,
+        3.2199999999999998,
+        31.5,
+        -10.375,
+        3.4,
+        31.5,
+        -12.524999999999999,
+        5.045,
+        34.3,
+        -12.524999999999999,
+        5.225,
+        34.3,
+        -10.375,
+        5.045,
+        34.3,
+        -10.375,
+        5.225,
+        34.3
+      ]
+    },
+    {
+      "name": "Deck 9 Port flight 0 rail L",
+      "shape": "convexHull",
+      "vertices": [
+        -12.604999999999999,
+        4.25,
+        31.5,
+        -12.545,
+        4.25,
+        31.5,
+        -12.604999999999999,
+        4.35,
+        31.5,
+        -12.545,
+        4.35,
+        31.5,
+        -12.604999999999999,
+        6.074999999999999,
+        34.3,
+        -12.545,
+        6.074999999999999,
+        34.3,
+        -12.604999999999999,
+        6.175,
+        34.3,
+        -12.545,
+        6.175,
+        34.3
+      ]
+    },
+    {
+      "name": "Deck 9 Port flight 0 rail R",
+      "shape": "convexHull",
+      "vertices": [
+        -10.354999999999999,
+        4.25,
+        31.5,
+        -10.295,
+        4.25,
+        31.5,
+        -10.354999999999999,
+        4.35,
+        31.5,
+        -10.295,
+        4.35,
+        31.5,
+        -10.354999999999999,
+        6.074999999999999,
+        34.3,
+        -10.295,
+        6.074999999999999,
+        34.3,
+        -10.354999999999999,
+        6.175,
+        34.3,
+        -10.295,
+        6.175,
+        34.3
+      ]
+    },
+    {
+      "name": "Deck 9 Port flight 1 ramp",
+      "shape": "convexHull",
+      "vertices": [
+        -15.625,
+        5.045,
+        34.3,
+        -15.625,
+        5.225,
+        34.3,
+        -13.475000000000001,
+        5.045,
+        34.3,
+        -13.475000000000001,
+        5.225,
+        34.3,
+        -15.625,
+        6.87,
+        31.5,
+        -15.625,
+        7.05,
+        31.5,
+        -13.475000000000001,
+        6.87,
+        31.5,
+        -13.475000000000001,
+        7.05,
+        31.5
+      ]
+    },
+    {
+      "name": "Deck 9 Port flight 1 rail L",
+      "shape": "convexHull",
+      "vertices": [
+        -13.395000000000001,
+        6.074999999999999,
+        34.3,
+        -13.455,
+        6.074999999999999,
+        34.3,
+        -13.395000000000001,
+        6.175,
+        34.3,
+        -13.455,
+        6.175,
+        34.3,
+        -13.395,
+        7.8999999999999995,
+        31.499999999999996,
+        -13.455,
+        7.8999999999999995,
+        31.499999999999996,
+        -13.395,
+        8.0,
+        31.499999999999996,
+        -13.455,
+        8.0,
+        31.499999999999996
+      ]
+    },
+    {
+      "name": "Deck 9 Port flight 1 rail R",
+      "shape": "convexHull",
+      "vertices": [
+        -15.645000000000001,
+        6.074999999999999,
+        34.3,
+        -15.705,
+        6.074999999999999,
+        34.3,
+        -15.645000000000001,
+        6.175,
+        34.3,
+        -15.705,
+        6.175,
+        34.3,
+        -15.645,
+        7.8999999999999995,
+        31.499999999999996,
+        -15.705,
+        7.8999999999999995,
+        31.499999999999996,
+        -15.645,
+        8.0,
+        31.499999999999996,
+        -15.705,
+        8.0,
+        31.499999999999996
+      ]
+    },
+    {
+      "name": "Deck 9 Port half landing",
+      "shape": "box",
+      "position": [
+        -13.1,
+        5.125,
+        35.12
+      ],
+      "size": [
+        6.25,
+        0.2,
+        1.8
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Port landing",
+      "shape": "box",
+      "position": [
+        -13.1,
+        6.95,
+        30.82
+      ],
+      "size": [
+        6.25,
+        0.2,
+        1.55
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Port stair ceiling",
+      "shape": "box",
+      "position": [
+        -13.1,
+        10.375,
+        33.1
+      ],
+      "size": [
+        6.35,
+        0.25,
+        6.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Port stair end 30.1",
+      "shape": "box",
+      "position": [
+        -13.06,
+        8.625,
+        30.1
+      ],
+      "size": [
+        0.3,
+        4.049999999999999,
+        6.120000000000001
+      ],
+      "yaw": -1.5707963267948966
+    },
+    {
+      "name": "Deck 9 Port stair end 36.1",
+      "shape": "box",
+      "position": [
+        -13.06,
+        8.625,
+        36.1
+      ],
+      "size": [
+        0.3,
+        4.049999999999999,
+        6.120000000000001
+      ],
+      "yaw": -1.5707963267948966
+    },
+    {
+      "name": "Deck 9 Port stair outer",
+      "shape": "box",
+      "position": [
+        -16.12,
+        8.625,
+        33.1
+      ],
+      "size": [
+        0.3,
+        4.049999999999999,
+        6.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Port stair foyer left",
+      "shape": "box",
+      "position": [
+        -10.0,
+        8.625,
+        30.177500000000002
+      ],
+      "size": [
+        0.3,
+        4.049999999999999,
+        0.15500000000000003
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Port stair foyer right",
+      "shape": "box",
+      "position": [
+        -10.0,
+        8.625,
+        34.1025
+      ],
+      "size": [
+        0.3,
+        4.049999999999999,
+        3.995
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Port stair foyer lintel",
+      "shape": "box",
+      "position": [
+        -10.0,
+        10.174999999999999,
+        31.18
+      ],
+      "size": [
+        0.3,
+        0.9499999999999993,
+        1.8499999999999999
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Port foyer floor",
+      "shape": "box",
+      "position": [
+        -8.6,
+        6.96,
+        33.1
+      ],
+      "size": [
+        2.85,
+        0.18,
+        5.9
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Port foyer ceiling",
+      "shape": "box",
+      "position": [
+        -8.6,
+        10.375,
+        33.1
+      ],
+      "size": [
+        2.85,
+        0.25,
+        5.9
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Port foyer end",
+      "shape": "box",
+      "position": [
+        -8.6,
+        8.65,
+        30.15
+      ],
+      "size": [
+        0.3,
+        3.2,
+        2.8
+      ],
+      "yaw": -1.5707963267948966
+    },
+    {
+      "name": "Deck 9 Port foyer rear",
+      "shape": "box",
+      "position": [
+        -8.6,
+        8.65,
+        36.05
+      ],
+      "size": [
+        0.3,
+        3.2,
+        2.8
+      ],
+      "yaw": -1.5707963267948966
+    },
+    {
+      "name": "Deck 9 Port lift lintel",
+      "shape": "box",
+      "position": [
+        -7.2,
+        9.85,
+        33.0
+      ],
+      "size": [
+        0.12,
+        0.8000000000000007,
+        1.7000000000000028
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Port landing guard",
+      "shape": "box",
+      "position": [
+        -11.7,
+        7.574999999999999,
+        31.55
+      ],
+      "size": [
+        0.07,
+        1.0499999999999998,
+        3.200000000000001
+      ],
+      "yaw": -1.5707963267948966
+    },
+    {
+      "name": "Deck 9 Starboard flight 0 ramp",
+      "shape": "convexHull",
+      "vertices": [
+        10.375,
+        3.2199999999999998,
+        31.5,
+        10.375,
+        3.4,
+        31.5,
+        12.524999999999999,
+        3.2199999999999998,
+        31.5,
+        12.524999999999999,
+        3.4,
+        31.5,
+        10.375,
+        5.045,
+        34.3,
+        10.375,
+        5.225,
+        34.3,
+        12.524999999999999,
+        5.045,
+        34.3,
+        12.524999999999999,
+        5.225,
+        34.3
+      ]
+    },
+    {
+      "name": "Deck 9 Starboard flight 0 rail L",
+      "shape": "convexHull",
+      "vertices": [
+        10.295,
+        4.25,
+        31.5,
+        10.354999999999999,
+        4.25,
+        31.5,
+        10.295,
+        4.35,
+        31.5,
+        10.354999999999999,
+        4.35,
+        31.5,
+        10.295,
+        6.074999999999999,
+        34.3,
+        10.354999999999999,
+        6.074999999999999,
+        34.3,
+        10.295,
+        6.175,
+        34.3,
+        10.354999999999999,
+        6.175,
+        34.3
+      ]
+    },
+    {
+      "name": "Deck 9 Starboard flight 0 rail R",
+      "shape": "convexHull",
+      "vertices": [
+        12.545,
+        4.25,
+        31.5,
+        12.604999999999999,
+        4.25,
+        31.5,
+        12.545,
+        4.35,
+        31.5,
+        12.604999999999999,
+        4.35,
+        31.5,
+        12.545,
+        6.074999999999999,
+        34.3,
+        12.604999999999999,
+        6.074999999999999,
+        34.3,
+        12.545,
+        6.175,
+        34.3,
+        12.604999999999999,
+        6.175,
+        34.3
+      ]
+    },
+    {
+      "name": "Deck 9 Starboard flight 1 ramp",
+      "shape": "convexHull",
+      "vertices": [
+        13.475000000000001,
+        5.045,
+        34.3,
+        13.475000000000001,
+        5.225,
+        34.3,
+        15.625,
+        5.045,
+        34.3,
+        15.625,
+        5.225,
+        34.3,
+        13.475000000000001,
+        6.87,
+        31.5,
+        13.475000000000001,
+        7.05,
+        31.5,
+        15.625,
+        6.87,
+        31.5,
+        15.625,
+        7.05,
+        31.5
+      ]
+    },
+    {
+      "name": "Deck 9 Starboard flight 1 rail L",
+      "shape": "convexHull",
+      "vertices": [
+        15.705,
+        6.074999999999999,
+        34.3,
+        15.645000000000001,
+        6.074999999999999,
+        34.3,
+        15.705,
+        6.175,
+        34.3,
+        15.645000000000001,
+        6.175,
+        34.3,
+        15.705000000000002,
+        7.8999999999999995,
+        31.499999999999996,
+        15.645000000000001,
+        7.8999999999999995,
+        31.499999999999996,
+        15.705000000000002,
+        8.0,
+        31.499999999999996,
+        15.645000000000001,
+        8.0,
+        31.499999999999996
+      ]
+    },
+    {
+      "name": "Deck 9 Starboard flight 1 rail R",
+      "shape": "convexHull",
+      "vertices": [
+        13.455,
+        6.074999999999999,
+        34.3,
+        13.395000000000001,
+        6.074999999999999,
+        34.3,
+        13.455,
+        6.175,
+        34.3,
+        13.395000000000001,
+        6.175,
+        34.3,
+        13.455000000000002,
+        7.8999999999999995,
+        31.499999999999996,
+        13.395000000000001,
+        7.8999999999999995,
+        31.499999999999996,
+        13.455000000000002,
+        8.0,
+        31.499999999999996,
+        13.395000000000001,
+        8.0,
+        31.499999999999996
+      ]
+    },
+    {
+      "name": "Deck 9 Starboard half landing",
+      "shape": "box",
+      "position": [
+        13.1,
+        5.125,
+        35.12
+      ],
+      "size": [
+        6.25,
+        0.2,
+        1.8
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Starboard landing",
+      "shape": "box",
+      "position": [
+        13.1,
+        6.95,
+        30.82
+      ],
+      "size": [
+        6.25,
+        0.2,
+        1.55
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Starboard stair ceiling",
+      "shape": "box",
+      "position": [
+        13.1,
+        10.375,
+        33.1
+      ],
+      "size": [
+        6.35,
+        0.25,
+        6.1
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Starboard stair end 30.1 left",
+      "shape": "box",
+      "position": [
+        10.075,
+        8.625,
+        30.1
+      ],
+      "size": [
+        0.3,
+        4.049999999999999,
+        0.15000000000000002
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Deck 9 Starboard stair end 30.1 right",
+      "shape": "box",
+      "position": [
+        14.035,
+        8.625,
+        30.1
+      ],
+      "size": [
+        0.3,
+        4.049999999999999,
+        4.170000000000001
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Deck 9 Starboard stair end 30.1 lintel",
+      "shape": "box",
+      "position": [
+        11.05,
+        10.174999999999999,
+        30.1
+      ],
+      "size": [
+        0.3,
+        0.9499999999999993,
+        1.8000000000000003
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Deck 9 Starboard stair end 36.1",
+      "shape": "box",
+      "position": [
+        13.06,
+        8.625,
+        36.1
+      ],
+      "size": [
+        0.3,
+        4.049999999999999,
+        6.120000000000001
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Deck 9 Starboard stair outer",
+      "shape": "box",
+      "position": [
+        16.12,
+        8.625,
+        33.1
+      ],
+      "size": [
+        0.3,
+        4.049999999999999,
+        6.0
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Starboard stair foyer left",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.625,
+        30.177500000000002
+      ],
+      "size": [
+        0.3,
+        4.049999999999999,
+        0.15500000000000003
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Starboard stair foyer right",
+      "shape": "box",
+      "position": [
+        10.0,
+        8.625,
+        34.1025
+      ],
+      "size": [
+        0.3,
+        4.049999999999999,
+        3.995
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Starboard stair foyer lintel",
+      "shape": "box",
+      "position": [
+        10.0,
+        10.174999999999999,
+        31.18
+      ],
+      "size": [
+        0.3,
+        0.9499999999999993,
+        1.8499999999999999
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Starboard foyer floor",
+      "shape": "box",
+      "position": [
+        8.6,
+        6.96,
+        33.1
+      ],
+      "size": [
+        2.85,
+        0.18,
+        5.9
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Starboard foyer ceiling",
+      "shape": "box",
+      "position": [
+        8.6,
+        10.375,
+        33.1
+      ],
+      "size": [
+        2.85,
+        0.25,
+        5.9
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Starboard foyer end",
+      "shape": "box",
+      "position": [
+        8.6,
+        8.65,
+        30.15
+      ],
+      "size": [
+        0.3,
+        3.2,
+        2.8
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Deck 9 Starboard foyer rear",
+      "shape": "box",
+      "position": [
+        8.6,
+        8.65,
+        36.05
+      ],
+      "size": [
+        0.3,
+        3.2,
+        2.8
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Deck 9 Starboard lift lintel",
+      "shape": "box",
+      "position": [
+        7.2,
+        9.85,
+        33.0
+      ],
+      "size": [
+        0.12,
+        0.8000000000000007,
+        1.7000000000000028
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 Starboard landing guard",
+      "shape": "box",
+      "position": [
+        11.7,
+        7.574999999999999,
+        31.55
+      ],
+      "size": [
+        0.07,
+        1.0499999999999998,
+        3.200000000000001
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Deck 9 cross landing",
+      "shape": "box",
+      "position": [
+        0.0,
+        6.96,
+        35.1
+      ],
+      "size": [
+        14.5,
+        0.18,
+        1.8
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 cross ceiling",
+      "shape": "box",
+      "position": [
+        0.0,
+        10.375,
+        35.1
+      ],
+      "size": [
+        14.5,
+        0.25,
+        1.8
+      ],
+      "yaw": 0.0
+    },
+    {
+      "name": "Deck 9 cross guard 34.2",
+      "shape": "box",
+      "position": [
+        0.0,
+        7.574999999999999,
+        34.2
+      ],
+      "size": [
+        0.08,
+        1.0499999999999998,
+        14.4
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "name": "Deck 9 cross guard 36",
+      "shape": "box",
+      "position": [
+        0.0,
+        7.574999999999999,
+        36.0
+      ],
+      "size": [
+        0.08,
+        1.0499999999999998,
+        14.4
+      ],
+      "yaw": 1.5707963267948966
     }
   ],
   "volumes": [
@@ -19731,12 +26532,12 @@
       "name": "Rear lift stairs well",
       "position": [
         -13.0,
-        3.3,
+        5.125,
         33.1
       ],
       "size": [
         6.2,
-        6.6,
+        10.25,
         5.8
       ],
       "yaw": 0.0,
@@ -19749,12 +26550,12 @@
       "name": "Starboard rear lift stairs well",
       "position": [
         13.0,
-        3.3,
+        5.125,
         33.1
       ],
       "size": [
         6.2,
-        6.6,
+        10.25,
         5.8
       ],
       "yaw": -0.0,
@@ -20066,6 +26867,399 @@
       "yaw": 0,
       "tags": [
         "indoors"
+      ]
+    },
+    {
+      "name": "Cabin 9401",
+      "position": [
+        8.0,
+        8.65,
+        -9.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Cabin 9402",
+      "position": [
+        14.0,
+        8.65,
+        -9.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Cabin 9403",
+      "position": [
+        8.0,
+        8.65,
+        -5.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Cabin 9404",
+      "position": [
+        14.0,
+        8.65,
+        -5.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Cabin 9405",
+      "position": [
+        8.0,
+        8.65,
+        -1.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Cabin 9406",
+      "position": [
+        14.0,
+        8.65,
+        -1.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Cabin 9407",
+      "position": [
+        8.0,
+        8.65,
+        3.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Cabin 9408",
+      "position": [
+        14.0,
+        8.65,
+        3.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Cabin 9409",
+      "position": [
+        8.0,
+        8.65,
+        7.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Cabin 9410",
+      "position": [
+        14.0,
+        8.65,
+        7.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Cabin 9411",
+      "position": [
+        8.0,
+        8.65,
+        14.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Cabin 9412",
+      "position": [
+        14.0,
+        8.65,
+        14.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Cabin 9413",
+      "position": [
+        8.0,
+        8.65,
+        19.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Cabin 9414",
+      "position": [
+        14.0,
+        8.65,
+        19.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Cabin 9415",
+      "position": [
+        8.0,
+        8.65,
+        23.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Cabin 9416",
+      "position": [
+        14.0,
+        8.65,
+        23.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Cabin 9417",
+      "position": [
+        8.0,
+        8.65,
+        27.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Cabin 9418",
+      "position": [
+        14.0,
+        8.65,
+        27.0
+      ],
+      "size": [
+        4.0,
+        3.2,
+        3.0
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "destination"
+      ]
+    },
+    {
+      "name": "Deck 9 cabins",
+      "position": [
+        11.0,
+        8.65,
+        9.025
+      ],
+      "size": [
+        1.85,
+        3.2,
+        42.15
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors"
+      ]
+    },
+    {
+      "name": "Port lift foyer deck 9",
+      "position": [
+        -8.6,
+        8.65,
+        33.1
+      ],
+      "size": [
+        2.8,
+        3.2,
+        5.8
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors"
+      ]
+    },
+    {
+      "name": "Starboard lift foyer deck 9",
+      "position": [
+        8.6,
+        8.65,
+        33.1
+      ],
+      "size": [
+        2.8,
+        3.2,
+        5.8
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors"
+      ]
+    },
+    {
+      "name": "Deck 9 cross landing",
+      "position": [
+        0.0,
+        8.65,
+        35.1
+      ],
+      "size": [
+        14.4,
+        3.2,
+        1.7
+      ],
+      "yaw": 0.0,
+      "tags": [
+        "indoors",
+        "unsealed"
       ]
     }
   ],
@@ -21168,6 +28362,110 @@
       "intensity": 7,
       "distance": 5,
       "decay": 2.0
+    },
+    {
+      "name": "Deck 9 corridor light -10",
+      "type": "point",
+      "position": [
+        11.0,
+        10.0,
+        -10.0
+      ],
+      "color": "#fff0d6",
+      "intensity": 9,
+      "distance": 7,
+      "decay": 2.0
+    },
+    {
+      "name": "Deck 9 corridor light -2",
+      "type": "point",
+      "position": [
+        11.0,
+        10.0,
+        -2.0
+      ],
+      "color": "#fff0d6",
+      "intensity": 9,
+      "distance": 7,
+      "decay": 2.0
+    },
+    {
+      "name": "Deck 9 corridor light 6",
+      "type": "point",
+      "position": [
+        11.0,
+        10.0,
+        6.0
+      ],
+      "color": "#fff0d6",
+      "intensity": 9,
+      "distance": 7,
+      "decay": 2.0
+    },
+    {
+      "name": "Deck 9 corridor light 14",
+      "type": "point",
+      "position": [
+        11.0,
+        10.0,
+        14.0
+      ],
+      "color": "#fff0d6",
+      "intensity": 9,
+      "distance": 7,
+      "decay": 2.0
+    },
+    {
+      "name": "Deck 9 corridor light 22",
+      "type": "point",
+      "position": [
+        11.0,
+        10.0,
+        22.0
+      ],
+      "color": "#fff0d6",
+      "intensity": 9,
+      "distance": 7,
+      "decay": 2.0
+    },
+    {
+      "name": "Deck 9 corridor light 29",
+      "type": "point",
+      "position": [
+        11.0,
+        10.0,
+        29.0
+      ],
+      "color": "#fff0d6",
+      "intensity": 9,
+      "distance": 7,
+      "decay": 2.0
+    },
+    {
+      "name": "Deck 9 Port stair light",
+      "type": "point",
+      "position": [
+        -13.1,
+        9.75,
+        33.2
+      ],
+      "color": "#fff0d6",
+      "intensity": 18,
+      "distance": 10,
+      "decay": 2.0
+    },
+    {
+      "name": "Deck 9 Starboard stair light",
+      "type": "point",
+      "position": [
+        13.1,
+        9.75,
+        33.2
+      ],
+      "color": "#fff0d6",
+      "intensity": 18,
+      "distance": 10,
+      "decay": 2.0
     }
   ],
   "extras": {
@@ -21398,6 +28696,116 @@
       {
         "from": "Starboard lift foyer deck 8",
         "to": "Lift landing"
+      },
+      {
+        "to": "Cabin 9401",
+        "door": "9401",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "to": "Cabin 9402",
+        "door": "9402",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "to": "Cabin 9403",
+        "door": "9403",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "to": "Cabin 9404",
+        "door": "9404",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "to": "Cabin 9405",
+        "door": "9405",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "to": "Cabin 9406",
+        "door": "9406",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "to": "Cabin 9407",
+        "door": "9407",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "to": "Cabin 9408",
+        "door": "9408",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "to": "Cabin 9409",
+        "door": "9409",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "to": "Cabin 9410",
+        "door": "9410",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "to": "Cabin 9411",
+        "door": "9411",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "to": "Cabin 9412",
+        "door": "9412",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "to": "Cabin 9413",
+        "door": "9413",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "to": "Cabin 9414",
+        "door": "9414",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "to": "Cabin 9415",
+        "door": "9415",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "to": "Cabin 9416",
+        "door": "9416",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "to": "Cabin 9417",
+        "door": "9417",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "to": "Cabin 9418",
+        "door": "9418",
+        "from": "Deck 9 cabins"
+      },
+      {
+        "from": "Port lift foyer deck 8",
+        "to": "Port lift foyer deck 9",
+        "door": null
+      },
+      {
+        "from": "Starboard lift foyer deck 8",
+        "to": "Starboard lift foyer deck 9",
+        "door": null
+      },
+      {
+        "from": "Port lift foyer deck 9",
+        "to": "Deck 9 cabins",
+        "door": null
+      },
+      {
+        "from": "Starboard lift foyer deck 9",
+        "to": "Deck 9 cabins",
+        "door": null
       }
     ],
     "stairs": [
@@ -21556,6 +28964,58 @@
           1.1333333333333333,
           50.4
         ]
+      },
+      {
+        "name": "Deck 9 Port flight 0",
+        "foot": [
+          -11.45,
+          3.4,
+          31.5
+        ],
+        "top": [
+          -11.45,
+          5.225,
+          34.3
+        ]
+      },
+      {
+        "name": "Deck 9 Port flight 1",
+        "foot": [
+          -14.55,
+          5.225,
+          34.3
+        ],
+        "top": [
+          -14.55,
+          7.05,
+          31.499999999999996
+        ]
+      },
+      {
+        "name": "Deck 9 Starboard flight 0",
+        "foot": [
+          11.45,
+          3.4,
+          31.5
+        ],
+        "top": [
+          11.45,
+          5.225,
+          34.3
+        ]
+      },
+      {
+        "name": "Deck 9 Starboard flight 1",
+        "foot": [
+          14.55,
+          5.225,
+          34.3
+        ],
+        "top": [
+          14.55,
+          7.05,
+          31.499999999999996
+        ]
       }
     ],
     "doors": [
@@ -21579,7 +29039,25 @@
       "8415",
       "8416",
       "8417",
-      "8418"
+      "8418",
+      "9401",
+      "9402",
+      "9403",
+      "9404",
+      "9405",
+      "9406",
+      "9407",
+      "9408",
+      "9409",
+      "9410",
+      "9411",
+      "9412",
+      "9413",
+      "9414",
+      "9415",
+      "9416",
+      "9417",
+      "9418"
     ],
     "walkingRoutes": {
       "Promenade|Aft stairs lobby": [
@@ -22943,6 +30421,520 @@
           5.65,
           0,
           38.5
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9401": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          -9
+        ],
+        [
+          8,
+          7.05,
+          -9
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9402": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          -9
+        ],
+        [
+          14,
+          7.05,
+          -9
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9403": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          -5
+        ],
+        [
+          8,
+          7.05,
+          -5
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9404": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          -5
+        ],
+        [
+          14,
+          7.05,
+          -5
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9405": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          -1
+        ],
+        [
+          8,
+          7.05,
+          -1
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9406": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          -1
+        ],
+        [
+          14,
+          7.05,
+          -1
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9407": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          3
+        ],
+        [
+          8,
+          7.05,
+          3
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9408": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          3
+        ],
+        [
+          14,
+          7.05,
+          3
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9409": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          7
+        ],
+        [
+          8,
+          7.05,
+          7
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9410": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          7
+        ],
+        [
+          14,
+          7.05,
+          7
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9411": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          14
+        ],
+        [
+          8,
+          7.05,
+          14
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9412": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          14
+        ],
+        [
+          14,
+          7.05,
+          14
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9413": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          19
+        ],
+        [
+          8,
+          7.05,
+          19
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9414": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          19
+        ],
+        [
+          14,
+          7.05,
+          19
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9415": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          23
+        ],
+        [
+          8,
+          7.05,
+          23
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9416": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          23
+        ],
+        [
+          14,
+          7.05,
+          23
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9417": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          27
+        ],
+        [
+          8,
+          7.05,
+          27
+        ]
+      ],
+      "Deck 9 cabins|Cabin 9418": [
+        [
+          11,
+          7.05,
+          9.05
+        ],
+        [
+          11,
+          7.05,
+          27
+        ],
+        [
+          14,
+          7.05,
+          27
+        ]
+      ],
+      "Port lift foyer deck 8|Port lift foyer deck 9": [
+        [
+          -8.6,
+          3.4,
+          33
+        ],
+        [
+          -8.6,
+          3.4,
+          31.1
+        ],
+        [
+          -11.45,
+          3.4,
+          31.1
+        ],
+        [
+          -11.45,
+          3.4,
+          31.5
+        ],
+        [
+          -11.45,
+          5.225,
+          34.3
+        ],
+        [
+          -11.45,
+          5.225,
+          35.1
+        ],
+        [
+          -14.55,
+          5.225,
+          35.1
+        ],
+        [
+          -14.55,
+          5.225,
+          34.3
+        ],
+        [
+          -14.55,
+          7.05,
+          31.5
+        ],
+        [
+          -14.55,
+          7.05,
+          30.9
+        ],
+        [
+          -11.45,
+          7.05,
+          30.9
+        ],
+        [
+          -8.6,
+          7.05,
+          30.9
+        ],
+        [
+          -8.6,
+          7.05,
+          33
+        ]
+      ],
+      "Starboard lift foyer deck 8|Starboard lift foyer deck 9": [
+        [
+          8.6,
+          3.4,
+          33
+        ],
+        [
+          8.6,
+          3.4,
+          31.1
+        ],
+        [
+          11.45,
+          3.4,
+          31.1
+        ],
+        [
+          11.45,
+          3.4,
+          31.5
+        ],
+        [
+          11.45,
+          5.225,
+          34.3
+        ],
+        [
+          11.45,
+          5.225,
+          35.1
+        ],
+        [
+          14.55,
+          5.225,
+          35.1
+        ],
+        [
+          14.55,
+          5.225,
+          34.3
+        ],
+        [
+          14.55,
+          7.05,
+          31.5
+        ],
+        [
+          14.55,
+          7.05,
+          30.9
+        ],
+        [
+          11.45,
+          7.05,
+          30.9
+        ],
+        [
+          8.6,
+          7.05,
+          30.9
+        ],
+        [
+          8.6,
+          7.05,
+          33
+        ]
+      ],
+      "Port lift foyer deck 9|Deck 9 cabins": [
+        [
+          -8.6,
+          7.05,
+          33
+        ],
+        [
+          -8.6,
+          7.05,
+          35.1
+        ],
+        [
+          0,
+          7.05,
+          35.1
+        ],
+        [
+          8.6,
+          7.05,
+          35.1
+        ],
+        [
+          8.6,
+          7.05,
+          30.9
+        ],
+        [
+          11,
+          7.05,
+          30.9
+        ],
+        [
+          11,
+          7.05,
+          29
+        ],
+        [
+          11,
+          7.05,
+          14
+        ]
+      ],
+      "Starboard lift foyer deck 9|Deck 9 cabins": [
+        [
+          8.6,
+          7.05,
+          33
+        ],
+        [
+          8.6,
+          7.05,
+          35.1
+        ],
+        [
+          8.6,
+          7.05,
+          30.9
+        ],
+        [
+          11,
+          7.05,
+          30.9
+        ],
+        [
+          11,
+          7.05,
+          29
+        ],
+        [
+          11,
+          7.05,
+          14
         ]
       ]
     },

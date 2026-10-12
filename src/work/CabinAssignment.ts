@@ -2,6 +2,8 @@ import type { WorldProfileData } from 'types/game.js';
 
 export interface CabinAssignment {
     readonly id: string;
+    readonly deck: number;
+    readonly floorY: number;
     readonly keyId: string;
     readonly roomName: string;
     readonly view: 'Sea view' | 'Promenade view';
@@ -15,7 +17,7 @@ export function pickCabin(profile: WorldProfileData,
         if (door.kind !== 'locked' || !door.keyId?.startsWith('room-')) continue;
         const room = links.find(link => link.door === door.id);
         if (!room) continue;
-        cabins.push({ id: door.id, keyId: door.keyId, roomName: room.to,
+        cabins.push({ id: door.id, deck: Number(door.id[0]), floorY: door.position.y - door.height / 2, keyId: door.keyId, roomName: room.to,
             view: door.position.x > 11 ? 'Sea view' : 'Promenade view' });
     }
     if (!cabins.length) throw new Error('No playable cabins available for passenger assignment');

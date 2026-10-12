@@ -19,11 +19,11 @@ return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 310">
 <text x="270" y="107" font-size="22">Helsinki–Stockholm</text>
 <text x="270" y="132" font-size="15">SILJA LINE · SEA VOYAGE</text>
 <text x="270" y="179" font-size="31" font-weight="bold">Cabin ${cabin.id}</text>
-<text x="270" y="205" font-size="18">Deck 8 · ${cabin.view}</text>
+<text x="270" y="205" font-size="18">Deck ${cabin.deck} · ${cabin.view}</text>
 <text transform="translate(39 160) rotate(-90)" font-size="19">CABIN KEY · PASSENGER</text>
 <text transform="translate(467 187) rotate(-90)" font-size="13">HELSINKI → STOCKHOLM</text>
 <g fill="#24464b">${bars}</g>
-<text x="270" y="285" font-size="13" letter-spacing="3">${cabin.id} / 08 001 SYMPHONADE</text>
+<text x="270" y="285" font-size="13" letter-spacing="3">${cabin.id} / 0${cabin.deck} 001 SYMPHONADE</text>
 </g></svg>`;
 }
 
@@ -37,7 +37,7 @@ export class CabinKeyCard {
         hud.createCustomElement('cabin-key-card', {
             anchor: 'bottom-left',
             css: 'width: min(280px, 40vw); max-width: 100%; pointer-events: none;',
-            html: `<img src="${cardUrl}" alt="Silja Symphonade cabin key card, Helsinki to Stockholm, room ${cabin.id}, deck 8" style="display:block;width:100%;height:auto;visibility:hidden;transform-origin:center" />`,
+            html: `<img src="${cardUrl}" alt="Silja Symphonade cabin key card, Helsinki to Stockholm, room ${cabin.id}, deck ${cabin.deck}" style="display:block;width:100%;height:auto;visibility:hidden;transform-origin:center" />`,
             onCreate: container => { this.image = container.querySelector('img'); },
         });
     }

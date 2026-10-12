@@ -484,6 +484,348 @@
         "maxOpenAngleDeg": 90,
         "assetId": "cabin-door-shared",
         "color": "#536f7b"
+      },
+      {
+        "id": "9401",
+        "position": {
+          "x": 10,
+          "y": 8.15,
+          "z": -9
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9401",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "9402",
+        "position": {
+          "x": 12,
+          "y": 8.15,
+          "z": -9
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9402",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "9403",
+        "position": {
+          "x": 10,
+          "y": 8.15,
+          "z": -5
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9403",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "9404",
+        "position": {
+          "x": 12,
+          "y": 8.15,
+          "z": -5
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9404",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "9405",
+        "position": {
+          "x": 10,
+          "y": 8.15,
+          "z": -1
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9405",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "9406",
+        "position": {
+          "x": 12,
+          "y": 8.15,
+          "z": -1
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9406",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "9407",
+        "position": {
+          "x": 10,
+          "y": 8.15,
+          "z": 3
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9407",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "9408",
+        "position": {
+          "x": 12,
+          "y": 8.15,
+          "z": 3
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9408",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "9409",
+        "position": {
+          "x": 10,
+          "y": 8.15,
+          "z": 7
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9409",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "9410",
+        "position": {
+          "x": 12,
+          "y": 8.15,
+          "z": 7
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9410",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "9411",
+        "position": {
+          "x": 10,
+          "y": 8.15,
+          "z": 14
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9411",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "9412",
+        "position": {
+          "x": 12,
+          "y": 8.15,
+          "z": 14
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9412",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "9413",
+        "position": {
+          "x": 10,
+          "y": 8.15,
+          "z": 19
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9413",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "9414",
+        "position": {
+          "x": 12,
+          "y": 8.15,
+          "z": 19
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9414",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "9415",
+        "position": {
+          "x": 10,
+          "y": 8.15,
+          "z": 23
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9415",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "9416",
+        "position": {
+          "x": 12,
+          "y": 8.15,
+          "z": 23
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9416",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "9417",
+        "position": {
+          "x": 10,
+          "y": 8.15,
+          "z": 27
+        },
+        "rotationY": 1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9417",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
+      },
+      {
+        "id": "9418",
+        "position": {
+          "x": 12,
+          "y": 8.15,
+          "z": 27
+        },
+        "rotationY": -1.5707963267948966,
+        "width": 1.1,
+        "height": 2.2,
+        "thickness": 0.275,
+        "kind": "locked",
+        "animation": "hinge",
+        "autoOpenRadius": 1.8,
+        "keyId": "room-9418",
+        "maxOpenAngleDeg": 90,
+        "assetId": "cabin-door-shared",
+        "color": "#536f7b"
       }
     ],
     "playerSpawnRotation": 1.5707963267948966
@@ -679,15 +1021,15 @@
     {
       "id": "ship-base",
       "name": "Ship base",
-      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791546599990-ship-base.glb",
+      "url": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791645861927-ship-base.glb",
       "type": "glb",
-      "size": 31137808,
-      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791546599990-ship-base.glb",
+      "size": 30504916,
+      "sourceGlbUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791645861927-ship-base.glb",
       "targetHeight": 56.619734,
       "production": {
         "method": "uploaded",
-        "at": "2026-10-09T11:50:02.545Z",
-        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791546599990-ship-base.glb",
+        "at": "2026-10-10T15:24:25.204Z",
+        "sourceUrl": "https://bitmagic.ai/worlds/v3/VPCT0XSS4E64/1791645861927-ship-base.glb",
         "sourceName": "ship-base.glb"
       }
     },
@@ -1233,7 +1575,8 @@
         "gateOffset": 1.2,
         "speed": 1.1,
         "clearDelay": 0.8,
-        "yaw": -1.5707963267948966
+        "yaw": -1.5707963267948966,
+        "topFloor": 7.05
       }
     },
     {
@@ -1257,7 +1600,8 @@
         "gateOffset": 1.2,
         "speed": 1.1,
         "clearDelay": 0.8,
-        "yaw": 1.5707963267948966
+        "yaw": 1.5707963267948966,
+        "topFloor": 7.05
       }
     }
   ]

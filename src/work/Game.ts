@@ -925,7 +925,7 @@ export class VoxelGame implements GenreGameInterface {
         const hasKey = this.engine.getDoorSystem?.()?.getKeyring().has(this.assignedCabin.keyId) === true;
         const p = this.playerController.getPosition();
         const cabinDoor = this.worldProfileData.doors?.find(door => door.id === this.assignedCabin.id);
-        const nearCabinDoor = cabinDoor !== undefined && p.y > 2.8
+        const nearCabinDoor = cabinDoor !== undefined && Math.abs(p.y - this.assignedCabin.floorY) < 1.5
             && Math.hypot(p.x - cabinDoor.position.x, p.z - cabinDoor.position.z) < 3;
         if (p.y < -6) {
             this.endVoyage('lose', 'Off the passenger deck', 'Start again at the boarding gangway.', 'Back aboard');
@@ -938,7 +938,7 @@ export class VoxelGame implements GenreGameInterface {
             const area = room.name === 'Promenade'
                 ? (p.z > 15 && p.z < 22 ? 'Information' : 'Promenade')
                 : room.name;
-            this.hud.updateIconText('area', { text: area === 'Boarding gangway' ? 'Boarding · Gangway' : `Deck ${p.y > 2.8 ? 8 : 7} · ${area === 'Cafe' ? 'Coffee & Co' : area}` });
+            this.hud.updateIconText('area', { text: area === 'Boarding gangway' ? 'Boarding · Gangway' : `Deck ${p.y > 6.5 ? 9 : p.y > 2.8 ? 8 : 7} · ${area === 'Cafe' ? 'Coffee & Co' : area}` });
             // Bon Vivant is reservation-only: the stop counts once the host has been consulted.
             const objectiveMet = area === 'Starlight' ? this.starlightDance?.active === true
                 : area === 'Bon Vivant' ? (this.bonVivant?.state ?? 'none') !== 'none' : true;
@@ -961,19 +961,19 @@ export class VoxelGame implements GenreGameInterface {
             return;
         }
         if (!this.roomEntered) {
-            if (room?.name === this.assignedCabin.roomName && p.y > 3 && p.y < 5) {
+            if (room?.name === this.assignedCabin.roomName && Math.abs(p.y - this.assignedCabin.floorY) < 1.5) {
                 this.roomEntered = true;
                 this.visited.add(this.assignedCabin.roomName);
                 this.completeQuest('check-in', `Checked into room ${this.assignedCabin.id}`, `Welcome to your ${this.assignedCabin.view.toLowerCase()} cabin!`, 100);
                 this.clerkMessageUntil = this.elapsedTime + 7;
             } else {
                 const instruction = this.elapsedTime < this.clerkMessageUntil
-                    ? `Clerk: Welcome aboard! Your room is ${this.assignedCabin.id}, deck 8. Here is your key.`
-                    : p.y < 2.8
-                        ? `Key ${this.assignedCabin.id} · Take the lifts ahead or aft stairs to deck 8`
+                    ? `Clerk: Welcome aboard! Your room is ${this.assignedCabin.id}, deck ${this.assignedCabin.deck}. Here is your key.`
+                    : p.y < this.assignedCabin.floorY - .6
+                        ? `Key ${this.assignedCabin.id} · Take the lifts ahead or rear stairs to deck ${this.assignedCabin.deck}`
                         : nearCabinDoor
                             ? `Key ${this.assignedCabin.id} · Interact with door ${this.assignedCabin.id} to unlock, then walk inside`
-                            : `Key ${this.assignedCabin.id} · Find room ${this.assignedCabin.id} along the deck 8 cabin corridor`;
+                            : `Key ${this.assignedCabin.id} · Find room ${this.assignedCabin.id} along the deck ${this.assignedCabin.deck} cabin corridor`;
                 this.hud.updateIconText('tour', { text: instruction });
                 return;
             }

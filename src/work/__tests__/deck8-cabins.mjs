@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 const { chromium } = await import(process.env.PLAYWRIGHT_MODULE ?? 'playwright-core');
 const { gamePort } = JSON.parse(await fs.readFile('.bitmagic/dev.json', 'utf8'));
 const worldData = JSON.parse(await fs.readFile('src/work/world.json', 'utf8'));
-const placements = worldData.worldProfileData.doors.filter(door => door.keyId?.startsWith('room-'))
+const placements = worldData.worldProfileData.doors.filter(door => door.keyId?.startsWith('room-8'))
     .sort((a, b) => a.position.z - b.position.z || a.position.x - b.position.x)
     .map(door => ({ id: door.id, template: door.position.x > 11 ? 'sea' : 'promenade', z: door.position.z }));
 assert.deepEqual(placements.map(cabin => cabin.id), Array.from({length:18}, (_, i) => String(8401+i)),
@@ -37,19 +37,21 @@ try {
     page.on('pageerror', error => errors.push(error.message));
     page.on('console', message => { if (message.type() === 'error') console.error(message.text()); });
     await page.goto(`http://localhost:${gamePort}/`);
+    await page.waitForFunction(()=>window.gameTemplate?.getGameEngine()?.genreModule?.slotMachine?.body,null,{timeout:90000});
+    await page.waitForTimeout(5000);
+    await startVoyage(page);
     await page.waitForFunction(() => {
         const e = window.gameTemplate?.getGameEngine();
         const readers = e?.genreModule?.cabinDoorReaders?.readers;
-        return readers?.length === 18 && readers.every(r => r.leaf)
+        return readers?.length === 36 && readers.every(r => r.leaf)
             && e.getWorldGroup().getObjectByName('Cabin instances: sea');
     }, null, { timeout: 120000 });
-    await startVoyage(page);
     const place = async (x, z, yaw) => {
         await page.evaluate(({ x, z, yaw }) => {
             const pc = window.gameTemplate.getGameEngine().getPlayerController();
             pc.teleportTo(x, 3.42, z);
             pc.cameraController.setHorizontalAngle(yaw);
-            pc.cameraController.setVerticalAngle(0);
+            pc.cameraController.setViewPitch(0);
         }, { x, z, yaw });
         await page.waitForTimeout(400);
     };
@@ -63,7 +65,7 @@ try {
             return group.children.map(mesh => ({ instances: mesh.count, instanced: mesh.isInstancedMesh }));
         });
     });
-    assert.ok(stats.every(group => group.length > 0 && group.every(mesh => mesh.instanced && mesh.instances === 8)));
+    assert.ok(stats.every(group => group.length > 0 && group.every(mesh => mesh.instanced && mesh.instances === 17)));
     await fs.mkdir('.bitmagic/deck8-cabins', { recursive: true });
     const assigned = await page.evaluate(() => {
         const e=window.gameTemplate.getGameEngine(), cabin=e.genreModule.assignedCabin;

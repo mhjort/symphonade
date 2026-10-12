@@ -5,10 +5,11 @@ import { MeshBasicNodeMaterial } from 'three/webgpu';
 import { reflector } from 'three/tsl';
 import { isWebGpuActive } from 'engine/RendererType.js';
 import placements from './deck8-cabins.json';
+import deck9 from './deck9-cabins.json';
 
 const REFLECTION_LAYER = 29;
 const PAINTING_RAISE = .7;
-const cabinMirrors = [{ template: 'promenade', z: 14 }, { template: 'sea', z: 14 }, ...placements];
+const cabinMirrors = [...[{ template: 'promenade', z: 14 }, { template: 'sea', z: 14 }, ...placements].map(c => ({ ...c, y: 3.4 })), ...deck9];
 
 /** The exported rooms batch fixtures by material. Raise the two authored prints
  * above the mirror, retaining their frames and artwork. Their measured face bounds
@@ -82,7 +83,7 @@ export class CabinMirrors {
         for (const cabin of cabinMirrors) {
             const surface = createSurface();
             surface.mesh.name = `Cabin mirror ${cabin.template} ${cabin.z}`;
-            surface.mesh.position.set(cabin.template === 'sea' ? 14 : 8, 5.12, cabin.z - 1.324);
+            surface.mesh.position.set(cabin.template === 'sea' ? 14 : 8, cabin.y + 1.72, cabin.z - 1.324);
             surface.mesh.visible = false;
             this.ship.add(surface.mesh);
             this.surfaces.push(surface);

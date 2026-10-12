@@ -5,7 +5,9 @@ import { getAssetUrlById } from 'types/game.js';
 import { MeshLevel, DEFAULT_MESH_LEVEL_OPTIONS, applyMaterialConventions } from 'engine/meshlevel/MeshLevel.js';
 import manifest from './ship-modules.json';
 import shipLevel from './serenade.mesh-level.json';
-import cabinPlacements from './deck8-cabins.json';
+import deck8Placements from './deck8-cabins.json';
+import deck9Placements from './deck9-cabins.json';
+const cabinPlacements = [...deck8Placements.map(c => ({ ...c, y: 3.4 })), ...deck9Placements];
 import { createPromenadeCompass } from './PromenadeCompass.js';
 import { repairFloorSeams } from './FloorSeams.js';
 
@@ -152,7 +154,7 @@ export class ShipAssembly extends MeshLevel {
                     mesh.castShadow = object.castShadow;
                     mesh.receiveShadow = true;
                     placements.forEach((cabin, index) => {
-                        const matrix = new THREE.Matrix4().makeTranslation(0, 0, cabin.z - 14);
+                        const matrix = new THREE.Matrix4().makeTranslation(0, cabin.y - 3.4, cabin.z - 14);
                         mesh.setMatrixAt(index, matrix.multiply(object.matrixWorld));
                     });
                     mesh.instanceMatrix.needsUpdate = true;
